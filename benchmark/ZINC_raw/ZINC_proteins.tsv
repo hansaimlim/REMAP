@@ -1,0 +1,3501 @@
+Prot_index	Gene_name	Annotation
+1	2A5A_HUMAN	Serine/threonine Protein Phosphatase 2A, 56 KDa Regulatory Subunit, Alpha Isoform, Human
+2	2AAA_MOUSE	Serine/threonine Protein Phosphatase 2A, 65 KDa Regulatory Subunit A, Alpha Isoform, Mouse
+3	2ABG_HUMAN	Serine/threonine Protein Phosphatase 2A, 55 KDa Regulatory Subunit B, Gamma Isoform, Human
+4	2B11_HUMAN	HLA Class II Histocompatibility Antigen DRB1-1, Human
+5	3BHS1_HUMAN	3-beta-hydroxysteroid Dehydrogenase/delta 5-->4-isomerase Type I, Human
+6	3BHS2_HUMAN	3-beta-hydroxysteroid Dehydrogenase/delta 5-->4-isomerase Type II, Human
+7	3BHS2_RAT	3-beta-hydroxysteroid Dehydrogenase/delta 5-->4-isomerase Type II, Rat
+8	3BHS5_RAT	3-beta-hydroxysteroid Dehydrogenase Type III, Rat
+9	3BHS7_HUMAN	3-beta-hydroxysteroid Dehydrogenase Type VII, Human
+10	3BHS_MYCTU	3 Beta-hydroxysteroid Dehydrogenase/Delta 5-->4-isomerase, Myctu
+11	5HT1A_HUMAN	Serotonin 1a (5-HT1a) Receptor, Human
+12	5HT1A_MOUSE	Serotonin 1a (5-HT1a) Receptor, Mouse
+13	5HT1A_RAT	Serotonin 1a (5-HT1a) Receptor, Rat
+14	5HT1B_HUMAN	Serotonin 1b (5-HT1b) Receptor, Human
+15	5HT1B_RAT	Serotonin 1b (5-HT1b) Receptor, Rat
+16	5HT1D_HUMAN	Serotonin 1d (5-HT1d) Receptor, Human
+17	5HT1D_MOUSE	Serotonin 1d (5-HT1d) Receptor, Mouse
+18	5HT1D_PIG	Serotonin 1d (5-HT1d) Receptor, Pig
+19	5HT1D_RAT	Serotonin 1d (5-HT1d) Receptor, Rat
+20	5HT1E_HUMAN	Serotonin 1e (5-HT1e) Receptor, Human
+21	5HT1F_HUMAN	Serotonin 1f (5-HT1f) Receptor, Human
+22	5HT1F_RAT	Serotonin 1f (5-HT1f) Receptor, Rat
+23	5HT2A_BOVIN	Serotonin 2a (5-HT2a) Receptor, Bovin
+24	5HT2A_CANFA	5-hydroxytryptamine Receptor 2A, Canine
+25	5HT2A_HUMAN	Serotonin 2a (5-HT2a) Receptor, Human
+26	5HT2A_MOUSE	Serotonin 2a (5-HT2a) Receptor, Mouse
+27	5HT2A_PIG	Serotonin 2a (5-HT2a) Receptor, Pig
+28	5HT2A_RAT	Serotonin 2a (5-HT2a) Receptor, Rat
+29	5HT2B_HUMAN	Serotonin 2b (5-HT2b) Receptor, Human
+30	5HT2B_MOUSE	Serotonin 2b (5-HT2b) Receptor, Mouse
+31	5HT2B_RAT	Serotonin 2b (5-HT2b) Receptor, Rat
+32	5HT2C_HUMAN	Serotonin 2c (5-HT2c) Receptor, Human
+33	5HT2C_MOUSE	Serotonin 2c (5-HT2c) Receptor, Mouse
+34	5HT2C_RAT	Serotonin 2c (5-HT2c) Receptor, Rat
+35	5HT3A_CAVPO	Serotonin 3a (5-HT3a) Receptor, Guinea Pig
+36	5HT3A_HUMAN	Serotonin 3a (5-HT3a) Receptor, Human
+37	5HT3A_MOUSE	Serotonin 3a (5-HT3a) Receptor, Mouse
+38	5HT3A_RAT	Serotonin 3a (5-HT3a) Receptor, Rat
+39	5HT3B_HUMAN	Serotonin 3b (5-HT3b) Receptor, Human
+40	5HT3B_MOUSE	Serotonin 3b (5-HT3b) Receptor, Mouse
+41	5HT3B_RAT	Serotonin 3b (5-HT3b) Receptor, Rat
+42	5HT3C_HUMAN	Serotonin 3c (5-HT3c) Receptor, Human
+43	5HT3D_HUMAN	Serotonin 3d (5-HT3d) Receptor, Human
+44	5HT3E_HUMAN	Serotonin 3e (5-HT3e) Receptor, Human
+45	5HT4R_CAVPO	Serotonin 4 (5-HT4) Receptor, Guinea Pig
+46	5HT4R_HUMAN	Serotonin 4 (5-HT4) Receptor, Human
+47	5HT4R_MOUSE	Serotonin 4 (5-HT4) Receptor, Mouse
+48	5HT4R_RAT	Serotonin 4 (5-HT4) Receptor, Rat
+49	5HT5A_HUMAN	Serotonin 5a (5-HT5a) Receptor, Human
+50	5HT5A_MOUSE	Serotonin 5a (5-HT5a) Receptor, Mouse
+51	5HT5A_RAT	Serotonin 5a (5-HT5a) Receptor, Rat
+52	5HT5B_RAT	Serotonin 5b (5-HT5b) Receptor, Rat
+53	5HT6R_HUMAN	Serotonin 6 (5-HT6) Receptor, Human
+54	5HT6R_RAT	Serotonin 6 (5-HT6) Receptor, Rat
+55	5HT7R_HUMAN	Serotonin 7 (5-HT7) Receptor, Human
+56	5HT7R_MOUSE	Serotonin 7 (5-HT7) Receptor, Mouse
+57	5HT7R_RAT	Serotonin 7 (5-HT7) Receptor, Rat
+58	5NTD_RAT	5'-nucleotidase, Rat
+59	6PGD_HUMAN	6-phosphogluconate Dehydrogenase, Human
+60	6PGD_SHEEP	6-phosphogluconate Dehydrogenase, Decarboxylating, Sheep
+61	A0MJA4_CANFA	Niemann-Pick C1-like 1 Protein, Canine
+62	A0MJA5_MACMU	Niemann-Pick C1-like 1 Protein, Macmu
+63	A0ZX81_KLEPN	Beta-lactamase, Klepn
+64	A1E3K9_ECOLX	Beta-lactamase SCO-1, Ecolx
+65	A1Z199_HUMAN	BCR/ABL P210 Fusion Protein, Human
+66	A1ZA98_DROME	CG8425-PA [Drosophila Melanogaster], Drome
+67	A2AIR5_MOUSE	Glutamate [NMDA] Receptor Subunit 3A, Mouse
+68	A2AMW3_MOUSE	GABA Receptor Epsilon Subunit, Mouse
+69	A2RP81_CITFR	PER-2 Beta-lactamase, Citfr
+70	A3EZI9_9HEPC	Hepatitis C Virus NS3 Protease/helicase, 9hepc
+71	A3RLP8_CHV1	Thymidine Kinase, Chv1
+72	A4KCT8_9ENTR	Gil1, 9entr
+73	A4ZYU9_ECOLX	Beta-lactamase ACC-4, Ecolx
+74	A4_HUMAN	Beta Amyloid A4 Protein, Human
+75	A5A4K8_RABIT	Motilin Receptor, Rabit
+76	A5Z252_9INFA	Neuraminidase, 9infa
+77	A6BR99_YERPE	Yersiniabactin Siderophore Biosynthetic Protein, Yerpe
+78	A7L861_PIG	Squalene Epoxidase, Pig
+79	A85C_MYCTU	Fibonectin-binding Protein C, Myctu
+80	A8K327_HUMAN	Sialidase 3, Human
+81	A8RR46_BACCS	Beta-lactamase, Baccs
+82	AA1R_BOVIN	Adenosine A1 Receptor, Bovin
+83	AA1R_CHICK	Adenosine A1 Receptor, Chick
+84	AA1R_HUMAN	Adenosine A1 Receptor, Human
+85	AA1R_MOUSE	Adenosine A1 Receptor, Mouse
+86	AA1R_RAT	Adenosine A1 Receptor, Rat
+87	AA2AR_CAVPO	Adenosine A2a Receptor, Guinea Pig
+88	AA2AR_HUMAN	Adenosine A2a Receptor, Human
+89	AA2AR_MOUSE	Adenosine A2a Receptor, Mouse
+90	AA2AR_RAT	Adenosine A2a Receptor, Rat
+91	AA2BR_HUMAN	Adenosine A2b Receptor, Human
+92	AA2BR_MOUSE	Adenosine A2b Receptor, Mouse
+93	AA2BR_RAT	Adenosine A2b Receptor, Rat
+94	AA3R_BOVIN	Adenosine Receptor A3, Bovin
+95	AA3R_HUMAN	Adenosine A3 Receptor, Human
+96	AA3R_MOUSE	Adenosine Receptor A3, Mouse
+97	AA3R_RAT	Adenosine A3 Receptor, Rat
+98	AADAT_RAT	Kynurenine/alpha-aminoadipate Aminotransferase, Rat
+99	AAK1_HUMAN	Adaptor-associated Kinase, Human
+100	AAKB1_HUMAN	AMP-activated Protein Kinase, Beta-1 Subunit, Human
+101	AAKG1_HUMAN	AMP-activated Protein Kinase, Gamma-1 Subunit, Human
+102	AAPK1_HUMAN	AMP-activated Protein Kinase, Alpha-1 Subunit, Human
+103	AAPK1_RAT	AMP-activated Protein Kinase, Alpha-1 Subunit, Rat
+104	AAPK2_HUMAN	AMP-activated Protein Kinase, Alpha-2 Subunit, Human
+105	AAPK2_RAT	AMP-activated Protein Kinase, Alpha-2 Subunit, Rat
+106	ABAH3_ARATH	Cytochrome P450 Monooxygenase, Arath
+107	ABCC8_HUMAN	Sulfonylurea Receptor 1, Human
+108	ABCC9_HUMAN	Sulfonylurea Receptor 2, Human
+109	ABCC9_RAT	Sulfonylurea Receptor 2, Rat
+110	ABCG2_HUMAN	ATP-binding Cassette Sub-family G Member 2, Human
+111	ABD12_HUMAN	Monoacylglycerol Lipase ABHD12, Human
+112	ABHD6_MOUSE	Monoacylglycerol Lipase ABHD6, Mouse
+113	ABHGA_HUMAN	Protein BAT5, Human
+114	ABL1_HUMAN	Tyrosine-protein Kinase ABL, Human
+115	ABL1_MOUSE	Tyrosine-protein Kinase ABL, Mouse
+116	ABL2_HUMAN	Tyrosine-protein Kinase ABL2, Human
+117	ABL2_MOUSE	Tyrosine-protein Kinase ABL2, Mouse
+118	ABL_MLVAB	Tyrosine-protein Kinase V-ABL, Mlvab
+119	ABP1_HUMAN	Diamine Oxidase, Human
+120	ABP1_RAT	Diamine Oxidase, Rat
+121	ACACA_HUMAN	Acetyl-CoA Carboxylase 1, Human
+122	ACACA_RAT	Acetyl-CoA Carboxylase 1, Rat
+123	ACACB_HUMAN	Acetyl-CoA Carboxylase 2, Human
+124	ACCN2_HUMAN	Amiloride-sensitive Cation Channel 2, Neuronal, Human
+125	ACCN3_HUMAN	Amiloride-sensitive Cation Channel 3, Human
+126	ACCN3_RAT	Amiloride-sensitive Cation Channel 3, Rat
+127	ACE2_HUMAN	Angiotensin-converting Enzyme 2, Human
+128	ACE2_RAT	Angiotensin-converting Enzyme-related Carboxypeptidase, Rat
+129	ACEA_CANAX	Isocitrate Lyase, Canax
+130	ACEA_MYCTU	Isocitrate Lyase, Myctu
+131	ACES_BOVIN	Acetylcholinesterase, Bovin
+132	ACES_ELEEL	Acetylcholinesterase, Eleel
+133	ACES_HUMAN	Acetylcholinesterase, Human
+134	ACES_MOUSE	Acetylcholinesterase, Mouse
+135	ACES_RAT	Acetylcholinesterase, Rat
+136	ACES_TORCA	Acetylcholinesterase, Torca
+137	ACE_HUMAN	Angiotensin-converting Enzyme, Human
+138	ACE_MOUSE	Angiotensin-converting Enzyme, Mouse
+139	ACE_RABIT	Angiotensin-converting Enzyme, Rabit
+140	ACE_RAT	Angiotensin-converting Enzyme, Rat
+141	ACH10_HUMAN	Neuronal Acetylcholine Receptor Protein Alpha-10 Subunit, Human
+142	ACH10_RAT	Neuronal Acetylcholine Receptor Protein Alpha-10 Subunit, Rat
+143	ACHA2_HUMAN	Neuronal Acetylcholine Receptor Protein Alpha-2 Subunit, Human
+144	ACHA2_RAT	Neuronal Acetylcholine Receptor Protein Alpha-2 Subunit, Rat
+145	ACHA3_HUMAN	Neuronal Acetylcholine Receptor Protein Alpha-3 Subunit, Human
+146	ACHA3_RAT	Neuronal Acetylcholine Receptor Protein Alpha-3 Subunit, Rat
+147	ACHA4_CHICK	Neuronal Acetylcholine Receptor Subunit Alpha-4, Chick
+148	ACHA4_HUMAN	Neuronal Acetylcholine Receptor Protein Alpha-4 Subunit, Human
+149	ACHA4_MOUSE	Neuronal Acetylcholine Receptor Protein Alpha-4 Subunit, Mouse
+150	ACHA4_RAT	Neuronal Acetylcholine Receptor Protein Alpha-4 Subunit, Rat
+151	ACHA5_HUMAN	Neuronal Acetylcholine Receptor Protein Alpha-5 Subunit, Human
+152	ACHA5_RAT	Neuronal Acetylcholine Receptor Protein Alpha-5 Subunit, Rat
+153	ACHA6_HUMAN	Neuronal Acetylcholine Receptor Protein Alpha-6 Subunit, Human
+154	ACHA6_MOUSE	Neuronal Acetylcholine Receptor Subunit Alpha-6, Mouse
+155	ACHA6_RAT	Neuronal Acetylcholine Receptor Protein Alpha-6 Subunit, Rat
+156	ACHA7_HUMAN	Neuronal Acetylcholine Receptor Protein Alpha-7 Subunit, Human
+157	ACHA7_MOUSE	Neuronal Acetylcholine Receptor Protein Alpha-7 Subunit, Mouse
+158	ACHA7_RAT	Neuronal Acetylcholine Receptor Protein Alpha-7 Subunit, Rat
+159	ACHA9_HUMAN	Neuronal Acetylcholine Receptor Protein Alpha-9 Subunit, Human
+160	ACHA9_RAT	Neuronal Acetylcholine Receptor Protein Alpha-9 Subunit, Rat
+161	ACHA_HUMAN	Acetylcholine Receptor Protein Alpha Chain, Human
+162	ACHA_MOUSE	Acetylcholine Receptor Protein Alpha Chain, Mouse
+163	ACHA_RAT	Acetylcholine Receptor Protein Alpha Chain, Rat
+164	ACHA_TORCA	Acetylcholine Receptor Protein Alpha Chain, Torca
+165	ACHB2_HUMAN	Neuronal Acetylcholine Receptor Protein Beta-2 Subunit, Human
+166	ACHB2_RAT	Neuronal Acetylcholine Receptor Protein Beta-2 Subunit, Rat
+167	ACHB3_HUMAN	Neuronal Acetylcholine Receptor Protein Beta-3 Subunit, Human
+168	ACHB3_MOUSE	Neuronal Acetylcholine Receptor Subunit Beta-3, Mouse
+169	ACHB3_RAT	Neuronal Acetylcholine Receptor Protein Beta-3 Subunit, Rat
+170	ACHB4_HUMAN	Neuronal Acetylcholine Receptor Protein Beta-4 Subunit, Human
+171	ACHB4_MOUSE	Neuronal Acetylcholine Receptor Subunit Beta-4, Mouse
+172	ACHB4_RAT	Neuronal Acetylcholine Receptor Protein Beta-4 Subunit, Rat
+173	ACHB_HUMAN	Acetylcholine Receptor Protein Beta Chain, Human
+174	ACHB_MOUSE	Acetylcholine Receptor Protein Beta Chain, Mouse
+175	ACHB_RAT	Acetylcholine Receptor Protein Beta Chain, Rat
+176	ACHB_TORCA	Acetylcholine Receptor Protein Beta Chain, Torca
+177	ACHD_HUMAN	Acetylcholine Receptor Protein Delta Chain, Human
+178	ACHD_TORCA	Acetylcholine Receptor Protein Delta Chain, Torca
+179	ACHE_HUMAN	Acetylcholine Receptor Protein Epsilon Chain, Human
+180	ACHG_HUMAN	Acetylcholine Receptor Protein Gamma Chain, Human
+181	ACHG_TORCA	Acetylcholine Receptor Protein Gamma Chain, Torca
+182	ACHP_LYMST	Acetylcholine-binding Protein, Lymst
+183	ACK1_HUMAN	Tyrosine Kinase Non-receptor Protein 2, Human
+184	ACLY_HUMAN	ATP-citrate Synthase, Human
+185	ACLY_RAT	ATP-citrate Synthase, Rat
+186	ACM1_HUMAN	Muscarinic Acetylcholine Receptor M1, Human
+187	ACM1_MOUSE	Muscarinic Acetylcholine Receptor M1, Mouse
+188	ACM1_RAT	Muscarinic Acetylcholine Receptor M1, Rat
+189	ACM2_HUMAN	Muscarinic Acetylcholine Receptor M2, Human
+190	ACM2_MOUSE	Muscarinic Acetylcholine Receptor M2, Mouse
+191	ACM2_PIG	Muscarinic Acetylcholine Receptor M2, Pig
+192	ACM2_RAT	Muscarinic Acetylcholine Receptor M2, Rat
+193	ACM3_HUMAN	Muscarinic Acetylcholine Receptor M3, Human
+194	ACM3_MOUSE	Muscarinic Acetylcholine Receptor M3, Mouse
+195	ACM3_RAT	Muscarinic Acetylcholine Receptor M3, Rat
+196	ACM4_HUMAN	Muscarinic Acetylcholine Receptor M4, Human
+197	ACM4_MOUSE	Muscarinic Acetylcholine Receptor M4, Mouse
+198	ACM4_RAT	Muscarinic Acetylcholine Receptor M4, Rat
+199	ACM5_HUMAN	Muscarinic Acetylcholine Receptor M5, Human
+200	ACM5_MOUSE	Muscarinic Acetylcholine Receptor M5, Mouse
+201	ACM5_RAT	Muscarinic Acetylcholine Receptor M5, Rat
+202	ACOD1_MOUSE	Acyl-CoA Desaturase 1, Mouse
+203	ACOD1_RAT	Acyl-CoA Desaturase 1, Rat
+204	ACOD_HUMAN	Acyl-CoA Desaturase, Human
+205	ACOX1_RAT	Palmitoyl-CoA Oxidase, Rat
+206	ACPS_BACSU	Holo-[acyl-carrieir-protein] Synthase, Bacsu
+207	ACV1B_HUMAN	Activin Receptor Type-1B, Human
+208	ACVL1_HUMAN	Serine/threonine-protein Kinase Receptor R3, Human
+209	ACVR1_HUMAN	Activin Receptor Type-1, Human
+210	ADA10_HUMAN	ADAM10, Human
+211	ADA12_HUMAN	ADAM12, Human
+212	ADA17_HUMAN	ADAM17, Human
+213	ADA17_MOUSE	ADAM17, Mouse
+214	ADA17_PIG	ADAM17, Pig
+215	ADA17_RAT	ADAM17, Rat
+216	ADA1A_BOVIN	Alpha-1a Adrenergic Receptor, Bovin
+217	ADA1A_HUMAN	Alpha-1a Adrenergic Receptor, Human
+218	ADA1A_RABIT	Alpha-1a Adrenergic Receptor, Rabit
+219	ADA1A_RAT	Alpha-1a Adrenergic Receptor, Rat
+220	ADA1B_HUMAN	Alpha-1b Adrenergic Receptor, Human
+221	ADA1B_MESAU	Alpha-1b Adrenergic Receptor, Mesau
+222	ADA1B_RAT	Alpha-1b Adrenergic Receptor, Rat
+223	ADA1D_HUMAN	Alpha-1d Adrenergic Receptor, Human
+224	ADA1D_RAT	Alpha-1d Adrenergic Receptor, Rat
+225	ADA2A_BOVIN	Alpha-2a Adrenergic Receptor, Bovin
+226	ADA2A_HUMAN	Alpha-2a Adrenergic Receptor, Human
+227	ADA2A_MOUSE	Alpha-2a Adrenergic Receptor, Mouse
+228	ADA2A_PIG	Alpha-2a Adrenergic Receptor, Pig
+229	ADA2A_RAT	Alpha-2a Adrenergic Receptor, Rat
+230	ADA2B_BOVIN	Alpha-2b Adrenergic Receptor, Bovin
+231	ADA2B_HUMAN	Alpha-2b Adrenergic Receptor, Human
+232	ADA2B_MOUSE	Alpha-2b Adrenergic Receptor, Mouse
+233	ADA2B_RAT	Alpha-2b Adrenergic Receptor, Rat
+234	ADA2C_HUMAN	Alpha-2c Adrenergic Receptor, Human
+235	ADA2C_MOUSE	Alpha-2c Adrenergic Receptor, Mouse
+236	ADA2C_RAT	Alpha-2c Adrenergic Receptor, Rat
+237	ADA33_HUMAN	Disintegrin And Metalloproteinase Domain-containing Protein 33, Human
+238	ADAM8_HUMAN	Disintegrin And Metalloproteinase Domain-containing Protein 8, Human
+239	ADAM9_HUMAN	ADAM9, Human
+240	ADA_BOVIN	Adenosine Deaminase, Bovin
+241	ADA_HUMAN	Adenosine Deaminase, Human
+242	ADA_MOUSE	Adenosine Deaminase, Mouse
+243	ADCK3_HUMAN	Chaperone Activity Of Bc1 Complex-like, Mitochondrial, Human
+244	ADCK4_HUMAN	Uncharacterized AarF Domain-containing Protein Kinase 4, Human
+245	ADCY1_BOVIN	Adenylate Cyclase Type I, Bovin
+246	ADCY1_HUMAN	Brain Adenylate Cyclase 1, Human
+247	ADCY1_MOUSE	Adenylate Cyclase Type I, Mouse
+248	ADCY2_HUMAN	Adenylate Cyclase Type II, Human
+249	ADCY2_MOUSE	Adenylate Cyclase Type II, Mouse
+250	ADCY2_RAT	Adenylate Cyclase Type II, Rat
+251	ADCY3_HUMAN	Adenylate Cyclase Type III, Human
+252	ADCY3_MOUSE	Adenylate Cyclase Type III, Mouse
+253	ADCY3_RAT	Adenylate Cyclase Type III, Rat
+254	ADCY4_HUMAN	Adenylate Cyclase Type IV, Human
+255	ADCY4_MOUSE	Adenylate Cyclase Type IV, Mouse
+256	ADCY4_RAT	Adenylate Cyclase Type IV, Rat
+257	ADCY5_HUMAN	Adenylate Cyclase Type V, Human
+258	ADCY5_MOUSE	Adenylate Cyclase Type V, Mouse
+259	ADCY5_RAT	Adenylate Cyclase Type V, Rat
+260	ADCY6_HUMAN	Adenylate Cyclase Type VI, Human
+261	ADCY6_MOUSE	Adenylate Cyclase Type VI, Mouse
+262	ADCY6_RAT	Adenylate Cyclase Type VI, Rat
+263	ADCY7_HUMAN	Adenylate Cyclase Type VII, Human
+264	ADCY7_MOUSE	Adenylate Cyclase Type VII, Mouse
+265	ADCY8_HUMAN	Adenylate Cyclase Type VIII, Human
+266	ADCY8_MOUSE	Adenylate Cyclase Type VIII, Mouse
+267	ADCY8_RAT	Adenylate Cyclase Type VIII, Rat
+268	ADCY9_HUMAN	Adenylate Cyclase Type IX, Human
+269	ADCYA_HUMAN	Adenylate Cyclase Type 10, Human
+270	ADH1A_HUMAN	Alcohol Dehydrogenase Alpha Chain, Human
+271	ADH1B_HUMAN	Alcohol Dehydrogenase Beta Chain, Human
+272	ADH1E_HORSE	Alcohol Dehydrogenase E Chain, Horse
+273	ADH1G_HUMAN	Alcohol Dehydrogenase Gamma Chain, Human
+274	ADH1S_HORSE	Alcohol Dehydrogenase S Chain, Horse
+275	ADH4_HUMAN	Alcohol Dehydrogenase Class II, Human
+276	ADH6_HUMAN	Alcohol Dehydrogenase 6, Human
+277	ADH7_HUMAN	Alcohol Dehydrogenase Class IV, Human
+278	ADHX_HUMAN	Alcohol Dehydrogenase Class III, Human
+279	ADK_HUMAN	Adenosine Kinase, Human
+280	ADK_RAT	Adenosine Kinase, Rat
+281	ADK_TOXGO	Adenosine Kinase, Toxgo
+282	ADRB1_BOVIN	Beta-1 Adrenergic Receptor, Bovin
+283	ADRB1_HUMAN	Beta-1 Adrenergic Receptor, Human
+284	ADRB1_MOUSE	Beta-1 Adrenergic Receptor, Mouse
+285	ADRB1_RAT	Beta-1 Adrenergic Receptor, Rat
+286	ADRB2_BOVIN	Beta-2 Adrenergic Receptor, Bovin
+287	ADRB2_CANFA	Beta-2 Adrenergic Receptor, Canine
+288	ADRB2_CAVPO	Beta-2 Adrenergic Receptor, Guinea Pig
+289	ADRB2_HUMAN	Beta-2 Adrenergic Receptor, Human
+290	ADRB2_MESAU	Beta-2 Adrenergic Receptor, Mesau
+291	ADRB2_MOUSE	Beta-2 Adrenergic Receptor, Mouse
+292	ADRB2_RAT	Beta-2 Adrenergic Receptor, Rat
+293	ADRB3_BOVIN	Beta-3 Adrenergic Receptor, Bovin
+294	ADRB3_HUMAN	Beta-3 Adrenergic Receptor, Human
+295	ADRB3_MOUSE	Beta-3 Adrenergic Receptor, Mouse
+296	ADRB3_RAT	Beta-3 Adrenergic Receptor, Rat
+297	AGALC_ASPNG	Alpha-galactosidase C, Aspng
+298	AGAL_COFAR	Alpha-galactosidase, Cofar
+299	AGAL_HUMAN	Alpha-galactosidase A, Human
+300	AGLU_ORYSJ	Probable Alpha-glucosidase Os06g0675700, Orysj
+301	AGTR1_BOVIN	Angiotensin II Type 1a (AT-1a) Receptor, Bovin
+302	AGTR1_CAVPO	Type-1 Angiotensin II Receptor, Guinea Pig
+303	AGTR1_HUMAN	Angiotensin II Type 1 Receptor, Human
+304	AGTR1_PIG	Type-1 Angiotensin II Receptor, Pig
+305	AGTR1_RABIT	Angiotensin II Type 1a (AT-1a) Receptor, Rabit
+306	AGTR2_HUMAN	Angiotensin II Type 2 (AT-2) Receptor, Human
+307	AGTR2_RAT	Angiotensin II Type 2 (AT-2) Receptor, Rat
+308	AGTRA_RAT	Angiotensin II Type 1a (AT-1a) Receptor, Rat
+309	AGTRB_RAT	Angiotensin II Type 1b (AT-1b) Receptor, Rat
+310	AHK3_ARATH	Histidine Kinase, Arath
+311	AHK4_ARATH	Histidine Kinase, Arath
+312	AHR_HUMAN	Aryl Hydrocarbon Receptor, Human
+313	AHR_RABIT	Aryl Hydrocarbon Receptor, Rabit
+314	AHR_RAT	Aryl Hydrocarbon Receptor, Rat
+315	AK1A1_HUMAN	Aldehyde Reductase, Human
+316	AK1A1_PIG	Aldehyde Reductase, Pig
+317	AK1A1_RAT	Aldehyde Reductase, Rat
+318	AK1BA_HUMAN	Aldo-keto Reductase Family 1 Member B10, Human
+319	AK1C1_HUMAN	Aldo-keto Reductase Family 1 Member C1, Human
+320	AK1C2_HUMAN	Aldo-keto Reductase Family 1 Member C2, Human
+321	AK1C3_HUMAN	Aldo-keto-reductase Family 1 Member C3, Human
+322	AK1CL_MOUSE	Aldo-keto Reductase Family 1 Member C21, Mouse
+323	AKAP1_HUMAN	Protein Kinase A Anchoring Protein 1, Human
+324	AKAP2_HUMAN	Protein Kinase A Anchoring Protein 2, Human
+325	AKIP_HUMAN	Aurora Kinase A-interacting Protein, Human
+326	AKT1_HUMAN	Serine/threonine-protein Kinase AKT, Human
+327	AKT1_MOUSE	RAC-alpha Serine/threonine-protein Kinase, Mouse
+328	AKT2_HUMAN	Serine/threonine-protein Kinase AKT2, Human
+329	AKT3_HUMAN	Serine/threonine-protein Kinase AKT3, Human
+330	AKTS1_HUMAN	Proline-rich AKT1 Substrate 1, Human
+331	AL1A1_RAT	Aldehyde Dehydrogenase 1A1, Rat
+332	AL1A7_RAT	Aldehyde Dehydrogenase, Cytosolic 1, Rat
+333	AL5AP_HUMAN	5-lipoxygenase Activating Protein, Human
+334	ALBU_BOVIN	Serum Albumin, Bovin
+335	ALBU_HUMAN	Serum Albumin, Human
+336	ALDH2_HUMAN	Aldehyde Dehydrogenase, Human
+337	ALDH2_RAT	Aldehyde Dehydrogenase, Rat
+338	ALDOA_RABIT	Fructose-bisphosphate Aldolase A, Rabit
+339	ALDR_BOVIN	Aldose Reductase, Bovin
+340	ALDR_HUMAN	Aldose Reductase, Human
+341	ALDR_PIG	Aldose Reductase, Pig
+342	ALDR_RAT	Aldose Reductase, Rat
+343	ALF_CANAL	Fructose-bisphosphate Aldolase, Canal
+344	ALF_ECOLI	Fructose-bisphosphate Aldolase Class 2, Ecoli
+345	ALF_HELPY	Fructose-bisphosphate Aldolase, Helpy
+346	ALF_MYCTU	Fructose-bisphosphate Aldolase, Myctu
+347	ALK_HUMAN	ALK Tyrosine Kinase Receptor, Human
+348	ALK_MOUSE	ALK Tyrosine Kinase Receptor, Mouse
+349	ALR1_ECOLI	Alanine Racemase, Ecoli
+350	AMD_HUMAN	Peptidyl-glycine Alpha-amidating Monooxygenase, Human
+351	AMO_PEA	Amine Oxidase, Pea
+352	AMP1_PLAFQ	Zinc Aminopeptidase, Plafq
+353	AMPB_HUMAN	Aminopeptidase B, Human
+354	AMPB_MOUSE	Aminopeptidase B, Mouse
+355	AMPB_RAT	Aminopeptidase B, Rat
+356	AMPC_CITFR	Beta-lactamase, Citfr
+357	AMPC_ECOLI	Beta-lactamase, Ecoli
+358	AMPC_ENTCL	Beta-lactamase, Entcl
+359	AMPC_MORMO	Beta-lactamase, Mormo
+360	AMPC_PSEAE	Beta-lactamase, Pseae
+361	AMPD1_HUMAN	AMP Deaminase 1, Human
+362	AMPD2_HUMAN	AMP Deaminase 2, Human
+363	AMPD3_HUMAN	AMP Deaminase 3, Human
+364	AMPE_HUMAN	Aminopeptidase A, Human
+365	AMPE_PIG	Aminopeptidase A, Pig
+366	AMPH_ECOLI	Penicillin-binding Protein AmpH, Ecoli
+367	AMPL_BOVIN	Cytosol Aminopeptidase, Bovin
+368	AMPL_HUMAN	Leucine Aminopeptidase, Human
+369	AMPM1_HUMAN	Methionine Aminopeptidase 1, Human
+370	AMPM1_YEAST	Methionine Aminopeptidase 1, Yeast
+371	AMPM2_HUMAN	Methionine Aminopeptidase 2, Human
+372	AMPM_ECOLI	Methionine Aminopeptidase, Ecoli
+373	AMPN_ECOLI	Aminopeptidase N, Ecoli
+374	AMPN_HUMAN	Aminopeptidase N, Human
+375	AMPN_PIG	Aminopeptidase N, Pig
+376	AMPN_RAT	Aminopeptidase N, Rat
+377	AMPX_VIBPR	Bacterial Leucyl Aminopeptidase Precursor, Vibpr
+378	AMY1_HUMAN	Salivary Alpha-amylase, Human
+379	AMYG_YEAST	Glucoamylase, Intracellular Sporulation-specific, Yeast
+380	AMYP_RAT	Pancreatic Alpha-amylase, Rat
+381	ANDR_HUMAN	Androgen Receptor, Human
+382	ANDR_MOUSE	Androgen Receptor, Mouse
+383	ANDR_RAT	Androgen Receptor, Rat
+384	ANF_HUMAN	Atrial Natriuretic Factor, Human
+385	ANKK1_HUMAN	Ankyrin Repeat And Protein Kinase Domain-containing Protein 1, Human
+386	ANM1_HUMAN	Protein-arginine N-methyltransferase 1, Human
+387	ANPRA_HUMAN	Atrial Natriuretic Peptide Receptor A, Human
+388	ANPRC_HUMAN	Atrial Natriuretic Peptide Receptor C, Human
+389	ANT3_HUMAN	Antithrombin-III Precursor, Human
+390	ANXA2_HUMAN	Annexin A2, Human
+391	AOC2_HUMAN	Retina-specific Amine Oxidase, Copper Containing, Human
+392	AOC3_BOVIN	Amine Oxidase, Copper Containing, Bovin
+393	AOC3_HUMAN	Amine Oxidase, Copper Containing, Human
+394	AOC3_RAT	Amine Oxidase, Copper Containing, Rat
+395	AOFA_BOVIN	Monoamine Oxidase A, Bovin
+396	AOFA_HUMAN	Monoamine Oxidase A, Human
+397	AOFA_RAT	Monoamine Oxidase A, Rat
+398	AOFB_BOVIN	Monoamine Oxidase B, Bovin
+399	AOFB_HUMAN	Monoamine Oxidase B, Human
+400	AOFB_MOUSE	Monoamine Oxidase B, Mouse
+401	AOFB_RAT	Monoamine Oxidase B, Rat
+402	AP2S1_RAT	AP-2 Complex Subunit Sigma, Rat
+403	APEX1_HUMAN	DNA-(apurinic Or Apyrimidinic Site) Lyase, Human
+404	APH1A_HUMAN	Gamma-secretase Subunit APH-1A, Human
+405	APH1B_HUMAN	Gamma-secretase Subunit APH-1B, Human
+406	APJ_RAT	Apelin Receptor, Rat
+407	APOB_HUMAN	Apolipoprotein B-100, Human
+408	APOH_HUMAN	Apolipoprotein H, Human
+409	ARBK1_HUMAN	G-protein Coupled Receptor Kinase 2, Human
+410	ARBK2_HUMAN	Beta-adrenergic Receptor Kinase 2, Human
+411	ARF1_HUMAN	ADP-ribosylation Factor 1, Human
+412	ARGI1_HUMAN	Arginase-1, Human
+413	AROA_ECOLI	5-enolpyruvylshikimate-3-phosphate Synthase, Ecoli
+414	AROB_ECOLI	3-dehydroquinate Synthase, Ecoli
+415	AROC_STRPN	Chorismate Synthase, Strpn
+416	AROF_ECOLI	3-deoxy-D-arabino-heptulosonate 7-phosphate Synthase, Tyr-sensitive, Ecoli
+417	AROG_ECOLI	3-deoxy-D-arabino-heptulosonate 7-phosphate Synthase, Phe-sensitive, Ecoli
+418	AROH_ECOLI	3-deoxy-D-arabino-heptulosonate 7-phosphate Synthase, Trp-sensitive, Ecoli
+419	AROK_HELPY	Shikimate Kinase, Helpy
+420	AROQ_HELPY	3-dehydroquinate Dehydratase, Helpy
+421	AROQ_MYCTU	3-dehydroquinate Dehydratase, Myctu
+422	AROQ_STRCO	3-dehydroquinate Dehydratase, Strco
+423	ARS_PSEAE	Arylsulfatase, Pseae
+424	ARY1_HUMAN	Arylamine N-acetyltransferase 1, Human
+425	ARY2_MOUSE	Arylamine N-acetyltransferase 2, Mouse
+426	ASND1_HUMAN	HCV NS3-transactivated Protein 1, Human
+427	ASNS_HUMAN	Asparagine Synthetase, Human
+428	AT12A_HUMAN	Potassium-transporting ATPase Alpha Chain 2, Human
+429	AT1A1_CANFA	Sodium/potassium-transporting ATPase Alpha-1 Chain, Canine
+430	AT1A1_HUMAN	Sodium/potassium-transporting ATPase Alpha-1 Chain, Human
+431	AT1A1_PIG	Sodium/potassium-transporting ATPase Alpha-1 Chain, Pig
+432	AT1A2_HUMAN	Sodium/potassium-transporting ATPase Alpha-2 Chain, Human
+433	AT1A3_HUMAN	Sodium/potassium-transporting ATPase Alpha-3 Chain, Human
+434	AT1A4_HUMAN	Sodium/potassium-transporting ATPase Alpha-4 Chain, Human
+435	AT1B1_CANFA	Sodium/potassium-transporting ATPase Beta-1 Chain, Canine
+436	AT1B1_HUMAN	Sodium/potassium-transporting ATPase Beta-1 Chain, Human
+437	AT1B1_PIG	Sodium/potassium-transporting ATPase Beta-1 Chain, Pig
+438	AT1B2_HUMAN	Sodium/potassium-transporting ATPase Beta-2 Chain, Human
+439	AT1B3_HUMAN	Sodium/potassium-transporting ATPase Beta-3 Chain, Human
+440	AT2A1_HUMAN	Sarcoplasmic/endoplasmic Reticulum Calcium ATPase 1, Human
+441	AT2A1_RABIT	Sarcoplasmic/endoplasmic Reticulum Calcium ATP-ase, Rabit
+442	AT2A2_HUMAN	Sarcoplasmic/endoplasmic Reticulum Calcium ATPase 2, Human
+443	ATF1_HUMAN	Activating Transcription Factor 1, Human
+444	ATM_HUMAN	Serine-protein Kinase ATM, Human
+445	ATNG_HUMAN	Sodium/potassium-transporting ATPase Gamma Chain, Human
+446	ATP4A_HUMAN	Potassium-transporting ATPase Alpha Chain 1, Human
+447	ATP4A_PIG	Potassium-transporting ATPase Alpha Chain 1, Pig
+448	ATP4A_RAT	Potassium-transporting ATPase Alpha Chain 1, Rat
+449	ATP4B_HUMAN	Potassium-transporting ATPase Beta Chain, Human
+450	ATP4B_PIG	Potassium-transporting ATPase Beta Chain, Pig
+451	ATP4B_RAT	Potassium-transporting ATPase Beta Chain, Rat
+452	ATR_HUMAN	Serine-protein Kinase ATR, Human
+453	ATS1_HUMAN	ADAMTS1, Human
+454	ATS4_BOVIN	ADAMTS4, Bovin
+455	ATS4_HUMAN	ADAMTS4, Human
+456	ATS5_BOVIN	ADAMTS5, Bovin
+457	ATS5_HUMAN	ADAMTS5, Human
+458	ATTY_RAT	Tyrosine Aminotransferase, Rat
+459	AUR1_CANAL	Inositol Phosphorylceramide Synthase, Canal
+460	AUR1_YEAST	Inositol Phosphorylceramide Synthase Catalytic Subunit AUR1, Yeast
+461	AURKA_HUMAN	Serine/threonine-protein Kinase Aurora-A, Human
+462	AURKA_MOUSE	Serine/threonine-protein Kinase Aurora-A, Mouse
+463	AURKB_HUMAN	Serine/threonine-protein Kinase Aurora-B, Human
+464	AURKB_MOUSE	Serine/threonine-protein Kinase 12, Mouse
+465	AURKC_HUMAN	Serine/threonine-protein Kinase Aurora-C, Human
+466	AVR2A_HUMAN	Activin Receptor Type-2A, Human
+467	AVR2B_HUMAN	Activin Receptor Type-2B, Human
+468	B0BL08_ECOLX	Dihydrofolate Reductase, Ecolx
+469	B1WBY8_RAT	Histone Deacetylase 2, Rat
+470	B1WC34_RAT	Alpha-glucosidase II Beta Subunit, Rat
+471	B2CL1_HUMAN	Apoptosis Regulator Bcl-X, Human
+472	B2CL2_HUMAN	Apoptosis Regulator Bcl-W, Human
+473	B2L10_HUMAN	Bcl-2-like Protein 10, Human
+474	B2LA1_HUMAN	Bcl-2-related Protein A1, Human
+475	B2ZTR6_ACIBA	Beta-lactamase ADC-33, Aciba
+476	B4GT1_BOVIN	Beta-1,4-galactosyltransferase 1, Bovin
+477	B4GT1_HUMAN	Beta-1,4-galactosyltransferase 1, Human
+478	B4URF0_9INFA	Neuraminidase, 9infa
+479	B5SU02_9CNID	Alpha Carbonic Anhydrase, 9cnid
+480	B5THE3_MOUSE	Sucrase-isomaltase, Mouse
+481	B7ZW62_HUMAN	Pepsinogen A5, Human
+482	B8PY99_MACMU	CXC Chemokine Receptor 3, Macmu
+483	B8R6A5_9BURK	PenB Class A Beta-lactamase, 9burk
+484	BACE1_HUMAN	Beta-secretase 1, Human
+485	BACE2_HUMAN	Beta Secretase 2, Human
+486	BAD_HUMAN	Bcl2-antagonist Of Cell Death (BAD), Human
+487	BCAT1_HUMAN	Branched-chain-amino-acid Transferase, Human
+488	BCAT1_RAT	Branched-chain-amino-acid Transferase, Rat
+489	BCAT2_RAT	Branched-chain-amino-acid Transferase, Rat
+490	BCL2_HUMAN	Apoptosis Regulator Bcl-2, Human
+491	BCR_HUMAN	Breakpoint Cluster Region Protein, Human
+492	BGAL_BOVIN	Beta-galactosidase, Bovin
+493	BGAL_HUMAN	Beta-galactosidase, Human
+494	BGAL_RHIML	Beta-galactosidase, Rhiml
+495	BGLR_RAT	Beta-glucuronidase, Rat
+496	BGLS_AGRSA	Beta-glucosidase, Agrsa
+497	BGLS_CALSA	Beta-glucosidase A, Calsa
+498	BGLS_RHIRD	Beta-glucosidase, Rhird
+499	BHMT1_HUMAN	Betaine--homocysteine S-methyltransferase 1, Human
+500	BIRC2_HUMAN	Baculoviral IAP Repeat-containing Protein 2, Human
+501	BIRC3_HUMAN	Baculoviral IAP Repeat-containing Protein 3, Human
+502	BIRC5_HUMAN	Baculoviral IAP Repeat-containing Protein 5, Human
+503	BIRC8_HUMAN	Baculoviral IAP Repeat-containing Protein 8, Human
+504	BKRB1_CANFA	Bradykinin B1 Receptor, Canine
+505	BKRB1_HUMAN	Bradykinin B1 Receptor, Human
+506	BKRB1_MACMU	B1 Bradykinin Receptor, Macmu
+507	BKRB1_MOUSE	B1 Bradykinin Receptor, Mouse
+508	BKRB1_RABIT	Bradykinin B1 Receptor, Rabit
+509	BKRB1_RAT	Bradykinin B1 Receptor, Rat
+510	BKRB2_CAVPO	Bradykinin B2 Receptor, Guinea Pig
+511	BKRB2_HUMAN	Bradykinin B2 Receptor, Human
+512	BKRB2_RAT	Bradykinin B2 Receptor, Rat
+513	BLA1_ECOLX	Beta-lactamase SHV-1, Ecolx
+514	BLA1_KLEPN	Beta-lactamase SHV-1, Klepn
+515	BLA1_STEMA	Beta-lactamase L1, Stema
+516	BLAB_AERHY	Beta-lactamase, Aerhy
+517	BLAB_BACCE	Beta-lactamase 2, Bacce
+518	BLAB_BACFR	Beta-lactamase Type II, Bacfr
+519	BLAC_BACLI	Beta-lactamase, Bacli
+520	BLAC_STAAU	Beta-lactamase, Staau
+521	BLAN_ENTCL	Imipenem-hydrolyzing Beta-lactamase, Entcl
+522	BLAT_ECOLX	Beta-lactamase TEM, Ecolx
+523	BLKPC_KLEPN	Carbepenem-hydrolyzing Beta-lactamase KPC, Klepn
+524	BLK_HUMAN	Tyrosine-protein Kinase BLK, Human
+525	BLK_MOUSE	Tyrosine-protein Kinase BLK, Mouse
+526	BLO1_ECOLX	Beta-lactamase OXA-1, Ecolx
+527	BLO2_ECOLX	Beta-lactamase OXA-2, Ecolx
+528	BMP1_HUMAN	Bone Morphogenetic Protein 1, Human
+529	BMP2K_HUMAN	BMP-2-inducible Protein Kinase, Human
+530	BMP4_HUMAN	Bone Morphogenetic Protein 4, Human
+531	BMPR2_HUMAN	Bone Morphogenetic Protein Receptor Type-2, Human
+532	BMR1A_HUMAN	Bone Morphogenetic Protein Receptor Type-1A, Human
+533	BMX_HUMAN	Tyrosine-protein Kinase BMX, Human
+534	BRAF_HUMAN	Serine/threonine-protein Kinase B-raf, Human
+535	BRCA1_HUMAN	Breast Cancer Type 1 Susceptibility Protein, Human
+536	BRD2_HUMAN	Bromodomain-containing Protein 2, Human
+537	BRD4_HUMAN	Bromodomain-containing Protein 4, Human
+538	BRS3_HUMAN	Bombesin Like Receptor 3, Human
+539	BRS3_MOUSE	Bombesin Receptor Subtype-3, Mouse
+540	BRS3_RAT	Bombesin Receptor Subtype-3, Rat
+541	BRSK1_HUMAN	BR Serine/threonine-protein Kinase 1, Human
+542	BRSK2_HUMAN	BR Serine/threonine-protein Kinase 2, Human
+543	BTK_HUMAN	Tyrosine-protein Kinase BTK, Human
+544	BXA1_CLOBH	Botulinum Neurotoxin Type A, Clobh
+545	BXA1_CLOBO	Botulinum Neurotoxin Type A, Clobo
+546	C0IX24_9CNID	Carbonic Anhydrase, 9cnid
+547	C11B1_BOVIN	Cytochrome P450 11B1, Bovin
+548	C11B1_HUMAN	Cytochrome P450 11B1, Human
+549	C11B1_RAT	Cytochrome P450 11B1, Rat
+550	C11B2_HUMAN	Cytochrome P450 11B2, Human
+551	C1R_HUMAN	Complement C1r, Human
+552	C1S_HUMAN	Complement C1s, Human
+553	C3AR_HUMAN	C3a Anaphylatoxin Chemotactic Receptor, Human
+554	C3SLN2_ECOLX	DNA Gyrase Subunit B, Ecolx
+555	C3SWJ7_ECOLX	Thymidylate Synthase, Ecolx
+556	C3TDZ2_ECOLX	3-oxoacyl-[acyl-carrier-protein] Synthase 3, Ecolx
+557	C3TIE2_ECOLX	Phospho-2-dehydro-3-deoxyheptonate Aldolase, Ecolx
+558	C4LRQ6_9INFA	Neuraminidase, 9infa
+559	C5AR_HUMAN	C5a Anaphylatoxin Chemotactic Receptor, Human
+560	CA2D1_HUMAN	Voltage-gated Calcium Channel Alpha2/delta Subunit 1, Human
+561	CA2D1_MOUSE	Voltage-gated Calcium Channel Alpha2/delta Subunit 1, Mouse
+562	CA2D1_RAT	Voltage-gated Calcium Channel Alpha2/delta Subunit 1, Rat
+563	CA2D2_HUMAN	Voltage-gated Calcium Channel Alpha2/delta Subunit 2, Human
+564	CA2D2_RAT	Voltage-gated Calcium Channel Alpha2/delta Subunit 2, Rat
+565	CA2D3_HUMAN	Voltage-gated Calcium Channel Alpha2/delta Subunit 3, Human
+566	CA2D3_RAT	Voltage-gated Calcium Channel Alpha2/delta Subunit 3, Rat
+567	CA2D4_HUMAN	Voltage-gated Calcium Channel Alpha2/delta-4 Subunit, Human
+568	CAC1A_RAT	Voltage-gated P/Q-type Calcium Channel Alpha-1A Subunit, Rat
+569	CAC1B_HUMAN	Voltage-gated N-type Calcium Channel Alpha-1B Subunit, Human
+570	CAC1B_RAT	Voltage-gated N-type Calcium Channel Alpha-1B Subunit, Rat
+571	CAC1C_HUMAN	Voltage-gated L-type Calcium Channel Alpha-1C Subunit, Human
+572	CAC1C_MOUSE	Voltage-gated L-type Calcium Channel Alpha-1C Subunit, Mouse
+573	CAC1C_RABIT	Voltage-gated L-type Calcium Channel Alpha-1C Subunit, Rabit
+574	CAC1C_RAT	Voltage-gated L-type Calcium Channel Alpha-1C Subunit, Rat
+575	CAC1D_HUMAN	Voltage-gated L-type Calcium Channel Alpha-1D Subunit, Human
+576	CAC1D_MOUSE	Voltage-gated L-type Calcium Channel Alpha-1D Subunit, Mouse
+577	CAC1D_RAT	Voltage-gated L-type Calcium Channel Alpha-1D Subunit, Rat
+578	CAC1E_RAT	Voltage-gated R-type Calcium Channel Alpha-1E Subunit, Rat
+579	CAC1F_HUMAN	Voltage-gated L-type Calcium Channel Alpha-1F Subunit, Human
+580	CAC1G_HUMAN	Voltage-gated T-type Calcium Channel Alpha-1G Subunit, Human
+581	CAC1G_RAT	Voltage-gated T-type Calcium Channel Alpha-1G Subunit, Rat
+582	CAC1H_HUMAN	Voltage-gated T-type Calcium Channel Alpha-1H Subunit, Human
+583	CAC1H_RAT	Voltage-gated T-type Calcium Channel Alpha-1H Subunit, Rat
+584	CAC1I_HUMAN	Voltage-gated T-type Calcium Channel Alpha-1I Subunit, Human
+585	CAC1I_RAT	Voltage-gated T-type Calcium Channel Alpha-1I Subunit, Rat
+586	CAC1S_HUMAN	Voltage-gated L-type Calcium Channel Alpha-1S Subunit, Human
+587	CAC1S_RAT	Voltage-gated L-type Calcium Channel Alpha-1S Subunit, Rat
+588	CACB1_RAT	Voltage-dependent L-type Calcium Channel Subunit Beta-1, Rat
+589	CAH10_HUMAN	Carbonic Anhydrase-related Protein 10, Human
+590	CAH11_HUMAN	Carbonic Anhydrase-related Protein 2, Human
+591	CAH12_HUMAN	Carbonic Anhydrase XII, Human
+592	CAH13_HUMAN	Carbonic Anhydrase XIII, Human
+593	CAH13_MOUSE	Carbonic Anhydrase XIII, Mouse
+594	CAH14_HUMAN	Carbonic Anhydrase XIV, Human
+595	CAH15_MOUSE	Carbonic Anhydrase 15, Mouse
+596	CAH1_HUMAN	Carbonic Anhydrase I, Human
+597	CAH2_BOVIN	Carbonic Anhydrase II, Bovin
+598	CAH2_HUMAN	Carbonic Anhydrase II, Human
+599	CAH2_RAT	Carbonic Anhydrase II, Rat
+600	CAH3_HUMAN	Carbonic Anhydrase III, Human
+601	CAH3_RAT	Carbonic Anhydrase III, Rat
+602	CAH4_BOVIN	Carbonic Anhydrase IV, Bovin
+603	CAH4_HUMAN	Carbonic Anhydrase IV, Human
+604	CAH4_RAT	Carbonic Anhydrase IV, Rat
+605	CAH5A_HUMAN	Carbonic Anhydrase VA, Human
+606	CAH5A_MOUSE	Carbonic Anhydrase VA, Mouse
+607	CAH5A_RAT	Carbonic Anhydrase VA, Rat
+608	CAH5B_HUMAN	Carbonic Anhydrase VB, Human
+609	CAH5B_MOUSE	Carbonic Anhydrase VB, Mouse
+610	CAH6_BOVIN	Carbonic Anhydrase VI, Bovin
+611	CAH6_HUMAN	Carbonic Anhydrase VI, Human
+612	CAH7_HUMAN	Carbonic Anhydrase VII, Human
+613	CAH7_MOUSE	Carbonic Anhydrase VII, Mouse
+614	CAH8_HUMAN	Carbonic Anhydrase-related Protein 8, Human
+615	CAH9_HUMAN	Carbonic Anhydrase IX, Human
+616	CAH_METTE	Carbonic Anhydrase, Mette
+617	CALM_HUMAN	Calmodulin, Human
+618	CALRL_HUMAN	Calcitonin Gene-related Peptide Type 1 Receptor, Human
+619	CAN1_HUMAN	Calpain 1, Human
+620	CAN1_MOUSE	Calpain 1, Mouse
+621	CAN1_PIG	Calpain 1, Pig
+622	CAN1_RAT	Calpain 1, Rat
+623	CAN2_BOVIN	Calpain 2, Bovin
+624	CAN2_CHICK	Calpain 2, Chick
+625	CAN2_HUMAN	Calpain 2, Human
+626	CAN2_PIG	Calpain 2, Pig
+627	CANX_CHICK	Calpain 1/2, Chick
+628	CAN_YEAST	Carbonic Anhydrase, Yeast
+629	CARM1_HUMAN	Histone-arginine Methyltransferase CARM1, Human
+630	CARM1_MOUSE	Histone-arginine Methyltransferase CARM1, Mouse
+631	CARP_RHICH	Rhizopuspepsin, Rhich
+632	CARP_YEAST	Saccharopepesin, Yeast
+633	CAS1_ARATH	Cycloartenol Synthase, Arath
+634	CASP1_HUMAN	Caspase-1, Human
+635	CASP1_MOUSE	Caspase-1, Mouse
+636	CASP2_HUMAN	Caspase-2, Human
+637	CASP3_HUMAN	Caspase-3, Human
+638	CASP4_HUMAN	Caspase-4, Human
+639	CASP5_HUMAN	Caspase-5, Human
+640	CASP6_HUMAN	Caspase-6, Human
+641	CASP7_HUMAN	Caspase-7, Human
+642	CASP8_HUMAN	Caspase-8, Human
+643	CASP9_HUMAN	Caspase-9, Human
+644	CASPA_HUMAN	Caspase-10, Human
+645	CASPE_HUMAN	Caspase-14, Human
+646	CASR_BOVIN	Extracellular Calcium-sensing Receptor, Bovin
+647	CASR_HUMAN	Calcium Sensing Receptor, Human
+648	CASR_RAT	Calcium Sensing Receptor, Rat
+649	CATB_BOVIN	Cathepsin B, Bovin
+650	CATB_HUMAN	Cathepsin B, Human
+651	CATB_MOUSE	Cathepsin B, Mouse
+652	CATB_RAT	Cathepsin B, Rat
+653	CATC_HUMAN	Dipeptidyl Peptidase I, Human
+654	CATD_BOVIN	Cathepsin D, Bovin
+655	CATD_HUMAN	Cathepsin D, Human
+656	CATE_HUMAN	Cathepsin E, Human
+657	CATF_HUMAN	Cathepsin F, Human
+658	CATG_HUMAN	Cathepsin G, Human
+659	CATG_MOUSE	Cathepsin G, Mouse
+660	CATH_HUMAN	Cathepsin H, Human
+661	CATK_HUMAN	Cathepsin K, Human
+662	CATK_MOUSE	Cathepsin K, Mouse
+663	CATK_RABIT	Cathepsin K, Rabit
+664	CATK_RAT	Cathepsin K, Rat
+665	CATL1_BOVIN	Cathepsin L, Bovin
+666	CATL1_HUMAN	Cathepsin L, Human
+667	CATL1_MOUSE	Cathepsin L1, Mouse
+668	CATL1_RAT	Cathepsin L, Rat
+669	CATL2_HUMAN	Cathepsin L2, Human
+670	CATL3_PARTE	Cathepsin L2, Parte
+671	CATS_HUMAN	Cathepsin S, Human
+672	CATS_MOUSE	Cathepsin S, Mouse
+673	CATS_RAT	Cathepsin S, Rat
+674	CATZ_HUMAN	Cathepsin Z, Human
+675	CBPA1_BOVIN	Carboxypeptidase A1, Bovin
+676	CBPA1_HUMAN	Carboxypeptidase A1, Human
+677	CBPA2_HUMAN	Carboxypeptidase A2, Human
+678	CBPA3_HUMAN	Mast Cell Carboxypeptidase A, Human
+679	CBPA4_HUMAN	Carboxypeptidase A4, Human
+680	CBPA5_HUMAN	Carboxypeptidase A5, Human
+681	CBPA6_HUMAN	Carboxypeptidase A6, Human
+682	CBPB1_HUMAN	Carboxypeptidase B, Human
+683	CBPB1_PIG	Carboxypeptidase B, Pig
+684	CBPB2_HUMAN	Carboxypeptidase B2 Isoform A, Human
+685	CBPM_HUMAN	Carboxypeptidase M, Human
+686	CBPN_HUMAN	Carboxypeptidase N, Catalytic Subunit, Human
+687	CBP_HUMAN	CREB-binding Protein, Human
+688	CBR1_HUMAN	Carbonyl Reductase [NADPH] 1, Human
+689	CCKAR_CAVPO	Cholecystokinin A Receptor, Guinea Pig
+690	CCKAR_HUMAN	Cholecystokinin A Receptor, Human
+691	CCKAR_MOUSE	Cholecystokinin A Receptor, Mouse
+692	CCKAR_RAT	Cholecystokinin A Receptor, Rat
+693	CCL2_HUMAN	C-C Motif Chemokine 2, Human
+694	CCL5_HUMAN	C-C Motif Chemokine 5, Human
+695	CCNA1_HUMAN	Cyclin A1, Human
+696	CCNA2_HUMAN	Cyclin A2, Human
+697	CCNB1_HUMAN	G2/mitotic-specific Cyclin B1, Human
+698	CCNB2_HUMAN	G2/mitotic-specific Cyclin B2, Human
+699	CCNB3_HUMAN	G2/mitotic-specific Cyclin B3, Human
+700	CCNB_MARGL	G2/mitotic-specific Cyclin B, Margl
+701	CCND1_HUMAN	G1/S-specific Cyclin D1, Human
+702	CCND2_HUMAN	G1/S-specific Cyclin D2, Human
+703	CCND3_HUMAN	G1/S-specific Cyclin D3, Human
+704	CCNE1_HUMAN	G1/S-specific Cyclin E1, Human
+705	CCNE2_HUMAN	G1/S-specific Cyclin E2, Human
+706	CCNH_HUMAN	Cyclin H, Human
+707	CCNT1_HUMAN	Cyclin T1, Human
+708	CCNT2_HUMAN	Cyclin-T2, Human
+709	CCR1_HUMAN	C-C Chemokine Receptor Type 1, Human
+710	CCR1_MOUSE	C-C Chemokine Receptor Type 1, Mouse
+711	CCR2_HUMAN	C-C Chemokine Receptor Type 2, Human
+712	CCR2_MOUSE	C-C Chemokine Receptor Type 2, Mouse
+713	CCR2_RAT	C-C Chemokine Receptor Type 2, Rat
+714	CCR3_HUMAN	C-C Chemokine Receptor Type 3, Human
+715	CCR3_MACMU	C-C Chemokine Receptor Type 3, Macmu
+716	CCR3_MOUSE	C-C Chemokine Receptor Type 3, Mouse
+717	CCR3_RAT	C-C Chemokine Receptor Type 3, Rat
+718	CCR4_HUMAN	C-C Chemokine Receptor Type 4, Human
+719	CCR5_HUMAN	C-C Chemokine Receptor Type 5, Human
+720	CCR5_MACFA	C-C Chemokine Receptor Type 5, Macfa
+721	CCR5_MOUSE	C-C Chemokine Receptor Type 5, Mouse
+722	CCR7_HUMAN	C-C Chemokine Receptor Type 7, Human
+723	CCR8_HUMAN	C-C Chemokine Receptor Type 8, Human
+724	CCR9_HUMAN	C-C Chemokine Receptor Type 9, Human
+725	CD11A_HUMAN	PITSLRE Serine/threonine-protein Kinase CDC2L2, Human
+726	CD11B_HUMAN	PITSLRE Serine/threonine-protein Kinase CDC2L1, Human
+727	CD22_MOUSE	B-cell Receptor CD22, Mouse
+728	CD38_HUMAN	Lymphocyte Differentiation Antigen CD38, Human
+729	CD4_HUMAN	T-cell Surface Antigen CD4, Human
+730	CD5R1_HUMAN	Cyclin-dependent Kinase 5 Regulatory Subunit 1, Human
+731	CDC42_HUMAN	Cell Division Control Protein 42 Homolog, Human
+732	CDC45_HUMAN	CDC45-related Protein, Human
+733	CDC7_HUMAN	Cell Division Cycle 7-related Protein Kinase, Human
+734	CDD_HUMAN	Cytidine Deaminase, Human
+735	CDD_MOUSE	Cytidine Deaminase, Mouse
+736	CDK14_HUMAN	Serine/threonine-protein Kinase PFTAIRE-1, Human
+737	CDK15_HUMAN	Serine/threonine-protein Kinase PFTAIRE-2, Human
+738	CDK16_HUMAN	Serine/threonine-protein Kinase PCTAIRE-1, Human
+739	CDK17_HUMAN	Serine/threonine-protein Kinase PCTAIRE-2, Human
+740	CDK18_HUMAN	Serine/threonine-protein Kinase PCTAIRE-3, Human
+741	CDK19_HUMAN	Cell Division Cycle 2-like Protein Kinase 6, Human
+742	CDK1_HUMAN	Cyclin-dependent Kinase 1, Human
+743	CDK1_MOUSE	Cyclin-dependent Kinase 1, Mouse
+744	CDK1_YEAST	Cell Division Control Protein 28, Yeast
+745	CDK2_HUMAN	Cyclin-dependent Kinase 2, Human
+746	CDK3_HUMAN	Cyclin-dependent Kinase 3, Human
+747	CDK4_HUMAN	Cyclin-dependent Kinase 4, Human
+748	CDK5_HUMAN	Cyclin-dependent Kinase 5, Human
+749	CDK6_HUMAN	Cyclin-dependent Kinase 6, Human
+750	CDK7_HUMAN	Cyclin-dependent Kinase 7, Human
+751	CDK8_HUMAN	Cell Division Protein Kinase 8, Human
+752	CDK9_HUMAN	Cyclin-dependent Kinase 9, Human
+753	CDKA1_HUMAN	Cyclin-dependent Kinase 2-associated Protein 1, Human
+754	CDKL1_HUMAN	Cyclin-dependent Kinase-like 1, Human
+755	CDKL2_HUMAN	Cyclin-dependent Kinase-like 2, Human
+756	CDKL3_HUMAN	Cyclin-dependent Kinase-like 3, Human
+757	CEGT_HUMAN	Ceramide Glucosyltransferase, Human
+758	CEGT_MOUSE	Ceramide Glucosyltransferase, Mouse
+759	CEL2A_HUMAN	Elastase 2A, Human
+760	CEL2A_PIG	Elastase 2A, Pig
+761	CEL2A_RAT	Elastase 2A, Rat
+762	CEL2B_HUMAN	Elastase 2B, Human
+763	CEL3A_HUMAN	Elastase IIIA, Human
+764	CEL3B_HUMAN	Elastase IIIB, Human
+765	CELA1_HUMAN	Elastase 1, Human
+766	CELA1_PIG	Elastase 1, Pig
+767	CEL_BOVIN	Cholesterol Esterase, Bovin
+768	CEL_HUMAN	Cholesterol Esterase, Human
+769	CETP_HUMAN	Cholesteryl Ester Transfer Protein, Human
+770	CETP_RABIT	Cholesteryl Ester Transfer Protein, Rabit
+771	CFAB_HUMAN	Complement Factor B, Human
+772	CFTR_HUMAN	Cystic Fibrosis Transmembrane Conductance Regulator, Human
+773	CHIA_HUMAN	Acidic Mammalian Chitinase, Human
+774	CHIA_SERMA	Chitinase A, Serma
+775	CHIB_SERMA	Chitinase B, Serma
+776	CHIO_HUMAN	Rho-GTPase-activating Protein 3, Human
+777	CHIT_YEAST	Endochitinase, Yeast
+778	CHK1_HUMAN	Serine/threonine-protein Kinase Chk1, Human
+779	CHK2_HUMAN	Serine/threonine-protein Kinase Chk2, Human
+780	CHKA_HUMAN	Choline Kinase Alpha, Human
+781	CHLE_HORSE	Cholinesterase, Horse
+782	CHLE_HUMAN	Butyrylcholinesterase, Human
+783	CHLE_MOUSE	Butyrylcholinesterase, Mouse
+784	CHS1_CANAX	Chitin Synthase 1, Canax
+785	CHS1_YEAST	Chitin Synthase 1, Yeast
+786	CHS2_YEAST	Chitin Synthase 2, Yeast
+787	CHS3_YEAST	Chitin Synthase 3, Yeast
+788	CISD1_HUMAN	CDGSH Iron-sulfur Domain-containing Protein 1, Human
+789	CKX2_ARATH	Cytokinin Dehydrogenase 2, Arath
+790	CLAT_HUMAN	Choline Acetylase, Human
+791	CLAT_RAT	Choline Acetylase, Rat
+792	CLK1_HUMAN	Dual Specificty Protein Kinase CLK1, Human
+793	CLK1_MOUSE	Dual Specificity Protein Kinase CLK1, Mouse
+794	CLK2_HUMAN	Dual Specificity Protein Kinase CLK2, Human
+795	CLK2_MOUSE	Dual Specificity Protein Kinase CLK2, Mouse
+796	CLK3_HUMAN	Dual Specificity Protein Kinase CLK3, Human
+797	CLK3_MOUSE	Dual Specificity Protein Kinase CLK3, Mouse
+798	CLK4_HUMAN	Dual Specificity Protein Kinase CLK4, Human
+799	CLK4_MOUSE	Dual Specificity Protein Kinase CLK4, Mouse
+800	CLTR1_CAVPO	Cysteinyl Leukotriene Receptor 1, Guinea Pig
+801	CLTR1_HUMAN	Cysteinyl Leukotriene Receptor 1, Human
+802	CLTR2_HUMAN	Cysteinyl Leukotriene Receptor 2, Human
+803	CMA1_HUMAN	Chymase, Human
+804	CMA1_RAT	Mast Cell Protease 3, Rat
+805	CNCG_BOVIN	Phosphodiesterase 6H, Bovin
+806	CNCG_HUMAN	Phosphodiesterase 6H, Human
+807	CNGA1_BOVIN	CGMP-gated Cation Channel Alpha 1, Bovin
+808	CNR1_HUMAN	Cannabinoid CB1 Receptor, Human
+809	CNR1_MOUSE	Cannabinoid CB1 Receptor, Mouse
+810	CNR1_RAT	Cannabinoid CB1 Receptor, Rat
+811	CNR2_HUMAN	Cannabinoid CB2 Receptor, Human
+812	CNR2_MOUSE	Cannabinoid CB2 Receptor, Mouse
+813	CNR2_RAT	Cannabinoid CB2 Receptor, Rat
+814	CNRG_BOVIN	Phosphodiesterase 6G, Bovin
+815	CNRG_HUMAN	Phosphodiesterase 6G, Human
+816	COLA_CLOPE	Microbial Collagenase, Clope
+817	COMT_HUMAN	Catechol O-methyltransferase, Human
+818	COMT_RAT	Catechol O-methyltransferase, Rat
+819	COX1_HUMAN	Cytochrome C Oxidase Subunit 1, Human
+820	COX1_SHEEP	Cytochrome C Oxidase Subunit 1, Sheep
+821	COX2_HUMAN	Cytochrome C Oxidase Subunit 2, Human
+822	COX2_SHEEP	Cytochrome C Oxidase Subunit 2, Sheep
+823	CP11A_BOVIN	Cytochrome P450 11A1, Bovin
+824	CP11A_RAT	Cytochrome P450 11A1, Rat
+825	CP121_MYCTU	Cytochrome P450 121, Myctu
+826	CP17A_HUMAN	Cytochrome P450 17A1, Human
+827	CP17A_RAT	Cytochrome P450 17A1, Rat
+828	CP19A_HUMAN	Cytochrome P450 19A1, Human
+829	CP19A_RAT	Cytochrome P450 19A1, Rat
+830	CP1B1_HUMAN	Cytochrome P450 1B1, Human
+831	CP21A_HUMAN	Cytochrome P450 21, Human
+832	CP24A_HUMAN	Cytochrome P450 24A1, Human
+833	CP24A_RAT	Cytochrome P450 24A1, Rat
+834	CP26A_HUMAN	Cytochrome P450 26A1, Human
+835	CP27A_HUMAN	Sterol 26-hydroxylase, Mitochondrial, Human
+836	CP27B_HUMAN	25-hydroxyvitamin D-1 Alpha Hydroxylase, Mitochondrial, Human
+837	CP2C9_HUMAN	Cytochrome P450 2C9, Human
+838	CP2J2_HUMAN	Cytochrome P450 2J2, Human
+839	CP3A4_HUMAN	Cytochrome P450 3A4, Human
+840	CP4A4_RABIT	Cytochrome P450 4A4, Rabit
+841	CP4AA_RAT	Cytochrome P450 4A1, Rat
+842	CP4AB_HUMAN	Cytochrome P450 4A11, Human
+843	CP4AE_RAT	Cytochrome P450 4A3, Rat
+844	CP4F2_HUMAN	Cytochrome P450 4F2, Human
+845	CP51A_HUMAN	Cytochrome P450 51, Human
+846	CP51A_RAT	Cytochrome P450 51, Rat
+847	CP51_MYCTU	Lanosterol 14-alpha Demethylase, Myctu
+848	CP51_TRYCC	Sterol 14-alpha Demethylase, Trycc
+849	CP7A1_RAT	Cytochrome P450 7A1, Rat
+850	CPN2_HUMAN	Carboxypeptidase N, Regulatory Subunit, Human
+851	CPNS1_HUMAN	Calpain Small Subunit 1, Human
+852	CPNS1_MOUSE	Calpain Small Subunit 1, Mouse
+853	CPNS1_PIG	Calpain Small Subunit 1, Pig
+854	CPNS1_RAT	Calpain Small Subunit 1, Rat
+855	CPT1A_RAT	Carnitine Palmitoyltransferase 1A, Rat
+856	CPT1B_RAT	Carnitine Palmitoyltransferase 1B, Rat
+857	CPXA_PSEPU	Cytochrome P450-cam, Psepu
+858	CREB1_HUMAN	Cyclic AMP-responsive Element-binding Protein 1, Human
+859	CRFR1_HUMAN	Corticotropin Releasing Factor Receptor 1, Human
+860	CRFR1_MOUSE	Corticotropin Releasing Factor Receptor 1, Mouse
+861	CRFR1_RAT	Corticotropin Releasing Factor Receptor 1, Rat
+862	CRFR2_HUMAN	Corticotropin Releasing Factor Receptor 2, Human
+863	CRFR2_MOUSE	Corticotropin Releasing Factor Receptor 2, Mouse
+864	CRFR2_RAT	Corticotropin Releasing Factor Receptor 2, Rat
+865	CRTM_STAAU	Dehydrosqualene Synthase, Staau
+866	CSF1R_HUMAN	Macrophage Colony Stimulating Factor  Receptor, Human
+867	CSF1R_MOUSE	Macrophage Colony-stimulating Factor 1 Receptor, Mouse
+868	CSK21_HUMAN	Casein Kinase II Alpha, Human
+869	CSK21_MOUSE	Casein Kinase II Alpha, Mouse
+870	CSK21_RAT	Casein Kinase II Alpha, Rat
+871	CSK22_HUMAN	Casein Kinase II Alpha (prime), Human
+872	CSK2A_MAIZE	Casein Kinase II Alpha, Maize
+873	CSK2A_SCHPO	Casein Kinase II Subunit Alpha, Schpo
+874	CSK2B_HUMAN	Casein Kinase II Beta, Human
+875	CSK2B_RAT	Casein Kinase II Beta, Rat
+876	CSK_HUMAN	Tyrosine-protein Kinase CSK, Human
+877	CSK_MOUSE	Tyrosine-protein Kinase CSK, Mouse
+878	CTNB1_HUMAN	Catenin Beta-1, Human
+879	CTR4_HUMAN	Cationic Amino Acid Transporter 4, Human
+880	CTRA_BOVIN	Alpha-chymotrypsin, Bovin
+881	CTRB1_HUMAN	Beta-chymotrypsin, Human
+882	CTRB_BOVIN	Beta-chymotrypsin, Bovin
+883	CTRC_HUMAN	Chymotrypsin C, Human
+884	CTRL_HUMAN	Chymotrypsin-like Protease CTRL-1, Human
+885	CTRO_HUMAN	Citron Rho-interacting Kinase, Human
+886	CXCR1_HUMAN	Interleukin-8 Receptor A, Human
+887	CXCR2_HUMAN	Interleukin-8 Receptor B, Human
+888	CXCR3_CANFA	C-X-C Chemokine Receptor Type 3, Canine
+889	CXCR3_HUMAN	C-X-C Chemokine Receptor Type 3, Human
+890	CXCR3_MOUSE	C-X-C Chemokine Receptor Type 3, Mouse
+891	CXCR3_RAT	C-X-C Chemokine Receptor Type 3, Rat
+892	CXCR4_HUMAN	C-X-C Chemokine Receptor Type 4, Human
+893	CXCR4_RAT	C-X-C Chemokine Receptor Type 4, Rat
+894	CY24A_HUMAN	Cytochrome B-245 Light Chain, Human
+895	CY24B_HUMAN	Cytochrome B-245 Heavy Chain, Human
+896	CYAA_BACAN	Calmodulin-sensitive Adenylate Cyclase, Bacan
+897	CYNT_HELPY	Carbonic Anhydrase 1, Helpy
+898	CYNT_MYCTU	Carbonic Anhydrase, Myctu
+899	CYSP_TRYCR	Cruzipain, Trycr
+900	D1MIX9_PSEAI	Beta-lactamase GES-13, Pseai
+901	D2K2A8_9HEPC	Hepatitis C Virus NS4A Protein, 9hepc
+902	D3W065_CHRVO	CviR Transcriptional Regulator, Chrvo
+903	D3ZAN3_RAT	Alpha-glucosidase II, Rat
+904	D3ZGQ2_RAT	Thymidine Kinase 2, Rat
+905	D3ZJF9_RAT	Alpha-galactosidase A, Rat
+906	D3ZUM4_RAT	Beta-galactosidase, Rat
+907	D3ZWV0_RAT	Retinoic Acid Receptor Gamma, Rat
+908	D4A3N4_RAT	Brain Adenylate Cyclase 1, Rat
+909	D5HSX5_9GAMM	Extended-spectrum Beta-lactamase PER-6, 9gamm
+910	D6NSM8_ACIBA	ADC-11, Aciba
+911	DAPE_HAEIN	Succinyl-diaminopimelate Desuccinylase, Haein
+912	DAPK1_HUMAN	Death-associated Protein Kinase 1, Human
+913	DAPK2_HUMAN	Death-associated Protein Kinase 2, Human
+914	DAPK3_HUMAN	Death-associated Protein Kinase 3, Human
+915	DCAM_HUMAN	S-adenosylmethionine Decarboxylase 1, Human
+916	DCAM_RAT	S-adenosylmethionine Decarboxylase 1, Rat
+917	DCK_HUMAN	Deoxycytidine Kinase, Human
+918	DCK_MOUSE	Deoxycytidine Kinase, Mouse
+919	DCLK1_HUMAN	Serine/threonine-protein Kinase DCLK1, Human
+920	DCLK2_HUMAN	Serine/threonine-protein Kinase DCLK2, Human
+921	DCLK3_HUMAN	Serine/threonine-protein Kinase DCLK3, Human
+922	DCMC_HUMAN	Malonyl-CoA Decarboxylase, Human
+923	DCMC_MOUSE	Malonyl-CoA Decarboxylase, Mitochondrial, Mouse
+924	DCOR_HUMAN	Ornithine Decarboxylase, Human
+925	DCOR_RAT	Ornithine Decarboxylase, Rat
+926	DDAH1_HUMAN	N(G),N(G)-dimethylarginine Dimethylaminohydrolase 1, Human
+927	DDR1_HUMAN	Epithelial Discoidin Domain-containing Receptor 1, Human
+928	DDR2_HUMAN	Discoidin Domain-containing Receptor 2, Human
+929	DDX3X_HUMAN	ATP-dependent RNA Helicase DDX3X, Human
+930	DEF1A_ARATH	Peptide Deformylase 1A, Chloroplastic, Arath
+931	DEFM_HUMAN	Peptide Deformylase Mitochondrial, Human
+932	DEF_ECOLI	Peptide Deformylase, Ecoli
+933	DEF_MYCTU	Peptide Deformylase, Myctu
+934	DEF_PSEAE	Peptide Deformylase, Pseae
+935	DEF_STAAM	Peptide Deformylase, Staam
+936	DGAT1_HUMAN	Diacylglycerol O-acyltransferase 1, Human
+937	DGAT1_MOUSE	Diacylglycerol O-acyltransferase 1, Mouse
+938	DGAT1_RAT	Diacylglycerol O-acyltransferase 1, Rat
+939	DGLA_HUMAN	Sn1-specific Diacylglycerol Lipase Alpha, Human
+940	DGLB_HUMAN	Sn1-specific Diacylglycerol Lipase Beta, Human
+941	DHAS_HELPY	Aspartate-semialdehyde Dehydrogenase, Helpy
+942	DHB1_HUMAN	Estradiol 17-beta-dehydrogenase 1, Human
+943	DHB2_HUMAN	Estradiol 17-beta-dehydrogenase 2, Human
+944	DHB3_HUMAN	Estradiol 17-beta-dehydrogenase 3, Human
+945	DHB3_RAT	Testosterone 17-beta-dehydrogenase 3, Rat
+946	DHB7_HUMAN	3-keto-steroid Reductase, Human
+947	DHE3_BOVIN	Glutamate Dehydrogenase, Bovin
+948	DHI1_HUMAN	11-beta-hydroxysteroid Dehydrogenase 1, Human
+949	DHI1_MOUSE	11-beta-hydroxysteroid Dehydrogenase 1, Mouse
+950	DHI1_RAT	11-beta-hydroxysteroid Dehydrogenase 1, Rat
+951	DHI2_HUMAN	11-beta-hydroxysteroid Dehydrogenase 2, Human
+952	DHI2_MOUSE	11-beta-hydroxysteroid Dehydrogenase 2, Mouse
+953	DHI2_RAT	11-beta-hydroxysteroid Dehydrogenase 2, Rat
+954	DHPR_HUMAN	Dihydropteridine Reductase, Human
+955	DHPR_RAT	Dihydropteridine Reductase, Rat
+956	DHRS9_RAT	Dehydrogenase/reductase SDR Family Member 9, Rat
+957	DHSO_HUMAN	Sorbitol Dehydrogenase, Human
+958	DHSO_RAT	Sorbitol Dehydrogenase, Rat
+959	DHYS_RAT	Deoxyhypusine Synthase, Rat
+960	DKK1_HUMAN	Dickkopf-related Protein 1, Human
+961	DLG4_HUMAN	Disks Large Homolog 4, Human
+962	DLK1_HUMAN	Protein Delta Homolog 1, Human
+963	DMPK_HUMAN	Myotonin-protein Kinase, Human
+964	DNK_DROME	Deoxynucleoside Kinase, Drome
+965	DNLI1_HUMAN	DNA Ligase 1, Human
+966	DNM3B_HUMAN	DNA (cytosine-5)-methyltransferase 3B, Human
+967	DNMT1_HUMAN	DNA (cytosine-5)-methyltransferase 1, Human
+968	DNPEP_HUMAN	Aspartyl Aminopeptidase, Human
+969	DNSL3_HUMAN	Deoxyribonuclease Gamma, Human
+970	DOPO_BOVIN	Dopamine Beta-hydroxylase, Bovin
+971	DOPO_HUMAN	Dopamine Beta-hydroxylase, Human
+972	DOPO_RAT	Dopamine Beta-hydroxylase, Rat
+973	DPEP1_HUMAN	Renal Dipeptidase Precursor, Human
+974	DPEP1_PIG	Renal Dipeptidase Precursor, Pig
+975	DPO1_THEAQ	Taq Polymerase 1, Theaq
+976	DPO3A_BACSU	DNA Polymerase III Subunit Alpha, Bacsu
+977	DPO3_BACSU	DNA Polymerase III, Bacsu
+978	DPO3_STAAU	DNA Polymerase III PolC-type, Staau
+979	DPOD1_HUMAN	DNA Polymerase Delta Subunit 1, Human
+980	DPOG1_HUMAN	DNA Polymerase Gamma Subunit 1, Human
+981	DPOLA_HUMAN	DNA Polymerase Alpha Subunit, Human
+982	DPOLB_HUMAN	DNA Polymerase Beta, Human
+983	DPOLB_RAT	DNA Polymerase Beta, Rat
+984	DPOL_HCMVA	Human Herpesvirus 5 DNA Polymerase, Hcmva
+985	DPOL_HHV11	Human Herpesvirus 1 DNA Polymerase, Hhv11
+986	DPOL_HHV1K	DNA Polymerase Catalytic Subunit, Hhv1k
+987	DPOL_HHV6U	Human Herpesvirus 6 DNA Polymerase, Hhv6u
+988	DPOL_VZVD	DNA Polymerase, Vzvd
+989	DPP2_HUMAN	Dipeptidyl Peptidase II, Human
+990	DPP2_RAT	Dipeptidyl Peptidase II, Rat
+991	DPP3_RAT	Dipeptidyl Peptidase III, Rat
+992	DPP4_HUMAN	Dipeptidyl Peptidase IV, Human
+993	DPP4_MOUSE	Dipeptidyl Peptidase IV, Mouse
+994	DPP4_PIG	Dipeptidyl Peptidase IV, Pig
+995	DPP4_RAT	Dipeptidyl Peptidase IV, Rat
+996	DPP6_RAT	Dipeptidyl Peptidase VI, Rat
+997	DPP8_HUMAN	Dipeptidyl Peptidase VIII, Human
+998	DPP9_HUMAN	Dipeptidyl Peptidase IX, Human
+999	DPYD_HUMAN	Dihydropyrimidine Dehydrogenase, Human
+1000	DRB3_HUMAN	HLA Class II Histocompatibility Antigen DRB3-1, Human
+1001	DRD1_BOVIN	Dopamine D1 Receptor, Bovin
+1002	DRD1_HUMAN	Dopamine D1 Receptor, Human
+1003	DRD1_MOUSE	Dopamine D1 Receptor, Mouse
+1004	DRD1_PIG	Dopamine D1 Receptor, Pig
+1005	DRD1_RAT	Dopamine D1 Receptor, Rat
+1006	DRD2_BOVIN	Dopamine D2 Receptor, Bovin
+1007	DRD2_CANFA	Dopamine D2 Receptor, Canine
+1008	DRD2_CHLAE	Dopamine D2 Receptor, Chlae
+1009	DRD2_HUMAN	Dopamine D2 Receptor, Human
+1010	DRD2_MOUSE	Dopamine D2 Receptor, Mouse
+1011	DRD2_RAT	Dopamine D2 Receptor, Rat
+1012	DRD3_HUMAN	Dopamine D3 Receptor, Human
+1013	DRD3_RAT	Dopamine D3 Receptor, Rat
+1014	DRD4_HUMAN	Dopamine D4 Receptor, Human
+1015	DRD4_MOUSE	Dopamine D4 Receptor, Mouse
+1016	DRD4_RAT	Dopamine D4 Receptor, Rat
+1017	DRD5_HUMAN	Dopamine D5 Receptor, Human
+1018	DRD5_RAT	Dopamine D5 Receptor, Rat
+1019	DRTS_PLAFK	Dihydrofolate Reductase, Plafk
+1020	DRTS_TOXGO	Dihydrofolate Reductase, Toxgo
+1021	DRTS_TRYCR	Bifunctional Dihydrofolate Reductase-thymidylate Synthase, Trycr
+1022	DUOX2_HUMAN	Thyroid Oxidase 2, Human
+1023	DUS1_HUMAN	Dual Specificity Protein Phosphatase 1, Human
+1024	DUS1_MOUSE	Dual Specificity Protein Phosphatase 1, Mouse
+1025	DUS22_HUMAN	Dual Specificity Phosphatase 22, Human
+1026	DUS3_HUMAN	Dual Specificity Protein Phosphatase 3, Human
+1027	DUS6_RAT	Dual Specificity Protein Phosphatase 6, Rat
+1028	DUTL_HUMAN	Putative Deoxyuridine 5'-triphosphate Nucleotidohydrolase-like Protein FLJ16323, Human
+1029	DUT_HUMAN	DUTP Pyrophosphatase, Human
+1030	DXR_ECOLI	1-deoxyxylulose-5-phosphate Reductoisomerase, Ecoli
+1031	DXR_MYCTU	1-deoxy-D-xylulose 5-phosphate Reductoisomerase, Myctu
+1032	DXR_SYNY3	1-deoxyxylulose-5-phosphate Reductoisomerase, Syny3
+1033	DYN1_HUMAN	Dynamin-1, Human
+1034	DYN2_HUMAN	Dynamin-2, Human
+1035	DYR1A_HUMAN	Dual-specificity Tyrosine-phosphorylation Regulated Kinase 1A, Human
+1036	DYR1A_MOUSE	Dual-specificity Tyrosine-phosphorylation Regulated Kinase 1A, Mouse
+1037	DYR1A_RAT	Dual Specificity Tyrosine-phosphorylation-regulated Kinase 1A, Rat
+1038	DYR1B_HUMAN	Dual Specificity Tyrosine-phosphorylation-regulated Kinase 1B, Human
+1039	DYR1_ECOLX	Dihydrofolate Reductase Type 1, Ecolx
+1040	DYRK2_HUMAN	Dual-specificity Tyrosine-phosphorylation Regulated Kinase 2, Human
+1041	DYRK3_HUMAN	Dual-specificity Tyrosine-phosphorylation Regulated Kinase 3, Human
+1042	DYR_BOVIN	Dihydrofolate Reductase, Bovin
+1043	DYR_CANAX	Dihydrofolate Reductase, Canax
+1044	DYR_CHICK	Dihydrofolate Reductase, Chick
+1045	DYR_ECOLI	Dihydrofolate Reductase, Ecoli
+1046	DYR_HUMAN	Dihydrofolate Reductase, Human
+1047	DYR_LACCA	Dihydrofolate Reductase, Lacca
+1048	DYR_MOUSE	Dihydrofolate Reductase, Mouse
+1049	DYR_MYCTU	Dihydrofolate Reductase, Myctu
+1050	DYR_PNECA	Dihydrofolate Reductase, Pneca
+1051	DYR_RAT	Dihydrofolate Reductase, Rat
+1052	DYR_STAAU	Dihydrofolate Reductase, Staau
+1053	DYR_STAAW	Dihydrofolate Reductase, Staaw
+1054	DYR_YEAST	Dihydrofolate Reductase, Yeast
+1055	E1BN64_BOVIN	Phosphodiesterase 3B, Bovin
+1056	E2AK1_HUMAN	Eukaryotic Translation Initiation Factor 2-alpha Kinase 1, Human
+1057	E2AK2_HUMAN	Interferon-induced, Double-stranded RNA-activated Protein Kinase, Human
+1058	E2AK3_HUMAN	Eukaryotic Translation Initiation Factor 2-alpha Kinase 3, Human
+1059	E2AK4_HUMAN	Eukaryotic Translation Initiation Factor 2-alpha Kinase 4, Human
+1060	E2QDN0_ECOLX	Thymidylate Synthase (EC 2.1.1.45) (TS) (TSase), Ecolx
+1061	EAA1_HUMAN	Excitatory Amino Acid Transporter 1, Human
+1062	EAA1_RAT	Excitatory Amino Acid Transporter 1, Rat
+1063	EAA2_HUMAN	Excitatory Amino Acid Transporter 2, Human
+1064	EAA2_RAT	Excitatory Amino Acid Transporter 2, Rat
+1065	EAA3_HUMAN	Excitatory Amino Acid Transporter 3, Human
+1066	EAA3_RAT	Excitatory Amino Acid Transporter 3, Rat
+1067	EAA4_HUMAN	Excitatory Amino Acid Transporter 4, Human
+1068	EAA4_RAT	Excitatory Amino Acid Transporter 4, Rat
+1069	EAA5_HUMAN	Excitatory Amino Acid Transporter 5, Human
+1070	EBP_CAVPO	3-beta-hydroxysteroid-delta(8),delta(7)-isomerase, Guinea Pig
+1071	EBP_HUMAN	3-beta-hydroxysteroid-delta(8),delta(7)-isomerase, Human
+1072	ECE1_BOVIN	Endothelin-converting Enzyme 1, Bovin
+1073	ECE1_HUMAN	Endothelin-converting Enzyme 1, Human
+1074	ECE1_RAT	Endothelin-converting Enzyme 1, Rat
+1075	ECE2_HUMAN	Endothelin-converting Enzyme 2, Human
+1076	ECR_DROME	Ecdysone Receptor, Drome
+1077	ECR_LUCCU	Ecdysone Receptor, Luccu
+1078	EDNRA_HUMAN	Endothelin Receptor ET-A, Human
+1079	EDNRA_MOUSE	Endothelin Receptor ET-A, Mouse
+1080	EDNRA_PIG	Endothelin Receptor ET-A, Pig
+1081	EDNRA_RAT	Endothelin Receptor ET-A, Rat
+1082	EDNRB_HUMAN	Endothelin Receptor ET-B, Human
+1083	EDNRB_MOUSE	Endothelin B Receptor, Mouse
+1084	EDNRB_PIG	Endothelin Receptor ET-B, Pig
+1085	EDNRB_RAT	Endothelin Receptor ET-B, Rat
+1086	EF1A1_HUMAN	Elongation Factor 1-alpha 1, Human
+1087	EF1A2_HUMAN	Elongation Factor 1-alpha 2, Human
+1088	EF2K_HUMAN	Serine/threonine-protein Kinase EEF2K, Human
+1089	EGFR_HUMAN	Epidermal Growth Factor Receptor ErbB1, Human
+1090	EGFR_MOUSE	Epidermal Growth Factor Receptor ErbB1, Mouse
+1091	EGLN1_HUMAN	Egl Nine Homolog 1, Human
+1092	EGLN2_HUMAN	Hypoxia-inducible Factor Prolyl Hydroxylase 1, Human
+1093	EGLN3_HUMAN	Egl Nine Homolog 3, Human
+1094	EHMT1_HUMAN	Histone-lysine N-methyltransferase, H3 Lysine-9 Specific 5, Human
+1095	EHMT2_HUMAN	Histone-lysine N-methyltransferase, H3 Lysine-9 Specific 3, Human
+1096	ELAS_PSEAE	Pseudolysin, Pseae
+1097	ELAV1_HUMAN	ELAV-like Protein 1, Human
+1098	ELF3_HUMAN	ETS-related Transcription Factor Elf-3, Human
+1099	ELNE_HUMAN	Leukocyte Elastase, Human
+1100	ELNE_MOUSE	Neutrophil Elastase, Mouse
+1101	ELOV1_HUMAN	Elongation Of Very Long Chain Fatty Acids Protein 1, Human
+1102	ELOV3_HUMAN	Elongation Of Very Long Chain Fatty Acids Protein 3, Human
+1103	ELOV3_MOUSE	Elongation Of Very Long Chain Fatty Acids Protein 3, Mouse
+1104	ELOV6_HUMAN	Elongation Of Very Long Chain Fatty Acids Protein 6, Human
+1105	ELOV6_MOUSE	Elongation Of Very Long Chain Fatty Acids Protein 6, Mouse
+1106	ENASE_HUMAN	Endo-beta-N-acetylglucosaminidase, Human
+1107	ENPL_CANFA	Heat Shock Protein 90 Beta, Canine
+1108	ENPL_HUMAN	Endoplasmin, Human
+1109	ENPP2_HUMAN	Autotaxin, Human
+1110	ENTE_ECOLI	Enterobactin Synthetase Component E, Ecoli
+1111	ENTP1_BOVIN	Ectonucleoside Triphosphate Diphosphohydrolase 1, Bovin
+1112	ENTP1_HUMAN	Ectonucleoside Triphosphate Diphosphohydrolase 1, Human
+1113	ENTP2_HUMAN	Ectonucleoside Triphosphate Diphosphohydrolase 2, Human
+1114	ENV_HV1H2	Envelope Polyprotein GP160, Hv1h2
+1115	ENV_HV1Y2	Envelope Glycoprotein Gp160, Hv1y2
+1116	ENV_MMTVG	Envelope Glycoprotein Gp70, Mmtvg
+1117	EP300_HUMAN	Histone Acetyltransferase P300, Human
+1118	EPAS1_HUMAN	Endothelial PAS Domain-containing Protein 1, Human
+1119	EPHA1_HUMAN	Ephrin Type-A Receptor 1, Human
+1120	EPHA2_HUMAN	Ephrin Type-A Receptor 2, Human
+1121	EPHA3_HUMAN	Ephrin Type-A Receptor 3, Human
+1122	EPHA4_HUMAN	Ephrin Type-A Receptor 4, Human
+1123	EPHA5_HUMAN	Ephrin Type-A Receptor 5, Human
+1124	EPHA6_HUMAN	Ephrin Type-A Receptor 6, Human
+1125	EPHA7_HUMAN	Ephrin Type-A Receptor 7, Human
+1126	EPHA8_HUMAN	Ephrin Type-A Receptor 8, Human
+1127	EPHB1_HUMAN	Ephrin Type-B Receptor 1, Human
+1128	EPHB2_HUMAN	Ephrin Type-B Receptor 2, Human
+1129	EPHB3_HUMAN	Ephrin Type-B Receptor 3, Human
+1130	EPHB4_HUMAN	Ephrin Type-B Receptor 4, Human
+1131	EPHB6_HUMAN	Ephrin Type-B Receptor 6, Human
+1132	EPOR_HUMAN	Erythropoietin Receptor, Human
+1133	EPYC_HUMAN	Small Chondroitin/dermatan Sulfate Proteoglycan, Human
+1134	ERBB2_HUMAN	Receptor Protein-tyrosine Kinase ErbB-2, Human
+1135	ERBB2_RAT	Receptor Protein-tyrosine Kinase ErbB-2, Rat
+1136	ERBB4_HUMAN	Receptor Protein-tyrosine Kinase ErbB-4, Human
+1137	ERCC5_HUMAN	DNA Excision Repair Protein ERCC-5, Human
+1138	ERG1_HUMAN	Squalene Monooxygenase, Human
+1139	ERG1_RAT	Squalene Monooxygenase, Rat
+1140	ERG2_YEAST	C-8 Sterol Isomerase, Yeast
+1141	ERG7_CANAL	Lanosterol Synthase, Canal
+1142	ERG7_HUMAN	Lanosterol Synthase, Human
+1143	ERG7_PNECA	Lanosterol Synthase, Pneca
+1144	ERG7_RAT	Lanosterol Synthase, Rat
+1145	ERG7_YEAST	Lanosterol Synthase, Yeast
+1146	ERG_HUMAN	Transcriptional Regulator ERG, Human
+1147	ERM_BACSU	Erythromycin Resistance Protein, Bacsu
+1148	ERM_STRPN	RRNA Adenine N-6-methyltransferase, Strpn
+1149	ERN1_HUMAN	Serine/threonine-protein Kinase/endoribonuclease IRE1, Human
+1150	ERO1A_HUMAN	ERO1-like Protein Alpha, Human
+1151	ERR1_HUMAN	Estrogen-related Receptor Alpha, Human
+1152	ERR2_HUMAN	Estrogen-related Receptor Beta, Human
+1153	ERR3_HUMAN	Estrogen-related Receptor Gamma, Human
+1154	ESR1_BOVIN	Estrogen Receptor Alpha, Bovin
+1155	ESR1_HUMAN	Estrogen Receptor Alpha, Human
+1156	ESR1_MOUSE	Estrogen Receptor Alpha, Mouse
+1157	ESR1_RAT	Estrogen Receptor Alpha, Rat
+1158	ESR2_HUMAN	Estrogen Receptor Beta, Human
+1159	ESR2_MOUSE	Estrogen Receptor Beta, Mouse
+1160	ESR2_RAT	Estrogen Receptor Beta, Rat
+1161	EST1_HUMAN	Acyl Coenzyme A:cholesterol Acyltransferase, Human
+1162	EST1_PIG	Carboxylesterase, Pig
+1163	EST1_RABIT	Acyl Coenzyme A:cholesterol Acyltransferase, Rabit
+1164	EST2_HUMAN	Carboxylesterase 2, Human
+1165	ESTD_PIG	Esterase D, Pig
+1166	ETHR_MYCTU	HTH-type Transcriptional Regulator EthR, Myctu
+1167	EXSA_PSEAE	Exoenzyme S Synthesis Regulatory Protein ExsA, Pseae
+1168	F13A_HUMAN	Coagulation Factor XIII, Human
+1169	F16P1_HUMAN	Fructose-1,6-bisphosphatase, Human
+1170	F16P1_MOUSE	Fructose-1,6-bisphosphatase 1, Mouse
+1171	F16P1_PIG	Fructose-1,6-bisphosphatase, Pig
+1172	F16P1_RAT	Fructose-1,6-bisphosphatase, Rat
+1173	F16P2_HUMAN	Fructose-1,6-bisphosphatase 2, Human
+1174	FA10_BOVIN	Coagulation Factor X, Bovin
+1175	FA10_HUMAN	Coagulation Factor X, Human
+1176	FA10_RABIT	Coagulation Factor X, Rabit
+1177	FA10_RAT	Coagulation Factor X, Rat
+1178	FA11_HUMAN	Coagulation Factor XI, Human
+1179	FA12_HUMAN	Coagulation Factor XII, Human
+1180	FA5_HUMAN	Coagulation Factor V, Human
+1181	FA7_HUMAN	Coagulation Factor VII, Human
+1182	FA8_HUMAN	Coagulation Factor VIII, Human
+1183	FA9_HUMAN	Coagulation Factor IX, Human
+1184	FAAH1_HUMAN	Anandamide Amidohydrolase, Human
+1185	FAAH1_MOUSE	Anandamide Amidohydrolase, Mouse
+1186	FAAH1_RAT	Anandamide Amidohydrolase, Rat
+1187	FAB2_MYCTU	3-oxoacyl-[acyl-carrier-protein] Synthase 2, Myctu
+1188	FABH_ECOLI	3-oxoacyl-[acyl-carrier-protein] Synthase 3, Ecoli
+1189	FABH_ENTFA	Beta-ketoacyl-ACP Synthase III, Entfa
+1190	FABH_HAEIN	Beta-ketoacyl-ACP Synthase III, Haein
+1191	FABH_MYCTU	3-oxoacyl-[acyl-carrier-protein] Synthase III, Myctu
+1192	FABH_STAAM	Beta-ketoacyl-ACP Synthase III, Staam
+1193	FABH_STRP3	Beta-ketoacyl-ACP Synthase III, Strp3
+1194	FABI_BACSU	Enoyl-[acyl-carrier-protein] Reductase [NADH], Bacsu
+1195	FABI_ECOLI	Enoyl-[acyl-carrier-protein] Reductase, Ecoli
+1196	FABI_STAAR	Enoyl-[acyl-carrier-protein] Reductase, Staar
+1197	FABP4_HUMAN	Fatty Acid Binding Protein Adipocyte, Human
+1198	FABP5_HUMAN	Fatty Acid Binding Protein Epidermal, Human
+1199	FABPH_HUMAN	Fatty Acid Binding Protein Muscle, Human
+1200	FABPI_HUMAN	Fatty Acid Binding Protein Intestinal, Human
+1201	FABPL_HUMAN	Fatty Acid-binding Protein, Liver, Human
+1202	FABPL_RAT	Fatty Acid-binding Protein, Liver, Rat
+1203	FACE1_MOUSE	CAAX Prenyl Protease 1 Homolog, Mouse
+1204	FACE2_HUMAN	Prenyl Protein Specific Protease, Human
+1205	FADS1_HUMAN	Fatty Acid Desaturase 1, Human
+1206	FADS1_RAT	Fatty Acid Desaturase 1, Rat
+1207	FAK1_HUMAN	Focal Adhesion Kinase 1, Human
+1208	FAK2_HUMAN	Protein Tyrosine Kinase 2 Beta, Human
+1209	FAK2_MOUSE	Protein-tyrosine Kinase 2-beta, Mouse
+1210	FAS_HUMAN	Fatty Acid Synthase, Human
+1211	FAS_MOUSE	Fatty Acid Synthase, Mouse
+1212	FAS_RAT	Fatty Acid Synthase, Rat
+1213	FCER2_HUMAN	Immunoglobulin Epsilon Fc Receptor, Human
+1214	FCGR1_HUMAN	High Affinity Immunoglobulin Gamma Fc Receptor I, Human
+1215	FDFT_HUMAN	Squalene Synthetase, Human
+1216	FDFT_RAT	Squalene Synthetase, Rat
+1217	FEN1_HUMAN	Flap Endonuclease 1, Human
+1218	FER_HUMAN	Tyrosine-protein Kinase FER, Human
+1219	FES_HUMAN	Tyrosine-protein Kinase FES, Human
+1220	FFAR1_HUMAN	Free Fatty Acid Receptor 1, Human
+1221	FFAR1_MOUSE	Free Fatty Acid Receptor 1, Mouse
+1222	FGF2_HUMAN	Basic Fibroblast Growth Factor, Human
+1223	FGFR1_HUMAN	Fibroblast Growth Factor Receptor 1, Human
+1224	FGFR1_MOUSE	Fibroblast Growth Factor Receptor 1, Mouse
+1225	FGFR2_HUMAN	Fibroblast Growth Factor Receptor 2, Human
+1226	FGFR2_MOUSE	Fibroblast Growth Factor Receptor 2, Mouse
+1227	FGFR3_HUMAN	Fibroblast Growth Factor Receptor 3, Human
+1228	FGFR3_MOUSE	Fibroblast Growth Factor Receptor 3, Mouse
+1229	FGFR4_HUMAN	Fibroblast Growth Factor Receptor 4, Human
+1230	FGFR4_MOUSE	Fibroblast Growth Factor Receptor 4, Mouse
+1231	FGR_HUMAN	Tyrosine-protein Kinase FGR, Human
+1232	FGR_RAT	Tyrosine-protein Kinase FGR, Rat
+1233	FIBB_HUMAN	Fibrinogen Beta Chain, Human
+1234	FIMH_ECOLI	Adhesin Protein FimH, Ecoli
+1235	FKB14_HUMAN	FK506 Binding Protein 14, Human
+1236	FKB1A_HUMAN	FK506-binding Protein 1A, Human
+1237	FKB1A_RAT	FK506-binding Protein 1A, Rat
+1238	FKB1B_HUMAN	FK506-binding Protein 1B, Human
+1239	FKBP3_HUMAN	FK506 Binding Protein 3, Human
+1240	FKBP4_HUMAN	FK506 Binding Protein 4, Human
+1241	FLT3_HUMAN	Tyrosine-protein Kinase Receptor FLT3, Human
+1242	FNTA_BOVIN	Protein Farnesyltransferase/geranylgeranyltransferase Type I Alpha Subunit, Bovin
+1243	FNTA_HUMAN	Protein Farnesyltransferase/geranylgeranyltransferase Type I Alpha Subunit, Human
+1244	FNTA_MOUSE	Protein Farnesyltransferase/geranylgeranyltransferase Type I Alpha Subunit, Mouse
+1245	FNTA_RAT	Protein Farnesyltransferase/geranylgeranyltransferase Type I Alpha Subunit, Rat
+1246	FNTA_YEAST	Protein Farnesyltransferase/geranylgeranyltransferase Type I Alpha Subunit, Yeast
+1247	FNTB_BOVIN	Protein Farnesyltransferase Beta Subunit, Bovin
+1248	FNTB_HUMAN	Protein Farnesyltransferase Beta Subunit, Human
+1249	FNTB_MOUSE	Protein Farnesyltransferase Beta Subunit, Mouse
+1250	FNTB_RAT	Protein Farnesyltransferase Beta Subunit, Rat
+1251	FNTB_YEAST	Protein Farnesyltransferase Beta Subunit, Yeast
+1252	FOLB_STAAM	Dihydroneopterin Aldolase, Staam
+1253	FOLB_STAAN	Dihydroneopterin Aldolase, Staan
+1254	FOLB_STAAW	Dihydroneopterin Aldolase, Staaw
+1255	FOLC_HUMAN	Folylpoly-gamma-glutamate Synthetase, Human
+1256	FOLC_MOUSE	Folylpoly-gamma-glutamate Synthetase, Mouse
+1257	FOLH1_HUMAN	Glutamate Carboxypeptidase II, Human
+1258	FOLH1_RAT	Glutamate Carboxypeptidase II, Rat
+1259	FOLR1_HUMAN	Folate Receptor Alpha, Human
+1260	FOLR2_HUMAN	Folate Receptor Beta, Human
+1261	FOLR3_HUMAN	Folate Receptor Gamma, Human
+1262	FOS_HUMAN	Proto-oncogene Protein C-fos, Human
+1263	FPPS_HUMAN	Farnesyl Diphosphate Synthase, Human
+1264	FPR1_HUMAN	Formyl Peptide Receptor 1, Human
+1265	FPS_FUJSV	Tyrosine-protein Kinase Transforming Protein FPS, Fujsv
+1266	FRK_HUMAN	Tyrosine-protein Kinase FRK, Human
+1267	FTSZ_MYCTU	Cell Division Protein FtsZ, Myctu
+1268	FUCO2_HUMAN	Alpha-L-fucosidase 2, Human
+1269	FUCO_BOVIN	Alpha-L-fucosidase 1, Bovin
+1270	FUCO_HUMAN	Alpha-L-fucosidase I, Human
+1271	FUCO_RAT	Alpha-L-fucosidase I, Rat
+1272	FUMH_PIG	Fumarate Hydratase, Mitochondrial, Pig
+1273	FURIN_HUMAN	Furin, Human
+1274	FYN_HUMAN	Tyrosine-protein Kinase FYN, Human
+1275	FYN_MOUSE	Tyrosine-protein Kinase FYN, Mouse
+1276	G3PC_LEIME	Glyceraldehyde-3-phosphate Dehydrogenase Cytosolic, Leime
+1277	G3PG_TRYCR	Glyceraldehyde-3-phosphate Dehydrogenase, Glycosomal, Trycr
+1278	G3P_HUMAN	Glyceraldehyde-3-phosphate Dehydrogenase Liver, Human
+1279	G5BRE3_HETGA	Glutamate-gated Chloride Channel 52.5 KD, Hetga
+1280	G6PC_HUMAN	Glucose-6-phosphatase, Human
+1281	G6PD_HUMAN	Glucose-6-phosphate 1-dehydrogenase, Human
+1282	G6PD_YEAST	Glucose-6-phosphate 1-dehydrogenase, Yeast
+1283	G6PI_RABIT	Glucose-6-phosphate Isomerase, Rabit
+1284	GABR1_HUMAN	GABA-B Receptor 1, Human
+1285	GABR1_RAT	GABA-B Receptor 1, Rat
+1286	GABR2_HUMAN	GABA-B Receptor 2, Human
+1287	GABR2_RAT	GABA-B Receptor 2, Rat
+1288	GABT_HUMAN	Gamma-amino-N-butyrate Transaminase, Human
+1289	GABT_PIG	Gamma-amino-N-butyrate Transaminase, Pig
+1290	GABT_RAT	Gamma-amino-N-butyrate Transaminase, Rat
+1291	GAK_HUMAN	Serine/threonine-protein Kinase GAK, Human
+1292	GALE_HUMAN	UDP-glucose 4-epimerase, Human
+1293	GALR1_RAT	Galanin Receptor Type 1, Rat
+1294	GALR2_RAT	Galanin Receptor Type 2, Rat
+1295	GALR3_HUMAN	Galanin Receptor 3, Human
+1296	GANAB_HUMAN	Neutral Alpha-glucosidase AB, Human
+1297	GANC_HUMAN	Neutral Alpha-glucosidase C, Human
+1298	GANC_MOUSE	Neutral Alpha-glucosidase C, Mouse
+1299	GASR_HUMAN	Cholecystokinin B Receptor, Human
+1300	GASR_MOUSE	Cholecystokinin B Receptor, Mouse
+1301	GASR_RAT	Cholecystokinin B Receptor, Rat
+1302	GBA2_HUMAN	Beta-glucosidase, Human
+1303	GBA2_MOUSE	Non-lysosomal Glucosylceramidase, Mouse
+1304	GBA3_HUMAN	Beta-glucosidase Cytosolic, Human
+1305	GBRA1_BOVIN	GABA Receptor Alpha-1 Subunit, Bovin
+1306	GBRA1_HUMAN	GABA Receptor Alpha-1 Subunit, Human
+1307	GBRA1_MOUSE	GABA Receptor Alpha-1 Subunit, Mouse
+1308	GBRA1_RAT	GABA Receptor Alpha-1 Subunit, Rat
+1309	GBRA2_BOVIN	GABA Receptor Alpha-2 Subunit, Bovin
+1310	GBRA2_HUMAN	GABA Receptor Alpha-2 Subunit, Human
+1311	GBRA2_MOUSE	GABA Receptor Alpha-2 Subunit, Mouse
+1312	GBRA2_RAT	GABA Receptor Alpha-2 Subunit, Rat
+1313	GBRA3_BOVIN	GABA Receptor Alpha-3 Subunit, Bovin
+1314	GBRA3_HUMAN	GABA Receptor Alpha-3 Subunit, Human
+1315	GBRA3_MOUSE	GABA Receptor Alpha-3 Subunit, Mouse
+1316	GBRA3_RAT	GABA Receptor Alpha-3 Subunit, Rat
+1317	GBRA4_BOVIN	GABA Receptor Alpha-4 Subunit, Bovin
+1318	GBRA4_HUMAN	GABA Receptor Alpha-4 Subunit, Human
+1319	GBRA4_MOUSE	GABA Receptor Alpha-4 Subunit, Mouse
+1320	GBRA4_RAT	GABA Receptor Alpha-4 Subunit, Rat
+1321	GBRA5_HUMAN	GABA Receptor Alpha-5 Subunit, Human
+1322	GBRA5_MOUSE	GABA Receptor Alpha-5 Subunit, Mouse
+1323	GBRA5_RAT	GABA Receptor Alpha-5 Subunit, Rat
+1324	GBRA6_HUMAN	GABA Receptor Alpha-6 Subunit, Human
+1325	GBRA6_MOUSE	GABA Receptor Alpha-6 Subunit, Mouse
+1326	GBRA6_RAT	GABA Receptor Alpha-6 Subunit, Rat
+1327	GBRB1_BOVIN	GABA Receptor Beta-1 Subunit, Bovin
+1328	GBRB1_HUMAN	GABA Receptor Beta-1 Subunit, Human
+1329	GBRB1_MOUSE	GABA Receptor Beta-1 Subunit, Mouse
+1330	GBRB1_RAT	GABA Receptor Beta-1 Subunit, Rat
+1331	GBRB2_HUMAN	GABA Receptor Beta-2 Subunit, Human
+1332	GBRB2_RAT	GABA Receptor Beta-2 Subunit, Rat
+1333	GBRB3_HUMAN	GABA Receptor Beta-3 Subunit, Human
+1334	GBRB3_MOUSE	GABA Receptor Beta-3 Subunit, Mouse
+1335	GBRB3_RAT	GABA Receptor Beta-3 Subunit, Rat
+1336	GBRB_MUSDO	GABA Receptor Subunit, Musdo
+1337	GBRD_HUMAN	GABA Receptor Delta Subunit, Human
+1338	GBRD_MOUSE	GABA Receptor Delta Subunit, Mouse
+1339	GBRD_RAT	GABA Receptor Delta Subunit, Rat
+1340	GBRE_HUMAN	GABA Receptor Epsilon Subunit, Human
+1341	GBRE_RAT	GABA Receptor Epsilon Subunit, Rat
+1342	GBRG1_HUMAN	GABA Receptor Gamma-1 Subunit, Human
+1343	GBRG1_MOUSE	GABA Receptor Gamma-1 Subunit, Mouse
+1344	GBRG1_RAT	GABA Receptor Gamma-1 Subunit, Rat
+1345	GBRG2_BOVIN	GABA Receptor Gamma-2 Subunit, Bovin
+1346	GBRG2_HUMAN	GABA Receptor Gamma-2 Subunit, Human
+1347	GBRG2_MOUSE	GABA Receptor Gamma-2 Subunit, Mouse
+1348	GBRG2_RAT	GABA Receptor Gamma-2 Subunit, Rat
+1349	GBRG3_HUMAN	GABA Receptor Gamma-3 Subunit, Human
+1350	GBRG3_MOUSE	GABA Receptor Gamma-3 Subunit, Mouse
+1351	GBRG3_RAT	GABA Receptor Gamma-3 Subunit, Rat
+1352	GBRP_HUMAN	GABA Receptor Pi Subunit, Human
+1353	GBRP_MOUSE	GABA Receptor Pi Subunit, Mouse
+1354	GBRP_RAT	GABA Receptor Pi Subunit, Rat
+1355	GBRR1_HUMAN	GABA Receptor Rho-1 Subunit, Human
+1356	GBRR1_RAT	GABA Receptor Rho-1 Subunit, Rat
+1357	GBRR2_HUMAN	GABA Receptor Rho-2 Subunit, Human
+1358	GBRR2_RAT	GABA Receptor Rho-2 Subunit, Rat
+1359	GBRR3_HUMAN	GABA Receptor Rho-3 Subunit, Human
+1360	GBRT_HUMAN	GABA Receptor Theta Subunit, Human
+1361	GBRT_MOUSE	GABA Receptor Theta Subunit, Mouse
+1362	GCR_HUMAN	Glucocorticoid Receptor, Human
+1363	GCR_MOUSE	Glucocorticoid Receptor, Mouse
+1364	GCR_RAT	Glucocorticoid Receptor, Rat
+1365	GCYA1_BOVIN	Guanylate Cyclase Soluble Alpha-1 Chain, Bovin
+1366	GCYA2_HUMAN	Guanylate Cyclase Soluble Alpha-2 Chain, Human
+1367	GCYA3_HUMAN	Guanylate Cyclase Soluble Alpha-3 Chain, Human
+1368	GCYB1_BOVIN	Guanylate Cyclase Soluble Beta-1 Chain, Bovin
+1369	GCYB1_HUMAN	Guanylate Cyclase Soluble Beta-1 Chain, Human
+1370	GCYB2_HUMAN	Guanylate Cyclase Soluble Beta-2 Chain, Human
+1371	GDE_HUMAN	Glycogen Debranching Enzyme, Human
+1372	GDE_RABIT	Glycogen Debranching Enzyme, Rabit
+1373	GGH_HUMAN	Gamma-glutamyl Hydrolase, Human
+1374	GGPPS_HUMAN	Geranylgeranyl Pyrophosphate Synthetase, Human
+1375	GGPPS_YEAST	Geranylgeranyl Pyrophosphate Synthase, Yeast
+1376	GGTA1_PIG	N-acetyllactosaminide Alpha-1,3-galactosyltransferase, Pig
+1377	GHSR_HUMAN	Ghrelin Receptor, Human
+1378	GHSR_MOUSE	Ghrelin Receptor, Mouse
+1379	GHSR_PIG	Ghrelin Receptor, Pig
+1380	GHSR_RAT	Ghrelin Receptor, Rat
+1381	GIPR_HUMAN	Gastric Inhibitory Polypeptide Receptor, Human
+1382	GIPR_RAT	Gastric Inhibitory Polypeptide Receptor, Rat
+1383	GIP_HUMAN	Gastric Inhibitory Polypeptide, Human
+1384	GLCM_BOVIN	Glucosylceramidase, Bovin
+1385	GLCM_HUMAN	Beta-glucocerebrosidase, Human
+1386	GLCM_MOUSE	Beta-glucocerebrosidase, Mouse
+1387	GLI1_HUMAN	Zinc Finger Protein GLI1, Human
+1388	GLI2_HUMAN	Zinc Finger Protein GLI2, Human
+1389	GLNA_ECOLI	Glutamine Synthetase, Ecoli
+1390	GLNA_HUMAN	Glutamine Synthetase, Human
+1391	GLO2_HUMAN	Glyoxalase II, Human
+1392	GLO2_RAT	Glyoxalase II, Rat
+1393	GLP1R_HUMAN	Glucagon-like Peptide Receptor, Human
+1394	GLRA1_HUMAN	Glycine Receptor Subunit Alpha-1, Human
+1395	GLRA1_RAT	Glycine Receptor Alpha-1 Chain, Rat
+1396	GLRA2_HUMAN	Glycine Receptor Subunit Alpha-2, Human
+1397	GLRA2_RAT	Glycine Receptor Alpha-2 Chain, Rat
+1398	GLRA3_RAT	Glycine Receptor Alpha-3 Chain, Rat
+1399	GLRA4_MOUSE	Glycine Receptor Alpha-4 Chain, Mouse
+1400	GLRB_RAT	Glycine Receptor Beta Chain, Rat
+1401	GLR_HUMAN	Glucagon Receptor, Human
+1402	GLR_MOUSE	Glucagon Receptor, Mouse
+1403	GLR_RAT	Glucagon Receptor, Rat
+1404	GLUCB_CAEEL	Glutamate-gated Chloride Channel 49.8 KD, Caeel
+1405	GLUC_HUMAN	Glucagon, Human
+1406	GLYCP_NIPAV	Glycoprotein G, Nipav
+1407	GNAI1_HUMAN	Guanine Nucleotide-binding Protein G(i), Alpha-1 Subunit, Human
+1408	GNAI3_HUMAN	Guanine Nucleotide-binding Protein G(k), Alpha-3 Subunit, Human
+1409	GNAO_HUMAN	Guanine Nucleotide-binding Protein G(o), Alpha Subunit 1, Human
+1410	GNPAT_HUMAN	Acyl-CoA:dihydroxyacetonephosphateacyltransferase, Human
+1411	GNRHR_HUMAN	Gonadotropin-releasing Hormone Receptor, Human
+1412	GNRHR_MACMU	Gonadotropin-releasing Hormone Receptor, Macmu
+1413	GNRHR_RAT	Gonadotropin-releasing Hormone Receptor, Rat
+1414	GP119_HUMAN	Glucose-dependent Insulinotropic Receptor, Human
+1415	GP119_RAT	Glucose-dependent Insulinotropic Receptor, Rat
+1416	GPER_HUMAN	G-protein Coupled Estrogen Receptor 1, Human
+1417	GPR17_HUMAN	Uracil Nucleotide/cysteinyl Leukotriene Receptor, Human
+1418	GPR44_HUMAN	G Protein-coupled Receptor 44, Human
+1419	GPR44_MOUSE	G Protein-coupled Receptor 44, Mouse
+1420	GPR55_HUMAN	G-protein Coupled Receptor 55, Human
+1421	GRAB_HUMAN	Granzyme B, Human
+1422	GRAM3_HUMAN	HCV NS3-transactivated Protein 3, Human
+1423	GRB2_HUMAN	Growth Factor Receptor-bound Protein 2, Human
+1424	GRB7_HUMAN	Growth Factor Receptor-bound Protein 7, Human
+1425	GRIA1_HUMAN	Glutamate Receptor Ionotropic, AMPA 1, Human
+1426	GRIA1_MOUSE	Glutamate Receptor Ionotropic, AMPA 1, Mouse
+1427	GRIA1_RAT	Glutamate Receptor Ionotropic, AMPA 1, Rat
+1428	GRIA2_HUMAN	Glutamate Receptor Ionotropic, AMPA 2, Human
+1429	GRIA2_MOUSE	Glutamate Receptor Ionotropic, AMPA 2, Mouse
+1430	GRIA2_RAT	Glutamate Receptor Ionotropic, AMPA 2, Rat
+1431	GRIA3_HUMAN	Glutamate Receptor Ionotropic, AMPA 3, Human
+1432	GRIA3_MOUSE	Glutamate Receptor Ionotropic, AMPA 3, Mouse
+1433	GRIA3_RAT	Glutamate Receptor Ionotropic, AMPA 3, Rat
+1434	GRIA4_HUMAN	Glutamate Receptor Ionotropic, AMPA 4, Human
+1435	GRIA4_MOUSE	Glutamate Receptor Ionotropic, AMPA 4, Mouse
+1436	GRIA4_RAT	Glutamate Receptor Ionotropic, AMPA 4, Rat
+1437	GRID1_HUMAN	Glutamate Receptor Delta-1 Subunit, Human
+1438	GRIK1_HUMAN	Glutamate Receptor Ionotropic Kainate 1, Human
+1439	GRIK1_RAT	Glutamate Receptor Ionotropic Kainate 1, Rat
+1440	GRIK2_HUMAN	Glutamate Receptor Ionotropic Kainate 2, Human
+1441	GRIK2_RAT	Glutamate Receptor Ionotropic Kainate 2, Rat
+1442	GRIK2_XENLA	Glutamate Receptor Ionotropic Kainate 2, Xenla
+1443	GRIK3_HUMAN	Glutamate Receptor Ionotropic Kainate 3, Human
+1444	GRIK3_RAT	Glutamate Receptor Ionotropic Kainate 3, Rat
+1445	GRIK4_HUMAN	Glutamate Receptor Ionotropic Kainate 4, Human
+1446	GRIK4_RAT	Glutamate Receptor Ionotropic Kainate 4, Rat
+1447	GRIK5_HUMAN	Glutamate Receptor Ionotropic Kainate 5, Human
+1448	GRIK5_RAT	Glutamate Receptor Ionotropic Kainate 5, Rat
+1449	GRINA_HUMAN	Glutamate [NMDA] Receptor Associated Protein 1, Human
+1450	GRK4_HUMAN	G Protein-coupled Receptor Kinase 4, Human
+1451	GRK5_HUMAN	G Protein-coupled Receptor Kinase 5, Human
+1452	GRK6_HUMAN	G Protein-coupled Receptor Kinase 6, Human
+1453	GRK7_HUMAN	G Protein-coupled Receptor Kinase 7, Human
+1454	GRL1A_RAT	Glutamate [NMDA] Receptor-like 1A, Rat
+1455	GRM1_HUMAN	Metabotropic Glutamate Receptor 1, Human
+1456	GRM1_MOUSE	Metabotropic Glutamate Receptor 1, Mouse
+1457	GRM1_RAT	Metabotropic Glutamate Receptor 1, Rat
+1458	GRM2_HUMAN	Metabotropic Glutamate Receptor 2, Human
+1459	GRM2_RAT	Metabotropic Glutamate Receptor 2, Rat
+1460	GRM3_HUMAN	Metabotropic Glutamate Receptor 3, Human
+1461	GRM3_MOUSE	Metabotropic Glutamate Receptor 3, Mouse
+1462	GRM3_RAT	Metabotropic Glutamate Receptor 3, Rat
+1463	GRM4_HUMAN	Metabotropic Glutamate Receptor 4, Human
+1464	GRM4_RAT	Metabotropic Glutamate Receptor 4, Rat
+1465	GRM5_HUMAN	Metabotropic Glutamate Receptor 5, Human
+1466	GRM5_RAT	Metabotropic Glutamate Receptor 5, Rat
+1467	GRM6_HUMAN	Metabotropic Glutamate Receptor 6, Human
+1468	GRM6_RAT	Metabotropic Glutamate Receptor 6, Rat
+1469	GRM7_MOUSE	Metabotropic Glutamate Receptor 7, Mouse
+1470	GRM7_RAT	Metabotropic Glutamate Receptor 7, Rat
+1471	GRM8_HUMAN	Metabotropic Glutamate Receptor 8, Human
+1472	GRM8_MOUSE	Metabotropic Glutamate Receptor 8, Mouse
+1473	GRM8_RAT	Metabotropic Glutamate Receptor 8, Rat
+1474	GRP1_RAT	RAS Guanyl Releasing Protein 1, Rat
+1475	GRP3_HUMAN	RAS Guanyl Releasing Protein 3, Human
+1476	GRP78_HUMAN	78 KDa Glucose-regulated Protein, Human
+1477	GRPR_HUMAN	Gastrin Releasing Peptide Receptor, Human
+1478	GRPR_RAT	Gastrin Releasing Peptide Receptor, Rat
+1479	GSH1_HUMAN	Gamma-glutamylcysteine Synthetase, Human
+1480	GSHR_HUMAN	Glutathione Reductase, Human
+1481	GSHR_PLAF7	Glutathione Reductase, Plaf7
+1482	GSHR_YEAST	Glutathione Reductase, Yeast
+1483	GSK3A_HUMAN	Glycogen Synthase Kinase-3 Alpha, Human
+1484	GSK3B_HUMAN	Glycogen Synthase Kinase-3 Beta, Human
+1485	GSK3B_MOUSE	Glycogen Synthase Kinase-3 Beta, Mouse
+1486	GSK3B_RAT	Glycogen Synthase Kinase-3 Beta, Rat
+1487	GSP_CRIFA	Glutathionylspermidine Synthase, Crifa
+1488	GSTA1_HUMAN	Glutathione S-transferase A1, Human
+1489	GSTA2_HUMAN	Glutathione S-transferase A2, Human
+1490	GSTK1_HUMAN	Glutathione S-transferase Kappa 1, Human
+1491	GSTM1_HUMAN	Glutathione S-transferase Mu 1, Human
+1492	GSTP1_HUMAN	Glutathione S-transferase Pi, Human
+1493	GST_PLAFA	Glutathione S-transferase, Plafa
+1494	GTR1_HUMAN	Glucose Transporter, Human
+1495	GTR1_RAT	Solute Carrier Family 2, Facilitated Glucose Transporter Member 1, Rat
+1496	GUAA_MOUSE	GMP Synthase, Mouse
+1497	GUAD_HUMAN	Guanine Deaminase, Human
+1498	GYRA_ECOLI	DNA Gyrase Subunit A, Ecoli
+1499	GYRA_MYCTU	DNA Gyrase Subunit A, Myctu
+1500	GYRB_ECOLI	DNA Gyrase Subunit B, Ecoli
+1501	GYRB_STRPN	DNA Gyrase Subunit B, Strpn
+1502	HCAR2_HUMAN	Nicotinic Acid Receptor 1, Human
+1503	HCAR2_MOUSE	HM74 Nicotinic Acid GPCR, Mouse
+1504	HCAR2_RAT	HM74 Nicotinic Acid GPCR, Rat
+1505	HCAR3_HUMAN	HM74 Nicotinic Acid GPCR, Human
+1506	HCD2_HUMAN	Endoplasmic Reticulum-associated Amyloid Beta-peptide-binding Protein, Human
+1507	HCK_HUMAN	Tyrosine-protein Kinase HCK, Human
+1508	HCN1_MOUSE	Potassium/sodium Hyperpolarization-activated Cyclic Nucleotide-gated Channel 1, Mouse
+1509	HCN2_MOUSE	Potassium/sodium Hyperpolarization-activated Cyclic Nucleotide-gated Channel 2, Mouse
+1510	HCN4_HUMAN	Potassium/sodium Hyperpolarization-activated Cyclic Nucleotide-gated Channel 4, Human
+1511	HDA10_HUMAN	Histone Deacetylase 10, Human
+1512	HDA11_HUMAN	Histone Deacetylase 11, Human
+1513	HDA11_MOUSE	Histone Deacetylase 11, Mouse
+1514	HDAC1_CHICK	Histone Deacetylase 1, Chick
+1515	HDAC1_HUMAN	Histone Deacetylase 1, Human
+1516	HDAC1_MOUSE	Histone Deacetylase 1, Mouse
+1517	HDAC1_RAT	Histone Deacetylase 1, Rat
+1518	HDAC2_CHICK	Histone Deacetylase 2, Chick
+1519	HDAC2_HUMAN	Histone Deacetylase 2, Human
+1520	HDAC2_MOUSE	Histone Deacetylase 2, Mouse
+1521	HDAC3_CHICK	Histone Deacetylase 3, Chick
+1522	HDAC3_HUMAN	Histone Deacetylase 3, Human
+1523	HDAC3_MOUSE	Histone Deacetylase 3, Mouse
+1524	HDAC3_RAT	Histone Deacetylase 3, Rat
+1525	HDAC4_CHICK	Histone Deacetylase 4, Chick
+1526	HDAC4_HUMAN	Histone Deacetylase 4, Human
+1527	HDAC4_RAT	Histone Deacetylase 4, Rat
+1528	HDAC5_HUMAN	Histone Deacetylase 5, Human
+1529	HDAC5_MOUSE	Histone Deacetylase 5, Mouse
+1530	HDAC6_HUMAN	Histone Deacetylase 6, Human
+1531	HDAC6_MOUSE	Histone Deacetylase 6, Mouse
+1532	HDAC7_HUMAN	Histone Deacetylase 7, Human
+1533	HDAC7_MOUSE	Histone Deacetylase 7, Mouse
+1534	HDAC7_RAT	Histone Deacetylase 7, Rat
+1535	HDAC8_HUMAN	Histone Deacetylase 8, Human
+1536	HDAC8_MOUSE	Histone Deacetylase 8, Mouse
+1537	HDAC9_HUMAN	Histone Deacetylase 9, Human
+1538	HDAC9_MOUSE	Histone Deacetylase 9, Mouse
+1539	HDAH_ALCSD	Histone Deacetylase-like Amidohydrolase, Alcsd
+1540	HD_HUMAN	Huntingtin, Human
+1541	HES1_MOUSE	Transcription Factor HES-1, Mouse
+1542	HG2A_HUMAN	HLA-DR Antigens-associated Invariant Chain, Human
+1543	HGF_HUMAN	Hepatocyte Growth Factor, Human
+1544	HIF1A_HUMAN	Hypoxia-inducible Factor 1 Alpha, Human
+1545	HIPK1_HUMAN	Homeodomain-interacting Protein Kinase 1, Human
+1546	HIPK2_HUMAN	Homeodomain-interacting Protein Kinase 2, Human
+1547	HIPK3_HUMAN	Homeodomain-interacting Protein Kinase 3, Human
+1548	HIPK4_HUMAN	Homeodomain-interacting Protein Kinase 4, Human
+1549	HIS1_MYCTU	ATP Phosphoribosyltransferase, Myctu
+1550	HIS7_CRYNB	Imidazoleglycerol-phosphate Dehydratase, Crynb
+1551	HIS7_YEAST	Imidazoleglycerol-phosphate Dehydratase, Yeast
+1552	HISX_BRAOC	Histidinol Dehydrogenase, Braoc
+1553	HISX_BRUSU	Histidinol Dehydrogenase, Brusu
+1554	HMCS1_RAT	HMG-CoA Synthase, Rat
+1555	HMDH_HUMAN	HMG-CoA Reductase, Human
+1556	HMDH_MESAU	3-hydroxy-3-methylglutaryl-coenzyme A Reductase, Mesau
+1557	HMDH_MOUSE	HMG-CoA Reductase, Mouse
+1558	HMDH_RAT	HMG-CoA Reductase, Rat
+1559	HMOX1_HUMAN	Heme Oxygenase 1, Human
+1560	HMOX1_RAT	Heme Oxygenase 1, Rat
+1561	HMOX2_RAT	Heme Oxygenase 2, Rat
+1562	HNMT_RAT	Histamine N-methyltransferase, Rat
+1563	HPGDS_HUMAN	Hematopoietic Prostaglandin D Synthase, Human
+1564	HPPD_PIG	4-hydroxyphenylpyruvate Dioxygenase, Pig
+1565	HPPD_RAT	4-hydroxyphenylpyruvate Dioxygenase, Rat
+1566	HPRK_BACSU	HPr Kinase, Bacsu
+1567	HPRT_HUMAN	Hypoxanthine-guanine Phosphoribosyltransferase, Human
+1568	HPSE_HUMAN	Heparanase, Human
+1569	HRH1_CAVPO	Histamine H1 Receptor, Guinea Pig
+1570	HRH1_HUMAN	Histamine H1 Receptor, Human
+1571	HRH1_RAT	Histamine H1 Receptor, Rat
+1572	HRH2_CAVPO	Histamine H2 Receptor, Guinea Pig
+1573	HRH2_HUMAN	Histamine H2 Receptor, Human
+1574	HRH2_RAT	Histamine H2 Receptor, Rat
+1575	HRH3_CAVPO	Histamine H3 Receptor, Guinea Pig
+1576	HRH3_HUMAN	Histamine H3 Receptor, Human
+1577	HRH3_MOUSE	Histamine H3 Receptor, Mouse
+1578	HRH3_RAT	Histamine H3 Receptor, Rat
+1579	HRH4_HUMAN	Histamine H4 Receptor, Human
+1580	HRH4_MOUSE	Histamine H4 Receptor, Mouse
+1581	HRH4_RAT	Histamine H4 Receptor, Rat
+1582	HRP1_PLAFA	Histidine-rich Protein, Plafa
+1583	HS90A_HUMAN	Heat Shock Protein HSP 90-alpha, Human
+1584	HS90A_MOUSE	Heat Shock Protein HSP 90-alpha, Mouse
+1585	HS90B_HUMAN	Heat Shock Protein HSP 90-beta, Human
+1586	HSC82_YEAST	Heat Shock Protein HSP 90 (HSC82), Yeast
+1587	HSF1_HUMAN	Heat Shock Factor Protein 1, Human
+1588	HSP7C_BOVIN	Heat Shock Cognate 71 KDa Protein, Bovin
+1589	HSP7C_HUMAN	Heat Shock Cognate 71 KDa Protein, Human
+1590	HSP82_YEAST	Heat Shock Protein HSP 90 (HSP82), Yeast
+1591	HSP90_RABIT	Heat Shock Protein HSP 90, Rabit
+1592	HSPB1_HUMAN	Heat Shock Protein Beta-1, Human
+1593	HST2_YEAST	NAD-dependent Deacetylase HST2, Yeast
+1594	HXK4_HUMAN	Hexokinase Type IV, Human
+1595	HXK4_RAT	Hexokinase Type IV, Rat
+1596	HYEP_HUMAN	Epoxide Hydrolase 1, Human
+1597	HYES_HUMAN	Epoxide Hydratase, Human
+1598	HYES_MOUSE	Epoxide Hydratase, Mouse
+1599	HYES_RAT	Epoxide Hydrolase 2, Rat
+1600	I23O1_HUMAN	Indoleamine 2,3-dioxygenase, Human
+1601	I23O1_MOUSE	Indoleamine 2,3-dioxygenase 1, Mouse
+1602	I5P1_HUMAN	Type I Inositol-1,4,5-trisphosphate 5-phosphatase, Human
+1603	I5P2_HUMAN	Inositol 1,4,5-trisphosphate 5-phosphatase, Human
+1604	IBP1_HUMAN	Insulin-like Growth Factor Binding Protein 1, Human
+1605	IBP2_HUMAN	Insulin-like Growth Factor Binding Protein 2, Human
+1606	IBP3_HUMAN	Insulin-like Growth Factor Binding Protein 3, Human
+1607	IBP4_HUMAN	Insulin-like Growth Factor Binding Protein 4, Human
+1608	IBP5_HUMAN	Insulin-like Growth Factor Binding Protein 5, Human
+1609	IBP6_HUMAN	Insulin-like Growth Factor Binding Protein 6, Human
+1610	ICAM1_HUMAN	Intercellular Adhesion Molecule-1, Human
+1611	ICK_HUMAN	Serine/threonine-protein Kinase ICK, Human
+1612	ICMT_HUMAN	Isoprenylcysteine Carboxyl Methyltransferase, Human
+1613	ICMT_RAT	Isoprenylcysteine Carboxyl Methyltransferase, Rat
+1614	IF4E_HUMAN	Eukaryotic Translation Initation Factor, Human
+1615	IF4E_MOUSE	Eukaryotic Translation Initiation Factor 4E, Mouse
+1616	IF4E_RABIT	Eukaryotic Translation Initiation Factor 4E, Rabit
+1617	IGA_NEIGO	IgA Protease, Neigo
+1618	IGF1R_HUMAN	Insulin-like Growth Factor I Receptor, Human
+1619	IGF1R_MOUSE	Insulin-like Growth Factor 1 Receptor, Mouse
+1620	IGF1R_RAT	Insulin-like Growth Factor 1 Receptor, Rat
+1621	IKBA_HUMAN	NF-kappaB Inhibitor Alpha, Human
+1622	IKBB_HUMAN	NF-kappaB Inhibitor Beta, Human
+1623	IKBE_HUMAN	NF-kappaB Inhibitor Epsilon, Human
+1624	IKKA_HUMAN	Inhibitor Of Nuclear Factor Kappa B Kinase Alpha Subunit, Human
+1625	IKKB_HUMAN	Inhibitor Of Nuclear Factor Kappa B Kinase Beta Subunit, Human
+1626	IKKE_HUMAN	Inhibitor Of Nuclear Factor Kappa B Kinase Epsilon Subunit, Human
+1627	IL2RA_HUMAN	Interleukin-2 Receptor Alpha Chain, Human
+1628	IL2RA_MOUSE	Interleukin-2 Receptor Alpha Chain, Mouse
+1629	IL2RB_HUMAN	Interleukin-2 Receptor Beta Chain, Human
+1630	IL2_HUMAN	Interleukin-2, Human
+1631	IL2_MOUSE	Interleukin-2, Mouse
+1632	IL5_MOUSE	Interleukin-5, Mouse
+1633	IL8_HUMAN	Interleukin-8, Human
+1634	ILK_HUMAN	Serine/threonine-protein Kinase ILK-1, Human
+1635	ILVB_YEAST	Acetolactate Synthase Catalytic Subunit, Mitochondrial, Yeast
+1636	IMDH1_HUMAN	Inosine-5'-monophosphate Dehydrogenase 1, Human
+1637	IMDH1_MOUSE	Inosine-5'-monophosphate Dehydrogenase 1, Mouse
+1638	IMDH2_HUMAN	Inosine-5'-monophosphate Dehydrogenase 2, Human
+1639	IMDH2_MOUSE	Inosine-5'-monophosphate Dehydrogenase 2, Mouse
+1640	IMPA1_BOVIN	Inositol-1(or 4)-monophosphatase 1, Bovin
+1641	IMPA1_HUMAN	Inositol-1(or 4)-monophosphatase 1, Human
+1642	IMPA2_HUMAN	Inositol-1(or 4)-monophosphatase 2, Human
+1643	INCE_HUMAN	Inner Centromere Protein, Human
+1644	INHA_MYCTU	Enoyl-[acyl-carrier-protein] Reductase, Myctu
+1645	INMT_HUMAN	Indolethylamine N-methyltransferase, Human
+1646	INSRR_HUMAN	Insulin Receptor-related Protein, Human
+1647	INSR_HUMAN	Insulin Receptor, Human
+1648	INSR_MOUSE	Insulin Receptor, Mouse
+1649	INSR_RAT	Insulin Receptor, Rat
+1650	IP3KA_HUMAN	Inositol-trisphosphate 3-kinase A, Human
+1651	IP3KA_RAT	Inositol-trisphosphate 3-kinase A, Rat
+1652	IP3KB_HUMAN	Inositol-trisphosphate 3-kinase B, Human
+1653	IP3KB_RAT	Inositol-trisphosphate 3-kinase B, Rat
+1654	IP3KC_RAT	Inositol 1,4,5-trisphosphate 3 Kinase C, Rat
+1655	IRAK1_HUMAN	Interleukin-1 Receptor-associated Kinase 1, Human
+1656	IRAK3_HUMAN	Interleukin-1 Receptor-associated Kinase 3, Human
+1657	IRAK4_HUMAN	Interleukin-1 Receptor-associated Kinase 4, Human
+1658	IRK11_HUMAN	Potassium Channel, Inwardly Rectifying, Subfamily J, Member 11, Human
+1659	IRK11_RAT	Potassium Channel, Inwardly Rectifying, Subfamily J, Member 11, Rat
+1660	IRK8_HUMAN	Potassium Channel, Inwardly Rectifying, Subfamily J, Member 8, Human
+1661	IRK8_RAT	Potassium Channel, Inwardly Rectifying, Subfamily J, Member 8, Rat
+1662	ISPA_ECOLI	Geranyltranstransferase, Ecoli
+1663	ISPE_YERPE	4-diphosphocytidyl-2-C-methyl-D-erythritol Kinase, Yerpe
+1664	ITA2B_HUMAN	Integrin Alpha-IIb, Human
+1665	ITA2_HUMAN	Integrin Alpha-2, Human
+1666	ITA4_HUMAN	Integrin Alpha-4, Human
+1667	ITA5_HUMAN	Fibronectin Receptor Alpha, Human
+1668	ITAL_HUMAN	Leukocyte Adhesion Glycoprotein LFA-1 Alpha, Human
+1669	ITAL_MOUSE	Integrin Alpha-L, Mouse
+1670	ITAV_HUMAN	Vitronectin Receptor Alpha, Human
+1671	ITB1_HUMAN	Fibronectin Receptor Beta, Human
+1672	ITB1_RAT	Fibronectin Receptor Beta, Rat
+1673	ITB2_HUMAN	Integrin Beta-2, Human
+1674	ITB3_HUMAN	Integrin Beta-3, Human
+1675	ITB5_HUMAN	Integrin Beta-5, Human
+1676	ITB6_HUMAN	Integrin Beta-6, Human
+1677	ITB7_HUMAN	Integrin Beta-7, Human
+1678	ITK_HUMAN	Tyrosine-protein Kinase ITK/TSK, Human
+1679	ITPR1_BOVIN	Inositol 1,4,5-trisphosphate Receptor Type 1, Bovin
+1680	ITPR1_HUMAN	Inositol 1,4,5-trisphosphate Receptor Type 1, Human
+1681	ITPR1_RAT	Inositol 1,4,5-trisphosphate Receptor Type 1, Rat
+1682	ITPR2_BOVIN	Inositol 1,4,5-trisphosphate Receptor Type 2, Bovin
+1683	ITPR2_HUMAN	Inositol 1,4,5-trisphosphate Receptor Type 2, Human
+1684	ITPR2_RAT	Inositol 1,4,5-trisphosphate Receptor Type 2, Rat
+1685	ITPR3_BOVIN	Inositol 1,4,5-trisphosphate Receptor Type 3, Bovin
+1686	ITPR3_HUMAN	Inositol 1,4,5-trisphosphate Receptor Type 3, Human
+1687	ITPR3_RAT	Inositol 1,4,5-trisphosphate Receptor Type 3, Rat
+1688	JAK1_HUMAN	Tyrosine-protein Kinase JAK1, Human
+1689	JAK1_MOUSE	Tyrosine-protein Kinase JAK1, Mouse
+1690	JAK2_HUMAN	Tyrosine-protein Kinase JAK2, Human
+1691	JAK3_HUMAN	Tyrosine-protein Kinase JAK3, Human
+1692	JAK3_MOUSE	Tyrosine-protein Kinase JAK3, Mouse
+1693	JUN_HUMAN	Proto-oncogene C-JUN, Human
+1694	KAP0_HUMAN	CAMP-dependent Protein Kinase Type I-alpha Regulatory Subunit, Human
+1695	KAP1_HUMAN	CAMP-dependent Protein Kinase Type I-beta Regulatory Subunit, Human
+1696	KAP2_BOVIN	CAMP-dependent Protein Kinase Type II-alpha Regulatory Subunit, Bovin
+1697	KAP2_HUMAN	CAMP-dependent Protein Kinase Type II-alpha Regulatory Subunit, Human
+1698	KAP3_BOVIN	CAMP-dependent Protein Kinase Type II-beta Regulatory Subunit, Bovin
+1699	KAP3_HUMAN	CAMP-dependent Protein Kinase Type II-beta Regulatory Subunit, Human
+1700	KAPCA_BOVIN	CAMP-dependent Protein Kinase Alpha-catalytic Subunit, Bovin
+1701	KAPCA_HUMAN	CAMP-dependent Protein Kinase Alpha-catalytic Subunit, Human
+1702	KAPCA_MOUSE	CAMP-dependent Protein Kinase Alpha-catalytic Subunit, Mouse
+1703	KAPCA_RAT	CAMP-dependent Protein Kinase Alpha-catalytic Subunit, Rat
+1704	KAPCB_BOVIN	CAMP-dependent Protein Kinase Beta-1 Catalytic Subunit, Bovin
+1705	KAPCB_HUMAN	CAMP-dependent Protein Kinase Beta-1 Catalytic Subunit, Human
+1706	KAPCB_MOUSE	CAMP-dependent Protein Kinase Beta-1 Catalytic Subunit, Mouse
+1707	KAPCG_HUMAN	CAMP-dependent Protein Kinase, Gamma Catalytic Subunit, Human
+1708	KAT2B_HUMAN	Histone Acetyltransferase PCAF, Human
+1709	KAT5_HUMAN	Histone Acetyltransferase KAT5, Human
+1710	KC1AL_HUMAN	Casein Kinase I Isoform Alpha-like, Human
+1711	KC1A_HUMAN	Casein Kinase I Alpha, Human
+1712	KC1A_MOUSE	Casein Kinase I Alpha, Mouse
+1713	KC1D_HUMAN	Casein Kinase I Delta, Human
+1714	KC1D_MOUSE	Casein Kinase I Delta, Mouse
+1715	KC1D_RAT	Casein Kinase I Delta, Rat
+1716	KC1E_HUMAN	Casein Kinase I Epsilon, Human
+1717	KC1E_MOUSE	Casein Kinase I Epsilon, Mouse
+1718	KC1G1_HUMAN	Casein Kinase I Gamma 1, Human
+1719	KC1G1_MOUSE	Casein Kinase I Gamma 1, Mouse
+1720	KC1G2_HUMAN	Casein Kinase I Gamma 2, Human
+1721	KC1G3_HUMAN	Casein Kinase I Isoform Gamma-3, Human
+1722	KCAB1_HUMAN	Voltage-gated Potassium Channel Subunit Beta-1, Human
+1723	KCC1A_HUMAN	CaM Kinase I Alpha, Human
+1724	KCC1D_HUMAN	CaM Kinase I Delta, Human
+1725	KCC1G_HUMAN	CaM Kinase I Gamma, Human
+1726	KCC2A_HUMAN	CaM Kinase II Alpha, Human
+1727	KCC2A_MOUSE	CaM Kinase II Alpha, Mouse
+1728	KCC2A_RAT	CaM Kinase II Alpha, Rat
+1729	KCC2B_HUMAN	CaM Kinase II Beta, Human
+1730	KCC2B_MOUSE	CaM Kinase II Beta, Mouse
+1731	KCC2B_RAT	CaM Kinase II Beta, Rat
+1732	KCC2D_HUMAN	CaM Kinase II Delta, Human
+1733	KCC2D_RAT	CaM Kinase II Delta, Rat
+1734	KCC2G_HUMAN	CaM Kinase II Gamma, Human
+1735	KCC2G_MOUSE	CaM Kinase II Gamma, Mouse
+1736	KCC2G_RAT	CaM Kinase II Gamma, Rat
+1737	KCC4_HUMAN	CaM Kinase IV, Human
+1738	KCMA1_HUMAN	Large Conductance Calcium-activated Potassium Channel Subfamily M Alpha Member 1 Isoform B, Human
+1739	KCMA1_RAT	Calcium-activated Potassium Channel Subunit Alpha-1, Rat
+1740	KCNA1_HUMAN	Voltage-gated Potassium Channel Subunit Kv1.1, Human
+1741	KCNA2_HUMAN	Voltage-gated Potassium Channel Subunit Kv1.2, Human
+1742	KCNA3_HUMAN	Voltage-gated Potassium Channel Subunit Kv1.3, Human
+1743	KCNA4_HUMAN	Voltage-gated Potassium Channel Subunit Kv1.4, Human
+1744	KCNA5_HUMAN	Voltage-gated Potassium Channel Subunit Kv1.5, Human
+1745	KCNA7_HUMAN	Voltage-gated Potassium Channel Subunit Kv1.7, Human
+1746	KCNB1_RAT	Potassium Voltage-gated Channel Subfamily B Member 1, Rat
+1747	KCND2_RAT	Potassium Voltage-gated Channel Subfamily D Member 2, Rat
+1748	KCND3_HUMAN	Voltage-gated Potassium Channel Subunit Kv4.3, Human
+1749	KCNE1_HUMAN	Voltage-gated Potassium Channel Beta Subunit Mink, Human
+1750	KCNH1_HUMAN	Voltage-gated Potassium Channel Subunit Kv10.1, Human
+1751	KCNH2_CAVPO	Potassium Voltage-gated Channel Subfamily H Member 2, Guinea Pig
+1752	KCNH2_HUMAN	HERG, Human
+1753	KCNN1_HUMAN	Small Conductance Calcium-activated Potassium Channel Protein 1, Human
+1754	KCNN1_RAT	Small Conductance Calcium-activated Potassium Channel Protein 1, Rat
+1755	KCNN2_HUMAN	Small Conductance Calcium-activated Potassium Channel Protein 2, Human
+1756	KCNN2_RAT	Small Conductance Calcium-activated Potassium Channel Protein 2, Rat
+1757	KCNN3_HUMAN	Small Conductance Calcium-activated Potassium Channel Protein 3, Human
+1758	KCNN3_RAT	Small Conductance Calcium-activated Potassium Channel Protein 3, Rat
+1759	KCNN4_HUMAN	Intermediate Conductance Calcium-activated Potassium Channel Protein 4, Human
+1760	KCNN4_RAT	Intermediate Conductance Calcium-activated Potassium Channel Protein 4, Rat
+1761	KCNQ1_CAVPO	Voltage-gated Potassium Channel Subunit Kv7.1, Guinea Pig
+1762	KCNQ1_HUMAN	Voltage-gated Potassium Channel Subunit Kv7.1, Human
+1763	KCNQ2_HUMAN	Voltage-gated Potassium Channel Subunit Kv7.2, Human
+1764	KCNQ3_HUMAN	Voltage-gated Potassium Channel Subunit Kv7.3, Human
+1765	KD4DL_HUMAN	Lysine-specific Demethylase 4D-like, Human
+1766	KDM1A_HUMAN	Lysine-specific Histone Demethylase 1, Human
+1767	KDM4A_HUMAN	Lysine-specific Demethylase 4A, Human
+1768	KDM4C_HUMAN	Lysine-specific Demethylase 4C, Human
+1769	KGP1_BOVIN	CGMP-dependent Protein Kinase 1 Alpha, Bovin
+1770	KGP1_HUMAN	CGMP-dependent Protein Kinase 1 Beta, Human
+1771	KGP2_HUMAN	CGMP-dependent Protein Kinase 2, Human
+1772	KHDR1_HUMAN	KH Domain-containing, RNA-binding, Signal Transduction-associated Protein 1, Human
+1773	KHK_HUMAN	Ketohexokinase, Human
+1774	KIF11_HUMAN	Kinesin-like Protein 1, Human
+1775	KINA_BACSU	Sporulation Kinase A, Bacsu
+1776	KISSR_HUMAN	Metastin Receptor, Human
+1777	KISSR_RAT	KiSS-1 Receptor, Rat
+1778	KITH_HHV1	Thymidine Kinase, Hhv1
+1779	KITH_HHV1S	Thymidine Kinase, Hhv1s
+1780	KITH_HUMAN	Thymidine Kinase, Cytosolic, Human
+1781	KITH_RAT	Thymidine Kinase, Rat
+1782	KITH_VZVD	Thymidine Kinase, Vzvd
+1783	KITM_HUMAN	Thymidine Kinase, Mitochondrial, Human
+1784	KIT_HUMAN	Stem Cell Growth Factor Receptor, Human
+1785	KKCC1_HUMAN	CaM-kinase Kinase Alpha, Human
+1786	KKCC2_HUMAN	CaM-kinase Kinase Beta, Human
+1787	KLK10_HUMAN	Kallikrein 10, Human
+1788	KLK11_HUMAN	Kallikrein 11, Human
+1789	KLK12_HUMAN	Kallikrein 12, Human
+1790	KLK13_HUMAN	Kallikrein 13, Human
+1791	KLK14_HUMAN	Kallikrein 14, Human
+1792	KLK15_HUMAN	Kallikrein 15, Human
+1793	KLK1_HUMAN	Kallikrein 1, Human
+1794	KLK2_HUMAN	Kallikrein 2, Human
+1795	KLK3_HUMAN	Prostate Specific Antigen, Human
+1796	KLK4_HUMAN	Kallikrein 4, Human
+1797	KLK5_HUMAN	Kallikrein 5, Human
+1798	KLK6_HUMAN	Kallikrein 6, Human
+1799	KLK7_HUMAN	Kallikrein 7, Human
+1800	KLK8_HUMAN	Kallikrein 8, Human
+1801	KLK9_HUMAN	Kallikrein 9, Human
+1802	KLKB1_HUMAN	Plasma Kallikrein, Human
+1803	KMO_HUMAN	Kynurenine 3-monooxygenase, Human
+1804	KMO_RAT	Kynurenine 3-monooxygenase, Rat
+1805	KPB1_HUMAN	Phosphorylase Kinase Alpha M Subunit, Human
+1806	KPB2_HUMAN	Phosphorylase Kinase Alpha L Subunit, Human
+1807	KPBB_HUMAN	Phosphorylase Kinase Beta Subunit, Human
+1808	KPC1_CANAX	Protein Kinase C-like 1, Canax
+1809	KPCA_BOVIN	Protein Kinase C Alpha, Bovin
+1810	KPCA_HUMAN	Protein Kinase C Alpha, Human
+1811	KPCA_MOUSE	Protein Kinase C Alpha, Mouse
+1812	KPCA_RAT	Protein Kinase C Alpha, Rat
+1813	KPCB_HUMAN	Protein Kinase C Beta, Human
+1814	KPCB_MOUSE	Protein Kinase C Beta, Mouse
+1815	KPCB_RAT	Protein Kinase C Beta, Rat
+1816	KPCD1_HUMAN	Protein Kinase C Mu, Human
+1817	KPCD2_HUMAN	Serine/threonine-protein Kinase D2, Human
+1818	KPCD3_HUMAN	Protein Kinase C Nu, Human
+1819	KPCD_HUMAN	Protein Kinase C Delta, Human
+1820	KPCD_MOUSE	Protein Kinase C Delta, Mouse
+1821	KPCD_RAT	Protein Kinase C Delta, Rat
+1822	KPCE_HUMAN	Protein Kinase C Epsilon, Human
+1823	KPCE_RAT	Protein Kinase C Epsilon, Rat
+1824	KPCG_HUMAN	Protein Kinase C Gamma, Human
+1825	KPCG_MOUSE	Protein Kinase C Gamma, Mouse
+1826	KPCG_RAT	Protein Kinase C Gamma, Rat
+1827	KPCI_HUMAN	Protein Kinase C Iota, Human
+1828	KPCL_HUMAN	Protein Kinase C Eta, Human
+1829	KPCL_MOUSE	Protein Kinase C Eta, Mouse
+1830	KPCL_RAT	Protein Kinase C Eta, Rat
+1831	KPCT_HUMAN	Protein Kinase C Theta, Human
+1832	KPCT_MOUSE	Protein Kinase C Theta Type, Mouse
+1833	KPCT_RAT	Protein Kinase C Theta, Rat
+1834	KPCZ_HUMAN	Protein Kinase C Zeta, Human
+1835	KPCZ_RAT	Protein Kinase C Zeta, Rat
+1836	KPYM_HUMAN	Pyruvate Kinase Isozymes M1/M2, Human
+1837	KS6A1_HUMAN	Ribosomal Protein S6 Kinase Alpha 1, Human
+1838	KS6A2_HUMAN	Ribosomal Protein S6 Kinase Alpha 2, Human
+1839	KS6A3_HUMAN	Ribosomal Protein S6 Kinase Alpha 3, Human
+1840	KS6A4_HUMAN	Ribosomal Protein S6 Kinase Alpha 4, Human
+1841	KS6A5_HUMAN	Ribosomal Protein S6 Kinase Alpha 5, Human
+1842	KS6A6_HUMAN	Ribosomal Protein S6 Kinase Alpha 6, Human
+1843	KS6B1_HUMAN	Ribosomal Protein S6 Kinase 1, Human
+1844	KS6B2_HUMAN	Ribosomal Protein S6 Kinase 2, Human
+1845	KSYK_HUMAN	Tyrosine-protein Kinase SYK, Human
+1846	KSYK_RAT	Tyrosine-protein Kinase SYK, Rat
+1847	KTHY_HUMAN	Thymidylate Kinase, Human
+1848	KTHY_MYCTU	Thymidylate Kinase, Myctu
+1849	KYNU_HUMAN	Kynureninase, Human
+1850	KYNU_RAT	Kynureninase, Rat
+1851	LACB_BOVIN	Beta-lactoglobulin, Bovin
+1852	LACTB_HUMAN	Serine Beta-lactamase-like Protein, Human
+1853	LASR_PSEAE	Transcriptional Activator Protein LasR, Pseae
+1854	LAT1_RAT	L-type Amino Acid Transporter 1, Rat
+1855	LATS1_HUMAN	Serine/threonine-protein Kinase LATS1, Human
+1856	LATS2_HUMAN	Serine/threonine-protein Kinase LATS2, Human
+1857	LCAP_HUMAN	Cystinyl Aminopeptidase, Human
+1858	LCAP_RAT	Cystinyl Aminopeptidase, Rat
+1859	LCK_HUMAN	Tyrosine-protein Kinase LCK, Human
+1860	LCK_MOUSE	Tyrosine-protein Kinase LCK, Mouse
+1861	LDHA_HUMAN	L-lactate Dehydrogenase A Chain, Human
+1862	LDHB_HUMAN	L-lactate Dehydrogenase B Chain, Human
+1863	LDHC_HUMAN	L-lactate Dehydrogenase C Chain, Human
+1864	LDHD_HUMAN	D-lactate Dehydrogenase, Human
+1865	LDLR_HUMAN	LDL Receptor, Human
+1866	LEF_BACAN	Anthrax Lethal Factor, Bacan
+1867	LEG1_HUMAN	Galectin-1, Human
+1868	LEG3_HUMAN	Galectin-3, Human
+1869	LEG4_HUMAN	Galectin-4, Human
+1870	LEG7_HUMAN	Galectin-7, Human
+1871	LEG8_HUMAN	Galectin-8, Human
+1872	LEG9_HUMAN	Galectin-9, Human
+1873	LGMN_HUMAN	Legumain, Human
+1874	LGUL_HUMAN	Glyoxalase I, Human
+1875	LGUL_YEAST	Lactoylglutathione Lyase, Yeast
+1876	LICH_HUMAN	Lysosomal Acid Lipase/cholesteryl Ester Hydrolase, Human
+1877	LIMK1_HUMAN	LIM Domain Kinase 1, Human
+1878	LIMK2_HUMAN	LIM Domain Kinase 2, Human
+1879	LIPC_HUMAN	Hepatic Lipase, Human
+1880	LIPE_HUMAN	Endothelial Lipase, Human
+1881	LIPL_HUMAN	Lipoprotein Lipase, Human
+1882	LIPL_RAT	Lipoprotein Lipase, Rat
+1883	LIPP_PIG	Pancreatic Triacylglycerol Lipase, Pig
+1884	LIPS_HUMAN	Hormone Sensitive Lipase, Human
+1885	LIPS_RAT	Hormone-sensitive Lipase, Rat
+1886	LKHA4_CAVPO	Leukotriene A-4 Hydrolase, Guinea Pig
+1887	LKHA4_HUMAN	Leukotriene A4 Hydrolase, Human
+1888	LKHA4_MOUSE	Leukotriene A4 Hydrolase, Mouse
+1889	LKHA4_RAT	Leukotriene A4 Hydrolase, Rat
+1890	LMBL1_HUMAN	Lethal(3)malignant Brain Tumor-like Protein 1, Human
+1891	LMBL3_HUMAN	Lethal(3)malignant Brain Tumor-like Protein 3, Human
+1892	LMCPB_LEIME	Cysteine Proteinase B, Leime
+1893	LOX12_HUMAN	Arachidonate 12-lipoxygenase, Human
+1894	LOX12_MOUSE	Arachidonate 12-lipoxygenase, Mouse
+1895	LOX12_PIG	Arachidonate 12-lipoxygenase, Pig
+1896	LOX15_HUMAN	Arachidonate 15-lipoxygenase, Human
+1897	LOX15_RABIT	Arachidonate 15-lipoxygenase, Rabit
+1898	LOX1_SOYBN	Seed Lipoxygenase-1, Soybn
+1899	LOX5_HUMAN	Arachidonate 5-lipoxygenase, Human
+1900	LOX5_MOUSE	Arachidonate 5-lipoxygenase, Mouse
+1901	LOX5_RAT	Arachidonate 5-lipoxygenase, Rat
+1902	LPAR1_HUMAN	Lysophosphatidic Acid Receptor Edg-2, Human
+1903	LPAR1_RAT	Lysophosphatidic Acid Receptor Edg-2, Rat
+1904	LPAR2_HUMAN	Lysophosphatidic Acid Receptor Edg-4, Human
+1905	LPAR3_HUMAN	Lysophosphatidic Acid Receptor Edg-7, Human
+1906	LPAR3_RAT	Lysophosphatidic Acid Receptor Edg-7, Rat
+1907	LPAR5_HUMAN	Lysophosphatidic Acid Receptor 5, Human
+1908	LPH_RAT	Lactase-glycosylceramidase, Rat
+1909	LPXC_AQUAE	UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine Deacetylase, Aquae
+1910	LPXC_ECOLI	UDP-3-O-acyl-GlcNAc Deacetylase, Ecoli
+1911	LPXC_PSEAE	UDP-3-O-acyl-GlcNAc Deacetylase, Pseae
+1912	LSHR_HUMAN	Luteinizing Hormone/Choriogonadotropin Receptor, Human
+1913	LT4R1_HUMAN	Leukotriene B4 Receptor 1, Human
+1914	LT4R1_MOUSE	Leukotriene B4 Receptor 1, Mouse
+1915	LT4R2_HUMAN	Leukotriene B4 Receptor 2, Human
+1916	LT4R2_MOUSE	Leukotriene B4 Receptor 2, Mouse
+1917	LTK_HUMAN	Leukocyte Tyrosine Kinase Receptor, Human
+1918	LUCI_LUCLA	Luciferase, Lucla
+1919	LUCI_PHOPE	Luciferin 4-monooxygenase, Phope
+1920	LUCI_PHOPY	Luciferin 4-monooxygenase, Phopy
+1921	LUXN_VIBHA	Autoinducer 1 Sensor Kinase/phosphatase LuxN, Vibha
+1922	LUXR_VIBFI	Transcriptional Activator Protein LuxR, Vibfi
+1923	LUXS_BACSU	S-ribosylhomocysteine Lyase, Bacsu
+1924	LUXS_ECOLI	S-ribosylhomocysteine Lyase, Ecoli
+1925	LUXS_VIBHB	S-ribosylhomocysteine Lyase, Vibhb
+1926	LX12L_RAT	Arachidonate 12-lipoxygenase, Rat
+1927	LX15B_HUMAN	Arachidonate 15-lipoxygenase, Type II, Human
+1928	LX15B_RAT	Arachidonate 15-lipoxygenase, Type II, Rat
+1929	LYAG_BOVIN	Alpha-glucosidase, Bovin
+1930	LYAG_HUMAN	Lysosomal Alpha-glucosidase, Human
+1931	LYAG_MOUSE	Lysosomal Alpha-glucosidase, Mouse
+1932	LYAG_RAT	Acidic Alpha-glucosidase, Rat
+1933	LYAM1_HUMAN	Leukocyte Adhesion Molecule-1, Human
+1934	LYAM2_HUMAN	Selectin E, Human
+1935	LYAM3_HUMAN	P-selectin, Human
+1936	LYN_HUMAN	Tyrosine-protein Kinase Lyn, Human
+1937	LYN_RAT	Tyrosine-protein Kinase Lyn, Rat
+1938	LYPA1_HUMAN	Acyl-protein Thioesterase 1, Human
+1939	LYSC1_RAT	Lysozyme C, Rat
+1940	M3K10_HUMAN	Mitogen-activated Protein Kinase Kinase Kinase 10, Human
+1941	M3K11_HUMAN	Mitogen-activated Protein Kinase Kinase Kinase 11, Human
+1942	M3K13_HUMAN	Mitogen-activated Protein Kinase Kinase Kinase 13, Human
+1943	M3K14_HUMAN	Mitogen-activated Protein Kinase Kinase Kinase 14, Human
+1944	M3K15_HUMAN	Mitogen-activated Protein Kinase Kinase Kinase 15, Human
+1945	M3K1_HUMAN	Mitogen-activated Protein Kinase Kinase Kinase 1, Human
+1946	M3K2_HUMAN	Mitogen-activated Protein Kinase Kinase Kinase 2, Human
+1947	M3K3_HUMAN	Mitogen-activated Protein Kinase Kinase Kinase 3, Human
+1948	M3K4_HUMAN	Mitogen-activated Protein Kinase Kinase Kinase 4, Human
+1949	M3K5_HUMAN	Mitogen-activated Protein Kinase Kinase Kinase 5, Human
+1950	M3K7_HUMAN	Mitogen-activated Protein Kinase Kinase Kinase 7, Human
+1951	M3K8_HUMAN	Mitogen-activated Protein Kinase Kinase Kinase 8, Human
+1952	M3K9_HUMAN	Mitogen-activated Protein Kinase Kinase Kinase 9, Human
+1953	M4K1_HUMAN	Mitogen-activated Protein Kinase Kinase Kinase Kinase 1, Human
+1954	M4K2_HUMAN	Mitogen-activated Protein Kinase Kinase Kinase Kinase 2, Human
+1955	M4K3_HUMAN	Mitogen-activated Protein Kinase Kinase Kinase Kinase 3, Human
+1956	M4K4_HUMAN	Mitogen-activated Protein Kinase Kinase Kinase Kinase 4, Human
+1957	M4K5_HUMAN	Mitogen-activated Protein Kinase Kinase Kinase Kinase 5, Human
+1958	MA122_DROME	Mannosyl-oligosaccharide Alpha-1,2-mannosidase Isoform B, Drome
+1959	MA1B1_HUMAN	Endoplasmic Reticulum Mannosyl-oligosaccharide 1,2-alpha-mannosidase, Human
+1960	MA2A1_HUMAN	Alpha-mannosidase 2A1, Human
+1961	MA2A1_RAT	Mannosidase 2 Alpha 1, Rat
+1962	MA2A2_HUMAN	Alpha-mannosidase 2A2, Human
+1963	MA2B1_HUMAN	Lysosomal Alpha-mannosidase, Human
+1964	MA2B2_HUMAN	Epididymis-specific Alpha-mannosidase, Human
+1965	MA2C1_RAT	Alpha-mannosidase 2C1, Rat
+1966	MADCA_HUMAN	Mucosal Addressin Cell Adhesion Molecule-1, Human
+1967	MAGI3_HUMAN	Membrane-associated Guanylate Kinase-related 3, Human
+1968	MAG_HUMAN	Myelin-associated Glycoprotein, Human
+1969	MAG_MOUSE	Myelin-associated Glycoprotein, Mouse
+1970	MAL12_YEAST	Alpha-glucosidase MAL12, Yeast
+1971	MAL32_YEAST	Alpha-glucosidase MAL32, Yeast
+1972	MAL62_YEASX	Alpha-glucosidase MAL62, Yeasx
+1973	MALX3_YEAST	Oligo-1,6-glucosidase, Yeast
+1974	MANBA_HUMAN	Beta-mannosidase, Human
+1975	MANBA_RAT	Beta-mannosidase, Rat
+1976	MANR_PSEPU	Mandelate Racemase, Psepu
+1977	MAOX_HUMAN	NADP-dependent Malic Enzyme, Human
+1978	MAPK2_HUMAN	MAP Kinase-activated Protein Kinase 2, Human
+1979	MAPK3_HUMAN	MAP Kinase-activated Protein Kinase 3, Human
+1980	MAPK5_HUMAN	MAP Kinase-activated Protein Kinase 5, Human
+1981	MARK1_HUMAN	Serine/threonine-protein Kinase MARK1, Human
+1982	MARK2_HUMAN	MAP/microtubule Affinity-regulating Kinase 2, Human
+1983	MARK3_HUMAN	Serine/threonine-protein Kinase C-TAK1, Human
+1984	MARK4_HUMAN	MAP/microtubule Affinity-regulating Kinase 4, Human
+1985	MAST1_HUMAN	Microtubule-associated Serine/threonine-protein Kinase 1, Human
+1986	MAT1_HUMAN	CDK-activating Kinase Assembly Factor MAT1, Human
+1987	MBTP1_HUMAN	Membrane-bound Transcription Factor Site-1 Protease, Human
+1988	MC3R_HUMAN	Melanocortin Receptor 3, Human
+1989	MC3R_MOUSE	Melanocortin Receptor 3, Mouse
+1990	MC3R_RAT	Melanocortin Receptor 3, Rat
+1991	MC4R_HUMAN	Melanocortin Receptor 4, Human
+1992	MC4R_MOUSE	Melanocortin Receptor 4, Mouse
+1993	MC4R_RAT	Melanocortin Receptor 4, Rat
+1994	MC5R_HUMAN	Melanocortin Receptor 5, Human
+1995	MC5R_MOUSE	Melanocortin Receptor 5, Mouse
+1996	MC5R_RAT	Melanocortin Receptor 5, Rat
+1997	MCHR1_HUMAN	Melanin-concentrating Hormone Receptor 1, Human
+1998	MCHR1_MOUSE	Melanin-concentrating Hormone Receptor 1, Mouse
+1999	MCHR1_RAT	Melanin-concentrating Hormone Receptor 1, Rat
+2000	MCHR2_HUMAN	Melanin-concentrating Hormone Receptor 2, Human
+2001	MCL1_HUMAN	Induced Myeloid Leukemia Cell Differentiation Protein Mcl-1, Human
+2002	MCL1_MOUSE	Induced Myeloid Leukemia Cell Differentiation Protein Mcl-1 Homolog, Mouse
+2003	MCPT9_MOUSE	Mast Cell Protease 9, Mouse
+2004	MCR_HUMAN	Mineralocorticoid Receptor, Human
+2005	MCR_RAT	Mineralocorticoid Receptor, Rat
+2006	MDHC_HUMAN	Malate Dehydrogenase Cytoplasmic, Human
+2007	MDHC_PIG	Malate Dehydrogenase Cytoplasmic, Pig
+2008	MDHM_HUMAN	Malate Dehydrogenase, Mitochondrial, Human
+2009	MDHM_PIG	Malate Dehydrogenase Mitochondrial, Pig
+2010	MDH_THETH	Malate Dehydrogenase, Theth
+2011	MDM2_HUMAN	P53-binding Protein Mdm-2, Human
+2012	MDR1_HUMAN	P-glycoprotein 1, Human
+2013	MDR1_MOUSE	P-glycoprotein 1, Mouse
+2014	MDR2_MOUSE	P-glycoprotein 2, Mouse
+2015	MDR3_MOUSE	P-glycoprotein 3, Mouse
+2016	MDTK_ECOLI	Multidrug Resistance Protein MdtK, Ecoli
+2017	MED23_HUMAN	Vitamin D3 Receptor-interacting Protein, Human
+2018	MELK_HUMAN	Maternal Embryonic Leucine Zipper Kinase, Human
+2019	MENB_MYCTU	1,4-Dihydroxy-2-naphthoyl-CoA Synthase, Myctu
+2020	MERTK_HUMAN	Proto-oncogene Tyrosine-protein Kinase MER, Human
+2021	METC_ECOLI	Cystathionine Beta-lyase MetC, Ecoli
+2022	METK1_RAT	S-adenosylmethionine Synthetase Alpha And Beta Forms, Rat
+2023	METK2_RAT	S-adenosylmethionine Synthetase Gamma Form, Rat
+2024	MET_HUMAN	Hepatocyte Growth Factor Receptor, Human
+2025	MET_MOUSE	Hepatocyte Growth Factor Receptor, Mouse
+2026	MGA_HUMAN	Maltase-glucoamylase, Human
+2027	MGLL_HUMAN	Monoglyceride Lipase, Human
+2028	MGLL_MOUSE	Monoglyceride Lipase, Mouse
+2029	MGLL_RAT	Monoglyceride Lipase, Rat
+2030	MGMT_HUMAN	6-O-methylguanine-DNA Methyltransferase, Human
+2031	MIF_HUMAN	Macrophage Migration Inhibitory Factor, Human
+2032	MINK1_HUMAN	Misshapen-like Kinase 1, Human
+2033	MIP_LEGPN	Outer Membrane Protein MIP, Legpn
+2034	MK01_HUMAN	MAP Kinase ERK2, Human
+2035	MK01_RAT	Mitogen-activated Protein Kinase 1, Rat
+2036	MK03_HUMAN	MAP Kinase ERK1, Human
+2037	MK04_HUMAN	Mitogen-activated Protein Kinase 4, Human
+2038	MK06_HUMAN	Mitogen-activated Protein Kinase 6, Human
+2039	MK07_HUMAN	Mitogen-activated Protein Kinase 7, Human
+2040	MK08_HUMAN	C-Jun N-terminal Kinase 1, Human
+2041	MK08_RAT	Mitogen-activated Protein Kinase 8, Rat
+2042	MK09_HUMAN	C-Jun N-terminal Kinase 2, Human
+2043	MK10_HUMAN	C-Jun N-terminal Kinase 3, Human
+2044	MK10_RAT	C-Jun N-terminal Kinase 3, Rat
+2045	MK11_HUMAN	MAP Kinase P38 Beta, Human
+2046	MK11_MOUSE	MAP Kinase P38 Beta, Mouse
+2047	MK12_HUMAN	MAP Kinase P38 Gamma, Human
+2048	MK12_MOUSE	MAP Kinase P38 Gamma, Mouse
+2049	MK13_HUMAN	MAP Kinase P38 Delta, Human
+2050	MK13_MOUSE	MAP Kinase P38 Delta, Mouse
+2051	MK14_HUMAN	MAP Kinase P38 Alpha, Human
+2052	MK14_MOUSE	MAP Kinase P38 Alpha, Mouse
+2053	MK14_RAT	MAP Kinase P38 Alpha, Rat
+2054	MK15_HUMAN	Mitogen-activated Protein Kinase 15, Human
+2055	MKNK1_HUMAN	MAP Kinase-interacting Serine/threonine-protein Kinase MNK1, Human
+2056	MKNK2_HUMAN	MAP Kinase Signal-integrating Kinase 2, Human
+2057	MLTK_HUMAN	Mixed Lineage Kinase 7, Human
+2058	MMP10_HUMAN	Matrix Metalloproteinase 10, Human
+2059	MMP11_HUMAN	Matrix Metalloproteinase 11, Human
+2060	MMP11_MOUSE	Matrix Metalloproteinase 11, Mouse
+2061	MMP12_HUMAN	Matrix Metalloproteinase 12, Human
+2062	MMP12_MOUSE	Matrix Metalloproteinase 12, Mouse
+2063	MMP12_RAT	Macrophage Metalloelastase, Rat
+2064	MMP13_BOVIN	Matrix Metalloproteinase 13, Bovin
+2065	MMP13_HUMAN	Matrix Metalloproteinase 13, Human
+2066	MMP13_RAT	Matrix Metalloproteinase 13, Rat
+2067	MMP14_HUMAN	Matrix Metalloproteinase 14, Human
+2068	MMP15_HUMAN	Matrix Metalloproteinase 15, Human
+2069	MMP16_HUMAN	Matrix Metalloproteinase 16, Human
+2070	MMP17_HUMAN	Matrix Metalloproteinase 17, Human
+2071	MMP1_HUMAN	Matrix Metalloproteinase-1, Human
+2072	MMP25_HUMAN	Matrix Metalloproteinase-25, Human
+2073	MMP26_HUMAN	Matrix Metalloproteinase 26, Human
+2074	MMP2_HUMAN	Matrix Metalloproteinase-2, Human
+2075	MMP2_MOUSE	Matrix Metalloproteinase-2, Mouse
+2076	MMP2_RAT	72 KDa Type IV Collagenase, Rat
+2077	MMP3_HUMAN	Matrix Metalloproteinase 3, Human
+2078	MMP7_HUMAN	Matrix Metalloproteinase 7, Human
+2079	MMP8_HUMAN	Matrix Metalloproteinase 8, Human
+2080	MMP8_RAT	Matrix Metalloproteinase 8, Rat
+2081	MMP9_HUMAN	Matrix Metalloproteinase 9, Human
+2082	MMP9_MOUSE	Matrix Metalloproteinase 9, Mouse
+2083	MMP9_RAT	Matrix Metalloproteinase 9, Rat
+2084	MOT1_HUMAN	Monocarboxylate Transporter 1, Human
+2085	MP2K1_HUMAN	Dual Specificity Mitogen-activated Protein Kinase Kinase 1, Human
+2086	MP2K1_MOUSE	Dual Specificity Mitogen-activated Protein Kinase Kinase 1, Mouse
+2087	MP2K2_HUMAN	Dual Specificity Mitogen-activated Protein Kinase Kinase 2, Human
+2088	MP2K3_HUMAN	Dual Specificity Mitogen-activated Protein Kinase Kinase 3, Human
+2089	MP2K4_HUMAN	Dual Specificity Mitogen-activated Protein Kinase Kinase 4, Human
+2090	MP2K5_HUMAN	Dual Specificity Mitogen-activated Protein Kinase Kinase 5, Human
+2091	MP2K6_HUMAN	Dual Specificity Mitogen-activated Protein Kinase Kinase 6, Human
+2092	MP2K7_HUMAN	Dual Specificity Mitogen-activated Protein Kinase Kinase 7, Human
+2093	MPIP1_HUMAN	Dual Specificity Phosphatase Cdc25A, Human
+2094	MPIP2_HUMAN	Dual Specificity Phosphatase Cdc25B, Human
+2095	MPIP2_MOUSE	Dual Specificity Phosphatase Cdc25B, Mouse
+2096	MPIP3_HUMAN	Dual Specificity Phosphatase Cdc25C, Human
+2097	MPI_CANAL	Mannose-6-phosphate Isomerase, Canal
+2098	MPI_HUMAN	Mannose-6-phosphate Isomerase, Human
+2099	MPRI_HUMAN	Insulin-like Growth Factor II Receptor, Human
+2100	MRAY_BACSU	Phospho-N-acetylmuramoyl-pentapeptide-transferase, Bacsu
+2101	MRAY_ECOLI	Phospho-N-acetylmuramoyl-pentapeptide-transferase, Ecoli
+2102	MRAY_STAAR	Phospho-N-acetylmuramoyl-pentapeptide-transferase, Staar
+2103	MRAY_STRP3	Phospho-N-acetylmuramoyl-pentapeptide-transferase, Strp3
+2104	MRCKA_HUMAN	Serine/threonine-protein Kinase MRCK-A, Human
+2105	MRCKB_HUMAN	Serine/threonine-protein Kinase MRCK Beta, Human
+2106	MRCKG_HUMAN	Serine/threonine-protein Kinase MRCK Gamma, Human
+2107	MRP1_HUMAN	Multidrug Resistance-associated Protein 1, Human
+2108	MRP1_MOUSE	Multidrug Resistance-associated Protein 1, Mouse
+2109	MRP2_HUMAN	Canalicular Multispecific Organic Anion Transporter 1, Human
+2110	MRP3_HUMAN	Canalicular Multispecific Organic Anion Transporter 2, Human
+2111	MSHB_MYCTU	LmbE-related Protein, Myctu
+2112	MSHC_MYCTU	L-cysteine:1D-myo-inositol 2-amino-2-deoxy-alpha-D-glucopyranoside Ligase, Myctu
+2113	MSHR_HUMAN	Melanocortin Receptor 1, Human
+2114	MSHR_MOUSE	Melanocortin Receptor 1, Mouse
+2115	MSRE_HUMAN	Macrophage Scavenger Receptor Types I And II, Human
+2116	MSRE_MOUSE	Scavenger Receptor Type A, Mouse
+2117	MST4_HUMAN	Serine/threonine-protein Kinase MST4, Human
+2118	MT3_HUMAN	Metallothionein-3, Human
+2119	MTAP_HUMAN	S-methyl-5-thioadenosine Phosphorylase, Human
+2120	MTAP_MOUSE	S-methyl-5-thioadenosine Phosphorylase, Mouse
+2121	MTLR_HUMAN	Motilin Receptor, Human
+2122	MTNN_ECO57	5'-methylthioadenosine/S-adenosylhomocysteine Nucleosidase, Eco57
+2123	MTNN_ECOLI	S-adenosylhomocysteine Nucleosidase, Ecoli
+2124	MTNN_VIBCH	5'-methylthioadenosine/S-adenosylhomocysteine Nucleosidase, Vibch
+2125	MTOR_HUMAN	FK506 Binding Protein 12, Human
+2126	MTOR_MOUSE	Serine/threonine-protein Kinase MTOR, Mouse
+2127	MTOR_RAT	Serine/threonine-protein Kinase MTOR, Rat
+2128	MTP_BOVIN	Microsomal Triglyceride Transfer Protein Large Subunit, Bovin
+2129	MTP_HUMAN	Microsomal Triglyceride Transfer Protein Large Subunit, Human
+2130	MTR1A_CHICK	Melatonin Receptor 1A, Chick
+2131	MTR1A_HUMAN	Melatonin Receptor 1A, Human
+2132	MTR1B_CHICK	Melatonin Receptor 1B, Chick
+2133	MTR1B_HUMAN	Melatonin Receptor 1B, Human
+2134	MTR1C_CHICK	Melatonin Receptor 1C, Chick
+2135	MTSI_SPISQ	CpG DNA Methylase, Spisq
+2136	MURA_ECOLI	UDP-N-acetylglucosamine 1-carboxyvinyltransferase, Ecoli
+2137	MURB_ECOLI	UDP-N-acetylmuramate Dehydrogenase, Ecoli
+2138	MURB_STAAU	UDP-N-acetylmuramate Dehydrogenase, Staau
+2139	MURI_ENTFA	Glutamate Racemase, Entfa
+2140	MURI_HELPJ	Glutamate Racemase, Helpj
+2141	MURI_HELPY	Glutamate Racemase, Helpy
+2142	MURI_LACFE	Glutamate Racemase, Lacfe
+2143	MUSK_HUMAN	Muscle, Skeletal Receptor Tyrosine Protein Kinase, Human
+2144	MVD1_HUMAN	Mevalonate Pyrophosphate Decarboxylase, Human
+2145	MYLK2_HUMAN	Myosin Light Chain Kinase 2, Human
+2146	MYLK3_HUMAN	Myosin Light Chain Kinase, Human
+2147	MYLK4_HUMAN	Myosin Light Chain Kinase Family Member 4, Human
+2148	MYLK_CHICK	Myosin Light Chain Kinase, Smooth Muscle, Chick
+2149	MYLK_HUMAN	Myosin Light Chain Kinase, Smooth Muscle, Human
+2150	MYO3A_HUMAN	Myosin IIIA, Human
+2151	MYO3B_HUMAN	Myosin-IIIB, Human
+2152	MYO5A_CHICK	Myosin-Va, Chick
+2153	NAAA_HUMAN	N-acylsphingosine-amidohydrolase, Human
+2154	NADE_BACAN	NH(3)-dependent NAD(+) Synthetase, Bacan
+2155	NADE_BACSU	NH(3)-dependent NAD(+) Synthetase, Bacsu
+2156	NADK_HUMAN	NAD Kinase, Human
+2157	NAGZ_PSEAE	Beta-hexosaminidase, Pseae
+2158	NALD2_HUMAN	NAALADase II, Human
+2159	NAMPT_HUMAN	Nicotinamide Phosphoribosyltransferase, Human
+2160	NANH_CLOPE	Sialidase, Clope
+2161	NANH_VIBCH	Sialidase, Vibch
+2162	NAT_MYCSM	Arylamine N-acetyltransferase, Mycsm
+2163	NCEH1_HUMAN	Neutral Cholesterol Ester Hydrolase 1, Human
+2164	NCF1_HUMAN	Neutrophil Cytosol Factor 1, Human
+2165	NCOAT_HUMAN	Bifunctional Protein NCOAT, Human
+2166	NCOR2_HUMAN	Nuclear Receptor Corepressor 2, Human
+2167	NDUA4_HUMAN	NADH-ubiquinone Oxidoreductase MLRQ Subunit, Human
+2168	NDUA6_HUMAN	NADH-ubiquinone Oxidoreductase B14 Subunit, Human
+2169	NDUA8_HUMAN	NADH-ubiquinone Oxidoreductase 19 KDa Subunit, Human
+2170	NDUAA_HUMAN	NADH-ubiquinone Oxidoreductase 42 KDa Subunit, Human
+2171	NDUAB_BOVIN	NADH-ubiquinone Oxidoreductase Subunit B14.7, Bovin
+2172	NDUAB_HUMAN	NADH-ubiquinone Oxidoreductase Subunit B14.7, Human
+2173	NDUB5_HUMAN	NADH-ubiquinone Oxidoreductase SGDH Subunit, Human
+2174	NDUB6_HUMAN	NADH-ubiquinone Oxidoreductase B17 Subunit, Human
+2175	NDUB7_HUMAN	NADH-ubiquinone Oxidoreductase B18 Subunit, Human
+2176	NDUS2_HUMAN	NADH-ubiquinone Oxidoreductase 49 KDa Subunit, Human
+2177	NDUS8_HUMAN	NADH-ubiquinone Oxidoreductase 23 KDa Subunit,, Human
+2178	NEC1_HUMAN	Prohormone Convertase 1, Human
+2179	NEC2_HUMAN	Prohormone Convertase 2, Human
+2180	NEK1_HUMAN	Serine/threonine-protein Kinase Nek1, Human
+2181	NEK2_HUMAN	Serine/threonine-protein Kinase NEK2, Human
+2182	NEK5_HUMAN	Serine/threonine-protein Kinase Nek5, Human
+2183	NEK6_HUMAN	Serine/threonine-protein Kinase NEK6, Human
+2184	NEK7_HUMAN	Serine/threonine-protein Kinase NEK7, Human
+2185	NEK9_HUMAN	Serine/threonine-protein Kinase NEK9, Human
+2186	NEMO_HUMAN	NF-kappa-B Essential Modulator, Human
+2187	NEP_HUMAN	Neprilysin, Human
+2188	NEP_MOUSE	Neprilysin, Mouse
+2189	NEP_PIG	Neprilysin, Pig
+2190	NEP_RABIT	Neprilysin, Rabit
+2191	NEP_RAT	Neprilysin, Rat
+2192	NEUR1_HUMAN	Sialidase 1, Human
+2193	NEUR2_HUMAN	Sialidase 2, Human
+2194	NEUR3_HUMAN	Sialidase-3, Human
+2195	NEUR4_HUMAN	Sialidase 4, Human
+2196	NFKB1_HUMAN	Nuclear Factor NF-kappa-B P105 Subunit, Human
+2197	NFKB2_HUMAN	Nuclear Factor NF-kappa-B P100/p49 Subunits, Human
+2198	NHAA_ECOLI	Na(+)/H(+) Antiporter NhaA, Ecoli
+2199	NICA_HUMAN	Nicastrin, Human
+2200	NIM1_HUMAN	Serine/threonine-protein Kinase NIM1, Human
+2201	NISCH_HUMAN	Nischarin, Human
+2202	NISCH_RAT	Nischarin, Rat
+2203	NK1R_CAVPO	Neurokinin 1 Receptor, Guinea Pig
+2204	NK1R_HUMAN	Neurokinin 1 Receptor, Human
+2205	NK1R_MOUSE	Neurokinin 1 Receptor, Mouse
+2206	NK1R_RAT	Neurokinin 1 Receptor, Rat
+2207	NK2R_BOVIN	Neurokinin 2 Receptor, Bovin
+2208	NK2R_CAVPO	Neurokinin 2 Receptor, Guinea Pig
+2209	NK2R_HUMAN	Neurokinin 2 Receptor, Human
+2210	NK2R_MOUSE	Neurokinin 2 Receptor, Mouse
+2211	NK2R_RAT	Neurokinin 2 Receptor, Rat
+2212	NK3R_CAVPO	Neurokinin 3 Receptor, Guinea Pig
+2213	NK3R_HUMAN	Neurokinin 3 Receptor, Human
+2214	NK3R_RAT	Neurokinin 3 Receptor, Rat
+2215	NLK_HUMAN	Serine/threonine Protein Kinase NLK, Human
+2216	NLTP_HUMAN	Non-specific Lipid-transfer Protein, Human
+2217	NMBR_HUMAN	Neuromedin B Receptor, Human
+2218	NMBR_RAT	Neuromedin B Receptor, Rat
+2219	NMD3A_HUMAN	Glutamate [NMDA] Receptor Subunit 3A, Human
+2220	NMD3A_RAT	Glutamate [NMDA] Receptor Subunit 3A, Rat
+2221	NMD3B_HUMAN	Glutamate [NMDA] Receptor Subunit 3B, Human
+2222	NMD3B_MOUSE	Glutamate [NMDA] Receptor Subunit 3B, Mouse
+2223	NMD3B_RAT	Glutamate [NMDA] Receptor Subunit 3B, Rat
+2224	NMDE1_HUMAN	Glutamate [NMDA] Receptor Subunit Epsilon 1, Human
+2225	NMDE1_MOUSE	Glutamate [NMDA] Receptor Subunit Epsilon 1, Mouse
+2226	NMDE1_RAT	Glutamate [NMDA] Receptor Subunit Epsilon 1, Rat
+2227	NMDE2_HUMAN	Glutamate [NMDA] Receptor Subunit Epsilon 2, Human
+2228	NMDE2_MOUSE	Glutamate [NMDA] Receptor Subunit Epsilon 2, Mouse
+2229	NMDE2_RAT	Glutamate [NMDA] Receptor Subunit Epsilon 2, Rat
+2230	NMDE3_HUMAN	Glutamate [NMDA] Receptor Subunit Epsilon 3, Human
+2231	NMDE3_MOUSE	Glutamate [NMDA] Receptor Subunit Epsilon 3, Mouse
+2232	NMDE3_RAT	Glutamate [NMDA] Receptor Subunit Epsilon 3, Rat
+2233	NMDE4_HUMAN	Glutamate [NMDA] Receptor Subunit Epsilon 4, Human
+2234	NMDE4_MOUSE	Glutamate [NMDA] Receptor Subunit Epsilon 4, Mouse
+2235	NMDE4_RAT	Glutamate [NMDA] Receptor Subunit Epsilon 4, Rat
+2236	NMDZ1_HUMAN	Glutamate (NMDA) Receptor Subunit Zeta 1, Human
+2237	NMDZ1_MOUSE	Glutamate (NMDA) Receptor Subunit Zeta 1, Mouse
+2238	NMDZ1_RAT	Glutamate (NMDA) Receptor Subunit Zeta 1, Rat
+2239	NMT1_HUMAN	Peptide N-myristoyltransferase 1, Human
+2240	NMT2_HUMAN	Peptide N-myristoyltransferase 2, Human
+2241	NMT_CANAL	Peptide N-myristoyltransferase 1, Canal
+2242	NMT_YEAST	Glycylpeptide N-tetradecanoyltransferase, Yeast
+2243	NMUR1_HUMAN	Neuromedin-U Receptor 1, Human
+2244	NMUR2_HUMAN	Neuromedin-U Receptor 2, Human
+2245	NORA_STAAU	Quinolone Resistance Protein NorA, Staau
+2246	NOS1_HUMAN	Nitric-oxide Synthase, Brain, Human
+2247	NOS1_MOUSE	Nitric-oxide Synthase, Brain, Mouse
+2248	NOS1_RAT	Nitric-oxide Synthase, Brain, Rat
+2249	NOS2_HUMAN	Nitric Oxide Synthase, Inducible, Human
+2250	NOS2_MOUSE	Nitric Oxide Synthase, Inducible, Mouse
+2251	NOS2_RAT	Nitric Oxide Synthase, Inducible, Rat
+2252	NOS3_BOVIN	Nitric-oxide Synthase, Endothelial, Bovin
+2253	NOS3_HUMAN	Nitric-oxide Synthase, Endothelial, Human
+2254	NOS3_MOUSE	Nitric-oxide Synthase, Endothelial, Mouse
+2255	NOS3_PIG	Nitric-oxide Synthase, Endothelial, Pig
+2256	NOS3_RAT	Nitric Oxide Synthase, Endothelial, Rat
+2257	NOX1_HUMAN	NADPH Oxidase 1, Human
+2258	NOX4_HUMAN	NADPH Oxidase 4, Human
+2259	NPCL1_HUMAN	Niemann-Pick C1-like Protein 1, Human
+2260	NPCL1_MOUSE	Niemann-Pick C1-like Protein 1, Mouse
+2261	NPCL1_RAT	Niemann-Pick C1-like Protein 1, Rat
+2262	NPFF2_RAT	Neuropeptide FF Receptor 2, Rat
+2263	NPM_HUMAN	Nucleophosmin, Human
+2264	NPY1R_HUMAN	Neuropeptide Y Receptor Type 1, Human
+2265	NPY1R_RAT	Neuropeptide Y Receptor Type 1, Rat
+2266	NPY2R_HUMAN	Neuropeptide Y Receptor Type 2, Human
+2267	NPY4R_HUMAN	Neuropeptide Y Receptor Type 4, Human
+2268	NPY5R_HUMAN	Neuropeptide Y Receptor Type 5, Human
+2269	NPY5R_MOUSE	Neuropeptide Y Receptor Type 5, Mouse
+2270	NPY5R_RAT	Neuropeptide Y Receptor Type 5, Rat
+2271	NQO1_HUMAN	Quinone Reductase 1), Human
+2272	NQO2_HUMAN	Quinone Reductase 2, Human
+2273	NR0B2_HUMAN	Nuclear Receptor Subfamily 0 Group B Member 2, Human
+2274	NR1H2_HUMAN	LXR-beta, Human
+2275	NR1H3_HUMAN	LXR-alpha, Human
+2276	NR1H4_HUMAN	Bile Acid Receptor FXR, Human
+2277	NR1I2_HUMAN	Pregnane X Receptor, Human
+2278	NR1I3_MOUSE	Constitutive Androstane Receptor, Mouse
+2279	NR4A2_HUMAN	Nuclear Receptor Subfamily 4 Group A Member 2, Human
+2280	NR5A2_HUMAN	Orphan Nuclear Receptor LRH-1, Human
+2281	NRAM_I34A1	Neuraminidase, I34a1
+2282	NRAM_I68A0	Neuraminidase, I68a0
+2283	NRAM_INBLE	Neuraminidase, Inble
+2284	NRP1_HUMAN	Neuropilin-1, Human
+2285	NSMA_HUMAN	Neutral Sphingomyelinase, Human
+2286	NSMA_RAT	Neutral Sphingomyelinase, Rat
+2287	NTCP2_HUMAN	Ileal Bile Acid Transporter, Human
+2288	NTCP_HUMAN	Bile Acid Transporter, Human
+2289	NTR1_HUMAN	Neurotensin Receptor 1, Human
+2290	NTR1_MOUSE	Neurotensin Receptor 1, Mouse
+2291	NTR1_RAT	Neurotensin Receptor 1, Rat
+2292	NTR2_HUMAN	Neurotensin Receptor 2, Human
+2293	NTR2_MOUSE	Neurotensin Receptor 2, Mouse
+2294	NTRK1_HUMAN	Nerve Growth Factor Receptor Trk-A, Human
+2295	NTRK2_HUMAN	Neurotrophic Tyrosine Kinase Receptor Type 2, Human
+2296	NTRK3_HUMAN	NT-3 Growth Factor Receptor, Human
+2297	NU1M_HUMAN	NADH-ubiquinone Oxidoreductase Chain 1, Human
+2298	NU2M_HUMAN	NADH-ubiquinone Oxidoreductase Chain 2, Human
+2299	NU3M_HUMAN	NADH-ubiquinone Oxidoreductase Chain 3, Human
+2300	NU4LM_HUMAN	NADH-ubiquinone Oxidoreductase Chain 4L, Human
+2301	NU4M_HUMAN	NADH-ubiquinone Oxidoreductase Chain 4, Human
+2302	NU5M_HUMAN	NADH-ubiquinone Oxidoreductase Chain 5, Human
+2303	NU6M_HUMAN	NADH-ubiquinone Oxidoreductase Chain 6, Human
+2304	NUAK1_HUMAN	NUAK Family SNF1-like Kinase 1, Human
+2305	NUAK2_HUMAN	NUAK Family SNF1-like Kinase 2, Human
+2306	O07746_MYCTU	Chorismate Mutase-related Protein, Myctu
+2307	O07911_STAAU	Receptor-histidine Kinase AgrC, Staau
+2308	O15648_9TRYP	6-phospho-1-fructokinase, 9tryp
+2309	O19067_PIG	Glutamate (NMDA) Receptor Subunit Zeta 1, Pig
+2310	O30463_MYCAV	Dihydrofolate Reductase, Mycav
+2311	O35880_RAT	Isoleucyl-tRNA Synthetase, Rat
+2312	O46399_SHEEP	Beta Tubulin, Sheep
+2313	O49150_SOLTU	5-lipoxygenase, Soltu
+2314	O53430_MYCTU	Mycothiol S-conjugate Amidase, Myctu
+2315	O60989_PLAVI	Aspartic Protease PM4, Plavi
+2316	O69002_PSEAI	Heme Oxygenase, Pseai
+2317	O69638_MYCTU	Hydrolase, Alpha/beta Hydrolase Fold Family, Myctu
+2318	O70282_RAT	Trehalase, Rat
+2319	O77078_PLAFA	Beta-ketoacyl-ACP-synthase III, Plafa
+2320	O77669_CANFA	Coagulation Factor X, Canine
+2321	O77773_PIG	Voltage-dependent Calcium Channel Alpha2delta Subunit, Pig
+2322	O77823_PIG	Phosphodiesterase 4A, Pig
+2323	O82865_MICLU	Tyramine Oxidase, Miclu
+2324	O87171_PSEPA	Lignostilbene Alpha, Beta-dioxygenase, Psepa
+2325	O93874_CURLU	17-beta-hydroxysteroid-dehydrogenase, Curlu
+2326	O96214_PLAFA	Putative Uncharacterized Protein Pk7, Plafa
+2327	O97467_PLAFA	Hexose Transporter 1, Plafa
+2328	OGT1_HUMAN	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110 KDa Subunit, Human
+2329	OPRD_HUMAN	Delta Opioid Receptor, Human
+2330	OPRD_MOUSE	Delta Opioid Receptor, Mouse
+2331	OPRD_PIG	Delta Opioid Receptor, Pig
+2332	OPRD_RAT	Delta Opioid Receptor, Rat
+2333	OPRK_CAVPO	Kappa Opioid Receptor, Guinea Pig
+2334	OPRK_HUMAN	Kappa Opioid Receptor, Human
+2335	OPRK_MOUSE	Kappa Opioid Receptor, Mouse
+2336	OPRK_RAT	Kappa Opioid Receptor, Rat
+2337	OPRM_BOVIN	Mu Opioid Receptor, Bovin
+2338	OPRM_CAVPO	Mu Opioid Receptor, Guinea Pig
+2339	OPRM_HUMAN	Mu Opioid Receptor, Human
+2340	OPRM_MACMU	Mu-type Opioid Receptor, Macmu
+2341	OPRM_MOUSE	Mu Opioid Receptor, Mouse
+2342	OPRM_RAT	Mu Opioid Receptor, Rat
+2343	OPRX_HUMAN	Nociceptin Receptor, Human
+2344	OPRX_RAT	Nociceptin Receptor, Rat
+2345	OST48_HUMAN	Oligosaccharyl Transferase 48 KDa Subunit, Human
+2346	OTC_HUMAN	Ornithine Carbamoyltransferase, Human
+2347	OX1R_HUMAN	Orexin Receptor 1, Human
+2348	OX2R_HUMAN	Orexin Receptor 2, Human
+2349	OXDA_HUMAN	D-amino-acid Oxidase, Human
+2350	OXDA_PIG	D-amino-acid Oxidase, Pig
+2351	OXDA_RAT	D-amino-acid Oxidase, Rat
+2352	OXDD_HUMAN	D-aspartate Oxidase, Human
+2353	OXER1_HUMAN	Oxoeicosanoid Receptor 1, Human
+2354	OXGR1_RAT	G Protein-coupled Receptor 80, Rat
+2355	OXSR1_HUMAN	Serine/threonine-protein Kinase OSR1, Human
+2356	OXYR_HUMAN	Oxytocin Receptor, Human
+2357	OXYR_RAT	Oxytocin Receptor, Rat
+2358	P2RX1_HUMAN	P2X Purinoceptor 1, Human
+2359	P2RX1_RAT	P2X Purinoceptor 1, Rat
+2360	P2RX3_HUMAN	P2X Purinoceptor 3, Human
+2361	P2RX4_RAT	P2X Purinoceptor 4, Rat
+2362	P2RX7_HUMAN	P2X Purinoceptor 7, Human
+2363	P2RX7_MOUSE	P2X Purinoceptor 7, Mouse
+2364	P2RX7_RAT	P2X Purinoceptor 7, Rat
+2365	P2RY1_HUMAN	Purinergic Receptor P2Y1, Human
+2366	P2RY6_HUMAN	Pyrimidinergic Receptor P2Y6, Human
+2367	P2Y12_HUMAN	Purinergic Receptor P2Y12, Human
+2368	P3C2A_HUMAN	Phosphatidylinositol-4-phosphate 3-kinase C2 Domain-containing Subunit Alpha, Human
+2369	P3C2B_HUMAN	Phosphatidylinositol-4-phosphate 3-kinase C2 Domain-containing Beta Polypeptide, Human
+2370	P3C2G_HUMAN	Phosphatidylinositol-4-phosphate 3-kinase C2 Domain-containing Subunit Gamma, Human
+2371	P4HA1_RAT	Prolyl 4-hydroxylase Alpha-1 Subunit, Rat
+2372	P4HTM_HUMAN	Hypoxia-inducible Factor Prolyl 4-hydroxylase, Human
+2373	P4K2A_HUMAN	PI4-kinase Type II, Human
+2374	P4K2B_HUMAN	PI4-kinase Type II Beta, Human
+2375	P53_HUMAN	Cellular Tumor Antigen P53, Human
+2376	P71716_MYCTU	2,3-dihydroxybenzoate-AMP Ligase, Myctu
+2377	P79248_PIG	Type 1 InsP3 Receptor Isoform S2, Pig
+2378	P85A_HUMAN	PI3-kinase P85-alpha Subunit, Human
+2379	P85B_HUMAN	PI3-kinase P85-beta Subunit, Human
+2380	P88142_9HIV2	Human Immunodeficiency Virus Type 2 Pol Protein, 9hiv2
+2381	P89582_9HIV2	Human Immunodeficiency Virus Type 2 Integrase, 9hiv2
+2382	P90584_PLAFA	Protein Kinase Pfmrk, Plafa
+2383	P94451_GEOSE	Alpha-glucosidase, Geose
+2384	P95276_MYCTU	Epoxide Hydrolase, Myctu
+2385	P96830_MYCTU	Phosphotyrosine-protein Phosphatase PTPB, Myctu
+2386	P96878_MYCTU	PROBABLE TRANSMEMBRANE CARBONIC ANHYDRASE (CARBONATE DEHYDRATASE) (CARBONIC DEHYDRATASE), Myctu
+2387	P97706_RAT	Sodium Channel Protein Type VI Alpha Subunit, Rat
+2388	PA21B_HUMAN	Phospholipase A2 Group 1B, Human
+2389	PA21B_MOUSE	Phospholipase A2 Group 1B, Mouse
+2390	PA21B_NAJME	Phospholipase A2 Isozyme DE-I, Najme
+2391	PA21B_NAJMO	Phospholipase A2 Isozyme CM-I, Najmo
+2392	PA21B_PIG	Phospholipase A2 Group 1B, Pig
+2393	PA21B_RAT	Phospholipase A2 Group 1B, Rat
+2394	PA24A_HUMAN	Cytosolic Phospholipase A2, Human
+2395	PA24B_HUMAN	Phospholipase A2 Group 1VB, Human
+2396	PA24C_HUMAN	Cytosolic Phospholipase A2 Gamma, Human
+2397	PA24D_HUMAN	Phospholipase A2 Group 1VD, Human
+2398	PA2A_PROFL	Phospholipase A2 Isozyme PLA-A, Profl
+2399	PA2G5_HUMAN	Phospholipase A2 Group V, Human
+2400	PA2G5_MOUSE	Phospholipase A2 Group V, Mouse
+2401	PA2G6_HUMAN	Calcium-independent Phospholipase A2, Human
+2402	PA2GA_HUMAN	Phospholipase A2 Group IIA, Human
+2403	PA2GA_MOUSE	Phospholipase A2, Membrane Associated, Mouse
+2404	PA2GA_RABIT	Phospholipase A2, Membrane Associated, Rabit
+2405	PA2GA_RAT	Phospholipase A2 Group IIA, Rat
+2406	PA2GC_HUMAN	Phospholipase A2 Group IIC, Human
+2407	PA2GD_HUMAN	Group IID Secretory Phospholipase A2, Human
+2408	PA2GD_MOUSE	Group IID Secretory Phospholipase A2, Mouse
+2409	PA2GE_HUMAN	Group IIE Secretory Phospholipase A2, Human
+2410	PA2GE_MOUSE	Group IIE Secretory Phospholipase A2, Mouse
+2411	PA2GF_HUMAN	Group IIF Secretory Phospholipase A2, Human
+2412	PA2GF_MOUSE	Group IIF Secretory Phospholipase A2, Mouse
+2413	PA2GX_HUMAN	Group X Secretory Phospholipase A2, Human
+2414	PA2GX_MOUSE	Group X Secretory Phospholipase A2, Mouse
+2415	PA2_APIME	Phospholipase A2 (Bee), Apime
+2416	PA2_CROAD	Phospholipase A2 Alpha, Croad
+2417	PACR_HUMAN	Pituitary Adenylate Cyclase-activating Polypeptide Type I Receptor, Human
+2418	PAFA_HUMAN	LDL-associated Phospholipase A2, Human
+2419	PAI1_HUMAN	Plasminogen Activator Inhibitor-1, Human
+2420	PAI1_RAT	Plasminogen Activator Inhibitor-1, Rat
+2421	PAK1_HUMAN	Serine/threonine-protein Kinase PAK 1, Human
+2422	PAK2_HUMAN	Serine/threonine-protein Kinase PAK 2, Human
+2423	PAK3_HUMAN	Serine/threonine-protein Kinase PAK 3, Human
+2424	PAK4_HUMAN	Serine/threonine-protein Kinase PAK 4, Human
+2425	PAK6_HUMAN	Serine/threonine-protein Kinase PAK6, Human
+2426	PAK7_HUMAN	Serine/threonine-protein Kinase PAK7, Human
+2427	PANC_MYCTU	Pantothenate Synthetase, Myctu
+2428	PAOX_HUMAN	Polyamine Oxidase, Human
+2429	PAOX_MOUSE	Polyamine Oxidase, Mouse
+2430	PAO_MAIZE	Polyamine Oxidase, Maize
+2431	PAPA1_CARPA	Papain, Carpa
+2432	PAR1_HUMAN	Proteinase Activated Receptor 1, Human
+2433	PARC_STAAU	Topoisomerase IV Subunit A, Staau
+2434	PARG_BOVIN	Poly [ADP-ribose] Glycohydrolase, Bovin
+2435	PARG_HUMAN	Poly(ADP-ribose) Glycohydrolase, Human
+2436	PARP1_BOVIN	Poly [ADP-ribose] Polymerase 1, Bovin
+2437	PARP1_HUMAN	Poly [ADP-ribose] Polymerase-1, Human
+2438	PARP1_MOUSE	Poly [ADP-ribose] Polymerase-1, Mouse
+2439	PARP1_RAT	Poly [ADP-ribose] Polymerase 1, Rat
+2440	PARP2_HUMAN	Poly [ADP-ribose] Polymerase 2, Human
+2441	PARP2_MOUSE	Poly [ADP-ribose] Polymerase-2, Mouse
+2442	PARP3_HUMAN	Poly [ADP-ribose] Polymerase 3, Human
+2443	PARP4_HUMAN	Poly [ADP-ribose] Polymerase 4, Human
+2444	PBPX_STRPN	Penicillin-binding Protein 2x, Strpn
+2445	PCFT_HUMAN	Proton-coupled Folate Transporter, Human
+2446	PCKGC_HUMAN	Phosphoenolpyruvate Carboxykinase Cytosolic, Human
+2447	PCKGC_RAT	Phosphoenolpyruvate Carboxykinase, Cytosolic [GTP], Rat
+2448	PCKGM_HUMAN	Phosphoenolpyruvate Carboxykinase Mitochondrial, Human
+2449	PCP_HUMAN	Lysosomal Pro-X Carboxypeptidase, Human
+2450	PCP_MOUSE	Lysosomal Pro-X Carboxypeptidase, Mouse
+2451	PCSK5_HUMAN	Subtilisin/kexin Type 5, Human
+2452	PCSK6_HUMAN	Subtilisin/kexin Type 6, Human
+2453	PCSK7_HUMAN	Subtilisin/kexin Type 7, Human
+2454	PD2R_HUMAN	Prostanoid DP Receptor, Human
+2455	PD2R_MOUSE	Prostanoid DP Receptor, Mouse
+2456	PDCD4_HUMAN	Programmed Cell Death Protein 4, Human
+2457	PDE10_HUMAN	Phosphodiesterase 10A, Human
+2458	PDE10_MOUSE	CAMP And CAMP-inhibited CGMP 3',5'-cyclic Phosphodiesterase 10A, Mouse
+2459	PDE10_RAT	CAMP And CAMP-inhibited CGMP 3',5'-cyclic Phosphodiesterase 10A, Rat
+2460	PDE11_HUMAN	Phosphodiesterase 11A, Human
+2461	PDE1A_BOVIN	Phosphodiesterase 1A, Bovin
+2462	PDE1A_HUMAN	Phosphodiesterase 1A, Human
+2463	PDE1B_BOVIN	Phosphodiesterase 1B, Bovin
+2464	PDE1B_HUMAN	Phosphodiesterase 1B, Human
+2465	PDE1B_RAT	Phosphodiesterase 1B, Rat
+2466	PDE1C_HUMAN	Phosphodiesterase 1C, Human
+2467	PDE1C_RAT	Phosphodiesterase 1C, Rat
+2468	PDE2A_BOVIN	Phosphodiesterase 2A, Bovin
+2469	PDE2A_HUMAN	Phosphodiesterase 2A, Human
+2470	PDE2A_RAT	Phosphodiesterase 2A, Rat
+2471	PDE3A_HUMAN	Phosphodiesterase 3A, Human
+2472	PDE3A_RAT	Phosphodiesterase 3A, Rat
+2473	PDE3B_HUMAN	Phosphodiesterase 3B, Human
+2474	PDE3B_RAT	Phosphodiesterase 3B, Rat
+2475	PDE4A_HUMAN	Phosphodiesterase 4A, Human
+2476	PDE4A_MOUSE	Phosphodiesterase 4A, Mouse
+2477	PDE4A_RAT	Phosphodiesterase 4A, Rat
+2478	PDE4B_HUMAN	Phosphodiesterase 4B, Human
+2479	PDE4B_RAT	Phosphodiesterase 4B, Rat
+2480	PDE4C_HUMAN	Phosphodiesterase 4C, Human
+2481	PDE4C_MOUSE	Phosphodiesterase 4C, Mouse
+2482	PDE4C_RAT	Phosphodiesterase 4C, Rat
+2483	PDE4D_HUMAN	Phosphodiesterase 4D, Human
+2484	PDE4D_MOUSE	Phosphodiesterase 4D, Mouse
+2485	PDE4D_RAT	Phosphodiesterase 4D, Rat
+2486	PDE5A_BOVIN	Phosphodiesterase 5A, Bovin
+2487	PDE5A_HUMAN	Phosphodiesterase 5A, Human
+2488	PDE5A_RAT	Phosphodiesterase 5A, Rat
+2489	PDE6A_BOVIN	Phosphodiesterase 6A, Bovin
+2490	PDE6A_CANFA	Rod CGMP-specific 3',5'-cyclic Phosphodiesterase Subunit Alpha, Canine
+2491	PDE6A_HUMAN	Phosphodiesterase 6A, Human
+2492	PDE6B_BOVIN	Phosphodiesterase 6B, Bovin
+2493	PDE6B_HUMAN	Phosphodiesterase 6B, Human
+2494	PDE6C_BOVIN	Phosphodiesterase 6C, Bovin
+2495	PDE6C_HUMAN	Phosphodiesterase 6C, Human
+2496	PDE6D_BOVIN	Phosphodiesterase 6D, Bovin
+2497	PDE6D_HUMAN	Phosphodiesterase 6D, Human
+2498	PDE7A_HUMAN	Phosphodiesterase 7A, Human
+2499	PDE7A_RAT	Phosphodiesterase 7A, Rat
+2500	PDE7B_HUMAN	Phosphodiesterase 7B, Human
+2501	PDE8A_HUMAN	Phosphodiesterase 8A, Human
+2502	PDE8B_HUMAN	Phosphodiesterase 8B, Human
+2503	PDE9A_HUMAN	Phosphodiesterase 9A, Human
+2504	PDK1_HUMAN	Pyruvate Dehydrogenase Kinase Isoform 1, Human
+2505	PDK1_RAT	Pyruvate Dehydrogenase Kinase Isoform 1, Rat
+2506	PDK2_HUMAN	Pyruvate Dehydrogenase Kinase Isoform 2, Human
+2507	PDK2_RAT	Pyruvate Dehydrogenase Kinase Isoform 2, Rat
+2508	PDK3_HUMAN	Pyruvate Dehydrogenase Kinase Isoform 3, Human
+2509	PDK4_HUMAN	Pyruvate Dehydrogenase Kinase Isoform 4, Human
+2510	PDPK1_HUMAN	3-phosphoinositide Dependent Protein Kinase-1, Human
+2511	PDR5_YEAST	Pleiotropic ABC Efflux Transporter Of Multiple Drugs, Yeast
+2512	PDYN_HUMAN	Proenkephalin B, Human
+2513	PE2R1_HUMAN	Prostanoid EP1 Receptor, Human
+2514	PE2R1_MOUSE	Prostanoid EP1 Receptor, Mouse
+2515	PE2R1_RAT	Prostanoid EP1 Receptor, Rat
+2516	PE2R2_HUMAN	Prostanoid EP2 Receptor, Human
+2517	PE2R2_MOUSE	Prostanoid EP2 Receptor, Mouse
+2518	PE2R2_RAT	Prostanoid EP2 Receptor, Rat
+2519	PE2R3_HUMAN	Prostanoid EP3 Receptor, Human
+2520	PE2R3_MOUSE	Prostanoid EP3 Receptor, Mouse
+2521	PE2R3_RAT	Prostaglandin E2 Receptor EP3 Subtype, Rat
+2522	PE2R4_HUMAN	Prostanoid EP4 Receptor, Human
+2523	PE2R4_MOUSE	Prostanoid EP4 Receptor, Mouse
+2524	PE2R4_RAT	Prostanoid EP4 Receptor, Rat
+2525	PEN2_HUMAN	Gamma-secretase Subunit PEN-2, Human
+2526	PENP_PENJA	Penicillopepsin, Penja
+2527	PEPA_HUMAN	Pepsin A, Human
+2528	PEPA_PIG	Pepsin A, Pig
+2529	PEPC_HUMAN	Pepsinogen C, Human
+2530	PEPC_RAT	Pepsinogen C, Rat
+2531	PEPD_HUMAN	Xaa-Pro Dipeptidase, Human
+2532	PERF_HUMAN	Perforin-1, Human
+2533	PERM_HUMAN	Myeloperoxidase, Human
+2534	PF2R_BOVIN	Prostanoid FP Receptor, Bovin
+2535	PF2R_HUMAN	Prostanoid FP Receptor, Human
+2536	PF2R_MOUSE	Prostaglandin F2-alpha Receptor, Mouse
+2537	PGDH_HUMAN	15-hydroxyprostaglandin Dehydrogenase [NAD+], Human
+2538	PGES2_HUMAN	Prostaglandin E Synthase 2, Human
+2539	PGFRA_HUMAN	Platelet-derived Growth Factor Receptor Alpha, Human
+2540	PGFRA_MOUSE	Platelet-derived Growth Factor Receptor Alpha, Mouse
+2541	PGFRA_RAT	Platelet-derived Growth Factor Receptor Alpha, Rat
+2542	PGFRB_HUMAN	Platelet-derived Growth Factor Receptor Beta, Human
+2543	PGFRB_MOUSE	Platelet-derived Growth Factor Receptor Beta, Mouse
+2544	PGFRB_RAT	Platelet-derived Growth Factor Receptor Beta, Rat
+2545	PGH1_BOVIN	Cyclooxygenase-1, Bovin
+2546	PGH1_HUMAN	Cyclooxygenase-1, Human
+2547	PGH1_MOUSE	Cyclooxygenase-1, Mouse
+2548	PGH1_RABIT	Cyclooxygenase-1, Rabit
+2549	PGH1_RAT	Cyclooxygenase-1, Rat
+2550	PGH1_SHEEP	Cyclooxygenase-1, Sheep
+2551	PGH2_BOVIN	Cyclooxygenase-2, Bovin
+2552	PGH2_HUMAN	Cyclooxygenase-2, Human
+2553	PGH2_MOUSE	Cyclooxygenase-2, Mouse
+2554	PGH2_RABIT	Prostaglandin G/H Synthase 2, Rabit
+2555	PGH2_RAT	Cyclooxygenase-2, Rat
+2556	PGH2_SHEEP	Cyclooxygenase-2, Sheep
+2557	PGK1_HUMAN	Phosphoglycerate Kinase 1, Human
+2558	PGK2_HUMAN	Phosphoglycerate Kinase 2, Human
+2559	PGK_YEAST	Phosphoglycerate Kinase 1, Yeast
+2560	PGTB1_BOVIN	Geranylgeranyl Transferase Type I Beta Subunit, Bovin
+2561	PGTB1_HUMAN	Geranylgeranyl Transferase Type I Beta Subunit, Human
+2562	PGTB1_MOUSE	Geranylgeranyl Transferase Type I Beta Subunit, Mouse
+2563	PGTB1_RAT	Geranylgeranyl Transferase Type I Beta Subunit, Rat
+2564	PH4H_HUMAN	Phenylalanine-4-hydroxylase, Human
+2565	PH4H_RAT	Phenylalanine-4-hydroxylase, Rat
+2566	PHHY_PSEFL	P-hydroxybenzoate Hydroxylase, Psefl
+2567	PHKG1_HUMAN	Phosphorylase Kinase Gamma Subunit 1, Human
+2568	PHKG2_HUMAN	Phosphorylase Kinase Gamma Subunit 2, Human
+2569	PHLC_BACCE	Phospholipase C, Bacce
+2570	PHLP2_HUMAN	PH Domain Leucine-rich Repeat-containing Protein Phosphatase 2, Human
+2571	PHO85_YEAST	Cyclin-dependent Protein Kinase PHO85, Yeast
+2572	PI2R_HUMAN	Prostanoid IP Receptor, Human
+2573	PI42B_HUMAN	Phosphatidylinositol-5-phosphate 4-kinase Type-2 Beta, Human
+2574	PI42C_HUMAN	Phosphatidylinositol-5-phosphate 4-kinase Type-2 Gamma, Human
+2575	PI4KA_HUMAN	PI4-kinase Alpha Subunit, Human
+2576	PI4KB_HUMAN	PI4-kinase Beta Subunit, Human
+2577	PI51A_HUMAN	Phosphatidylinositol-4-phosphate 5-kinase Type-1 Alpha, Human
+2578	PIM1_HUMAN	Serine/threonine-protein Kinase PIM1, Human
+2579	PIM2_HUMAN	Serine/threonine-protein Kinase PIM2, Human
+2580	PIM3_HUMAN	Serine/threonine-protein Kinase PIM3, Human
+2581	PIN1_HUMAN	Peptidyl-prolyl Cis-trans Isomerase NIMA-interacting 1, Human
+2582	PIP_SERMA	Proline Iminopeptidase, Serma
+2583	PK3C3_HUMAN	Phosphatidylinositol 3-kinase Catalytic Subunit Type 3, Human
+2584	PK3CA_BOVIN	PI3-kinase P110-alpha Subunit, Bovin
+2585	PK3CA_HUMAN	PI3-kinase P110-alpha Subunit, Human
+2586	PK3CA_MOUSE	PI3-kinase P110-alpha Subunit, Mouse
+2587	PK3CB_HUMAN	PI3-kinase P110-beta Subunit, Human
+2588	PK3CD_HUMAN	PI3-kinase P110-delta Subunit, Human
+2589	PK3CG_HUMAN	PI3-kinase P110-gamma Subunit, Human
+2590	PKD1_HUMAN	Polycystin-1, Human
+2591	PKD2_HUMAN	Polycystin-2, Human
+2592	PKN1_HUMAN	Protein Kinase N1, Human
+2593	PKN2_HUMAN	Protein Kinase N2, Human
+2594	PKR1_HUMAN	Prokineticin Receptor 1, Human
+2595	PKR2_HUMAN	Prokineticin Receptor 2, Human
+2596	PLAP_HUMAN	Phospholipase A-2-activating Protein, Human
+2597	PLB1_CRYNB	Phospholipase B, Crynb
+2598	PLCB3_HUMAN	Phospholipase C-beta-3, Human
+2599	PLCB_HUMAN	1-acylglycerol-3-phosphate O-acyltransferase Beta, Human
+2600	PLCG1_BOVIN	1-phosphatidylinositol-4,5-bisphosphate Phosphodiesterase Gamma-1, Bovin
+2601	PLCG1_HUMAN	Phospholipase C-gamma-1, Human
+2602	PLCG1_RAT	1-phosphatidylinositol-4,5-bisphosphate Phosphodiesterase Gamma-1, Rat
+2603	PLCG2_HUMAN	Phospholipase C-gamma-2, Human
+2604	PLCL1_RAT	Inositol 1,4,5-trisphosphate Binding Protein, Rat
+2605	PLD1_HUMAN	Phospholipase D1, Human
+2606	PLD2_HUMAN	Phospholipase D2, Human
+2607	PLK1_HUMAN	Serine/threonine-protein Kinase PLK1, Human
+2608	PLK2_HUMAN	Serine/threonine-protein Kinase PLK2, Human
+2609	PLK3_HUMAN	Serine/threonine-protein Kinase PLK3, Human
+2610	PLK4_HUMAN	Serine/threonine-protein Kinase PLK4, Human
+2611	PLM1_PLAFA	Plasmepsin 1, Plafa
+2612	PLM2_PLAFA	Plasmepsin 2, Plafa
+2613	PLMN_BOVIN	Plasminogen, Bovin
+2614	PLMN_HUMAN	Plasminogen, Human
+2615	PLMN_MOUSE	Plasminogen, Mouse
+2616	PLMN_RAT	Plasminogen, Rat
+2617	PMM2_HUMAN	Phosphomannomutase 2, Human
+2618	PMT1_CANAL	Dolichyl-phosphate-mannose--protein Mannosyltransferase 1, Canal
+2619	PMYT1_HUMAN	Tyrosine- And Threonine-specific Cdc2-inhibitory Kinase, Human
+2620	PNMT_BOVIN	Phenylethanolamine N-methyltransferase, Bovin
+2621	PNMT_HUMAN	Phenylethanolamine N-methyltransferase, Human
+2622	PNPH_BOVIN	Purine Nucleoside Phosphorylase, Bovin
+2623	PNPH_HUMAN	Purine Nucleoside Phosphorylase, Human
+2624	PNPH_MOUSE	Purine Nucleoside Phosphorylase, Mouse
+2625	PNPH_RAT	Purine-nucleoside Phosphorylase, Rat
+2626	POLG_DEN26	Dengue Virus Type 2 NS3 Protein, Den26
+2627	POLG_HCV1	Hepatitis C Virus Polyprotein, Hcv1
+2628	POLG_HCVBK	Genome Polyprotein, Hcvbk
+2629	POLG_HCVCO	Genome Polyprotein, Hcvco
+2630	POLG_HRV16	Genome Polyprotein, Hrv16
+2631	POLG_POL1M	Poliovirus Type 1 Polyprotein, Pol1m
+2632	POLG_WNV	Genome Polyprotein, Wnv
+2633	PP1A_HUMAN	Serine/threonine Protein Phosphatase PP1-alpha Catalytic Subunit, Human
+2634	PP1G_HUMAN	Serine/threonine Protein Phosphatase PP1-gamma Catalytic Subunit, Human
+2635	PP2AA_BOVIN	Serine/threonine Protein Phosphatase 2A, Catalytic Subunit, Alpha Isoform, Bovin
+2636	PP2AA_HUMAN	Serine/threonine Protein Phosphatase 2A, Catalytic Subunit, Alpha Isoform, Human
+2637	PP2AA_MOUSE	Serine/threonine Protein Phosphatase 2A, Catalytic Subunit, Alpha Isoform, Mouse
+2638	PP2AB_HUMAN	Serine/threonine Protein Phosphatase 2A, Catalytic Subunit, Beta Isoform, Human
+2639	PPAC_BOVIN	Low Molecular Weight Phosphotyrosine Protein Phosphatase, Bovin
+2640	PPAC_HUMAN	Low Molecular Weight Phosphotyrosine Protein Phosphatase, Human
+2641	PPAF_PHAVU	Fe(3+)-Zn(2+) Purple Acid Phosphatase, Phavu
+2642	PPAL_YEAST	Low Molecular Weight Phosphotyrosine Protein Phosphatase, Yeast
+2643	PPAP_HUMAN	Prostatic Acid Phosphatase, Human
+2644	PPARA_CANFA	Peroxisome Proliferator-activated Receptor Alpha, Canine
+2645	PPARA_HUMAN	Peroxisome Proliferator-activated Receptor Alpha, Human
+2646	PPARA_MOUSE	Peroxisome Proliferator-activated Receptor Alpha, Mouse
+2647	PPARA_RAT	Peroxisome Proliferator-activated Receptor Alpha, Rat
+2648	PPARD_HUMAN	Peroxisome Proliferator-activated Receptor Delta, Human
+2649	PPARD_MOUSE	Peroxisome Proliferator-activated Receptor Delta, Mouse
+2650	PPARG_HUMAN	Peroxisome Proliferator-activated Receptor Gamma, Human
+2651	PPARG_MOUSE	Peroxisome Proliferator-activated Receptor Gamma, Mouse
+2652	PPARG_RAT	Peroxisome Proliferator-activated Receptor Gamma, Rat
+2653	PPBI_BOVIN	Intestinal Alkaline Phosphatase, Bovin
+2654	PPBN_HUMAN	Alkaline Phosphatase Placental-like, Human
+2655	PPBT_HUMAN	Alkaline Phosphatase, Tissue-nonspecific Isozyme, Human
+2656	PPBT_RAT	Alkaline Phosphatase Tissue-nonspecific, Rat
+2657	PPCE_BOVIN	Prolyl Endopeptidase, Bovin
+2658	PPCE_FLAME	Prolyl Endopeptidase, Flame
+2659	PPCE_HUMAN	Prolyl Endopeptidase, Human
+2660	PPCE_MOUSE	Prolyl Endopeptidase, Mouse
+2661	PPCE_PIG	Prolyl Endopeptidase, Pig
+2662	PPCE_RAT	Prolyl Endopeptidase, Rat
+2663	PPGB_HUMAN	Lysosomal Protective Protein, Human
+2664	PPIA_HUMAN	Cyclophilin A, Human
+2665	PPIA_RAT	Cyclophilin A, Rat
+2666	PPM1A_HUMAN	Protein Phosphatase 2C Alpha, Human
+2667	PPM1B_HUMAN	Protein Phosphatase 2C Beta, Human
+2668	PPM1J_MOUSE	Protein Phosphatase 2A Catalytic Subunit Zeta, Mouse
+2669	PPOX_BACSU	Protoporphyrinogen Oxidase, Bacsu
+2670	PPR_EBVB9	Human Herpesvirus 4 Protease/capsid Scaffold Protein, Ebvb9
+2671	PPR_HCMVA	Human Herpes Virus 5 Capsid Protein P40, Hcmva
+2672	PPR_HHV11	Human Herpesvirus 1 Protease, Hhv11
+2673	PPR_HHV2H	Human Herpesvirus 2 Protease, Hhv2h
+2674	PPR_HHV6U	Human Herpesvirus 6 Protease, Hhv6u
+2675	PRGR_CHICK	Progesterone Receptor, Chick
+2676	PRGR_HUMAN	Progesterone Receptor, Human
+2677	PRGR_RABIT	Progesterone Receptor, Rabit
+2678	PRGR_RAT	Progesterone Receptor, Rat
+2679	PRIM_HHV11	DNA Helicase/primase Complex Protein, Hhv11
+2680	PRIO_HUMAN	Prion Protein, Human
+2681	PRKDC_HUMAN	DNA-dependent Protein Kinase, Human
+2682	PRKX_HUMAN	Serine/threonine-protein Kinase PRKX, Human
+2683	PROC_HUMAN	Vitamin K-dependent Protein C, Human
+2684	PRO_HTL1A	Human T-cell Leukemia Virus Type I Protease, Htl1a
+2685	PRP4_HUMAN	U4/U6 Small Nuclear Ribonucleoprotein Prp4, Human
+2686	PRSS8_HUMAN	Prostasin, Human
+2687	PRTN3_MOUSE	Myeloblastin, Mouse
+2688	PSA_HUMAN	Puromycin-sensitive Aminopeptidase, Human
+2689	PSB1_HUMAN	Proteasome Component C5, Human
+2690	PSB1_YEAST	Proteasome Component C5, Yeast
+2691	PSB2_HUMAN	Proteasome Macropain Subunit, Human
+2692	PSB5_HUMAN	Proteasome Macropain Subunit MB1, Human
+2693	PSB5_YEAST	Proteasome Macropain Subunit PRE2, Yeast
+2694	PSB8_HUMAN	Proteasome Subunit Beta Type-8, Human
+2695	PSMG1_HUMAN	Proteasome Assembly Chaperone 1, Human
+2696	PSMG2_HUMAN	Proteasome Assembly Chaperone 2, Human
+2697	PSMG3_HUMAN	Proteasome Assembly Chaperone 3, Human
+2698	PSN1_HUMAN	Presenilin 1, Human
+2699	PSN2_HUMAN	Presenilin 2, Human
+2700	PTAFR_CAVPO	Platelet Activating Factor Receptor, Guinea Pig
+2701	PTAFR_HUMAN	Platelet Activating Factor Receptor, Human
+2702	PTAFR_MOUSE	Platelet Activating Factor Receptor, Mouse
+2703	PTAFR_RAT	Platelet Activating Factor Receptor, Rat
+2704	PTCA_HUMAN	Protein Tyrosine Phosphatase Receptor Type C-associated Protein, Human
+2705	PTGDS_BOVIN	Prostaglandin D2 Synthase, Bovin
+2706	PTGDS_MOUSE	Prostaglandin-H2 D-isomerase, Mouse
+2707	PTGES_HUMAN	Prostaglandin E Synthase, Human
+2708	PTGIS_HUMAN	Prostaglandin I2 Synthase, Human
+2709	PTH1R_HUMAN	Parathyroid Hormone Receptor, Human
+2710	PTK6_HUMAN	Tyrosine-protein Kinase BRK, Human
+2711	PTN11_HUMAN	Protein-tyrosine Phosphatase 2C, Human
+2712	PTN12_HUMAN	Protein-tyrosine Phosphatase G1, Human
+2713	PTN13_HUMAN	Protein-tyrosine Phosphatase 1E, Human
+2714	PTN1_HUMAN	Protein-tyrosine Phosphatase 1B, Human
+2715	PTN1_MOUSE	Protein-tyrosine Phosphatase 1B, Mouse
+2716	PTN1_RAT	Protein-tyrosine Phosphatase 1B, Rat
+2717	PTN22_HUMAN	Hematopoietic Cell Protein-tyrosine Phosphatase 70Z-PEP, Human
+2718	PTN2_HUMAN	T-cell Protein-tyrosine Phosphatase, Human
+2719	PTN6_HUMAN	Protein-tyrosine Phosphatase 1C, Human
+2720	PTN7_HUMAN	Protein-tyrosine Phosphatase LC-PTP, Human
+2721	PTP1_YEAST	Protein-tyrosine Phosphatase 1, Yeast
+2722	PTPA_HUMAN	Protein Phosphatase 2A Regulatory Subunit B', Human
+2723	PTPA_MYCTU	Probable Low Molecular Weight Protein-tyrosine-phosphatase, Myctu
+2724	PTPRA_HUMAN	Receptor-type Tyrosine-protein Phosphatase Alpha, Human
+2725	PTPRB_HUMAN	Receptor-type Tyrosine-protein Phosphatase Beta, Human
+2726	PTPRC_HUMAN	Leukocyte Common Antigen, Human
+2727	PTPRF_HUMAN	Receptor-type Tyrosine-protein Phosphatase F (LAR), Human
+2728	PTR1_LEIMA	Pteridine Reductase 1, Leima
+2729	PUR2_HUMAN	GAR Transformylase, Human
+2730	PUR2_MOUSE	GAR Transformylase, Mouse
+2731	PUR6_CHICK	Multifunctional Protein ADE2, Chick
+2732	PUR9_HUMAN	AICAR Transformylase, Human
+2733	PUR9_MOUSE	AICAR Transformylase, Mouse
+2734	PURA2_HUMAN	Adenylosuccinate Synthetase 2, Human
+2735	PYGB_HUMAN	Brain Glycogen Phosphorylase, Human
+2736	PYGL_HUMAN	Liver Glycogen Phosphorylase, Human
+2737	PYGL_MOUSE	Liver Glycogen Phosphorylase, Mouse
+2738	PYGL_RAT	Liver Glycogen Phosphorylase, Rat
+2739	PYGM_HUMAN	Muscle Glycogen Phosphorylase, Human
+2740	PYGM_RABIT	Glycogen Phosphorylase, Muscle Form, Rabit
+2741	PYR1_HUMAN	Dihydroorotase, Human
+2742	PYRD_HUMAN	Dihydroorotate Dehydrogenase, Human
+2743	PYRD_MOUSE	Dihydroorotate Dehydrogenase, Mouse
+2744	PYRD_RAT	Dihydroorotate Dehydrogenase, Rat
+2745	PYRF_METTH	Orotidine 5'-phosphate Decarboxylase, Metth
+2746	PYRF_YEAST	Orotidine Phosphate Decarboxylase, Yeast
+2747	Q06347_9HIV2	Reverse Transcriptase, 9hiv2
+2748	Q0GKD7_LEIDO	Farnesyl Pyrophosphate Synthase, Leido
+2749	Q0PJ46_PLAFA	Lactate Dehydrogenase, Plafa
+2750	Q0PXQ5_HELPX	Urease, Helpx
+2751	Q0VTR6_ACIG3	ADC-14 Protein, Acig3
+2752	Q0VTR8_ACIG3	ADC-16 Protein, Acig3
+2753	Q17066_ASTPE	Cdc2, Astpe
+2754	Q197X6_TOXGO	Farnesyl Diphosphate Synthase, Toxgo
+2755	Q1HEC0_RAT	Acetyl-Coenzyme A Carboxylase 2, Rat
+2756	Q20MD5_9INFA	Matrix Protein 2, 9infa
+2757	Q25262_LEIDO	Tubulin Alpha Chain, Leido
+2758	Q25270_LEIDO	Beta Tubulin, Leido
+2759	Q25615_ONCVO	Chitinase, Oncvo
+2760	Q28953_PIG	Ryanodine Receptor 2, Pig
+2761	Q2HXR2_TOXGO	Purine Nucleoside Phosphorylase, Toxgo
+2762	Q2LFS1_9INFA	Neuraminidase, 9infa
+2763	Q2PCB5_DICLA	Carbonic Anhydrase, Dicla
+2764	Q2TJZ7_PIG	Microsomal Prostaglandin E Synthase-1, Pig
+2765	Q2V0Y6_ECOLX	Beta-lactamase, Ecolx
+2766	Q2XPY6_SALET	Extended-spectrum Beta-lactamase CTX-M-53, Salet
+2767	Q2XUH7_PIG	Angiotensin Type II Receptor, Pig
+2768	Q38DI7_TRYB2	6-phosphogluconate Dehydrogenase, Decarboxylating, Putative, Tryb2
+2769	Q3HTL5_PLAFA	Falcipain 2B, Plafa
+2770	Q3I4V7_CRYNV	Carbonic Anhydrase 2, Crynv
+2771	Q3S5C3_SALNE	Efflux Transporter, Salne
+2772	Q3T905_HELZE	Carboxypeptidase B, Helze
+2773	Q3ZDS5_9HEPC	NS5B, 9hepc
+2774	Q43014_PRUAV	Beta-glucosidase, Pruav
+2775	Q43445_SOYBN	S-adenosyl-L-methionine:delta24-sterol-C-methyltransferase, Soybn
+2776	Q43570_TOBAC	Zn Finger Protein, Tobac
+2777	Q46991_ENTCL	IMI-1, Entcl
+2778	Q47245_ECOLX	DNA Gyrase Subunit A, Ecolx
+2779	Q48435_KLEPN	Class C Beta-lactamase CMY-36, Klepn
+2780	Q499N1_RAT	Retinoic Acid Receptor Alpha, Rat
+2781	Q49PX0_9POXV	N1L, 9poxv
+2782	Q4CXF7_TRYCC	Farnesyltransferase, Putative, Trycc
+2783	Q4Q5W4_LEIMA	Farnesyltransferase, Putative, Leima
+2784	Q4TVR4_KLEPN	Beta-lactamase SHV-55, Klepn
+2785	Q4U254_9ENTO	Human Rhinovirus A Protease, 9ento
+2786	Q4VQ11_PIG	A1 Adenosine Receptor, Pig
+2787	Q4WNT5_ASPFU	14-alpha Sterol Demethylase Cyp51A, Aspfu
+2788	Q50565_METTH	Carbonic Anhydrase, Metth
+2789	Q50H31_BRAPL	Class D Beta-lactamase, Brapl
+2790	Q533H1_FELCA	Urotensin II Receptor, Felca
+2791	Q53729_STAAU	Penicillin-binding Protein 2, Staau
+2792	Q53I59_TRYCR	Cyclic Nucleotide Specific Phosphodiesterase, Trycr
+2793	Q54A96_PLAFA	Dihydroorotate Dehydrogenase, Plafa
+2794	Q56D22_MACMU	Hydroxysteroid 11-beta Dehydrogenase 1, Macmu
+2795	Q56D28_CAVPO	Chemoattractant Receptor-homologous Molecule Expressed On Th2 Cells, Guinea Pig
+2796	Q59401_ENTCL	Beta-lactamase Class C, Entcl
+2797	Q5AJ71_CANAL	Carbonic Anhydrase, Canal
+2798	Q5CGA3_CRYHO	Dihydrofolate Reductase, Cryho
+2799	Q5DUH8_COFAR	Alpha-galactosidase, Cofar
+2800	Q5EI73_PLAFA	Protein Farnesyltransferase Alpha Subunit, Plafa
+2801	Q5EI74_PLAFA	Protein Farnesyltransferase Beta Subunit, Plafa
+2802	Q5EM59_BOVIN	Androgen Receptor, Bovin
+2803	Q5NGP7_FRATT	Arabinose Phosphate Isomerase, Fratt
+2804	Q5RJZ2_RAT	Histone Deacetylase 5, Rat
+2805	Q5SC61_TOXGO	Mitogen-activated Protein Kinase 1, Toxgo
+2806	Q5TIX5_MYCSM	Putative Uncharacterized Protein AtpE, Mycsm
+2807	Q5VLE3_EMEND	RmtA, Emend
+2808	Q5XX84_CANFA	11-beta-hydroxysteroid Dehydrogenase Type 1, Canine
+2809	Q63380_RAT	Transporter, Rat
+2810	Q64546_RAT	Cytochrome P450c11B3, Rat
+2811	Q65ZF5_NAJNA	Phospholipase A2, Najna
+2812	Q6FTL6_CANGA	Carbonic Anhydrase, Canga
+2813	Q6GWS8_ECOLX	Beta-lactamase TEM-125, Ecolx
+2814	Q6IE76_BOVIN	Squalene Synthetase, Bovin
+2815	Q6IMK5_RAT	Diamine Oxidase-like Protein 2, Rat
+2816	Q6IMK6_RAT	Diamine Oxidase-like Protein 1, Rat
+2817	Q6JP75_SERFO	Carbapenem-hydrolizing Beta-lactamase SFC-1, Serfo
+2818	Q6L709_HHV2	Thymidine Kinase, Hhv2
+2819	Q6MGC4_RAT	MHC Class II, Rat
+2820	Q6PRC7_IXORI	Legumain-like Protease, Ixori
+2821	Q6Q793_9INFA	Neuraminidase, 9infa
+2822	Q6R7Z5_9TRYP	Cathepsin B-like Cysteine Protease, 9tryp
+2823	Q6RY99_RAT	Gamma-hydroxybutyrate Receptor, Rat
+2824	Q6UB75_PIG	Group VII Phospholipase A2, Pig
+2825	Q6UCJ9_TOXGO	Enoyl-acyl Carrier Reductase, Toxgo
+2826	Q6VVP7_PLAFA	Malate Dehydrogenase, Plafa
+2827	Q6W9J1_ENTCL	Beta-lactamase TEM, Entcl
+2828	Q6XKD3_RAT	G Protein-coupled Receptor 44, Rat
+2829	Q70E71_9ENTE	Aminoglycoside Acetyltransferase, 9ente
+2830	Q72547_9HIV1	Human Immunodeficiency Virus Type 1 Reverse Transcriptase, 9hiv1
+2831	Q72874_9HIV1	Human Immunodeficiency Virus Type 1 Protease, 9hiv1
+2832	Q77YF8_9HIV1	Human Immunodeficiency Virus Type 1 REV, 9hiv1
+2833	Q79MP6_PSEAI	Beta-lactamase, Pseai
+2834	Q7A3H4_STAAN	Sortase, Staan
+2835	Q7ARH8_YERPE	Secreted Protein-tyrosine Phosphatase, Yerpe
+2836	Q7CGS5_YERPE	Fructose-bisphosphate Aldolase Class II, Yerpe
+2837	Q7DHH4_STAAU	MecA, Staau
+2838	Q7JHP9_MACMU	Transporter, Macmu
+2839	Q7K6A1_PLAF7	Histone Deacetylase, Plaf7
+2840	Q7M3D2_RABIT	Renin, Rabit
+2841	Q7T3S7_ECHCA	Phospholipase A2, Echca
+2842	Q7T838_HCMV	Phosphotransferase PUL97, Hcmv
+2843	Q7X1P7_STRPN	ParE, Strpn
+2844	Q7X575_ECOLX	Beta-lactamase SHV-11, Ecolx
+2845	Q7YY07_CRYPV	Histone Deacetylase, Crypv
+2846	Q7YY76_CRYPV	Histone Deacetylase, Crypv
+2847	Q7ZJM1_9HIV1	Human Immunodeficiency Virus Type 1 Integrase, 9hiv1
+2848	Q80T35_MOUSE	Metabotropic Glutamate Receptor 6, Mouse
+2849	Q80T43_MOUSE	Metabotropic Glutamate Receptor 2, Mouse
+2850	Q80T47_MOUSE	Metabotropic Glutamate Receptor 5, Mouse
+2851	Q80Z26_RAT	Nucleoside Triphosphate Diphosphohydrolase 3, Rat
+2852	Q81LQ4_BACAN	Nicotinate-nucleotide Adenylyltransferase, Bacan
+2853	Q81R22_BACAN	Dihydrofolate Reductase, Bacan
+2854	Q81VW8_BACAN	Dihydropteroate Synthase, Bacan
+2855	Q82323_9DELA	Protease, 9dela
+2856	Q83TT7_ECOLX	AmpC, Ecolx
+2857	Q862F3_BOVIN	Tubulin Alpha Chain, Bovin
+2858	Q862L2_BOVIN	Tubulin Alpha-1 Chain, Bovin
+2859	Q864F1_PIG	Phosphodiesterase 5, Pig
+2860	Q865E1_MACMU	Histamine Receptor H3, Macmu
+2861	Q873X9_ASPFM	Chitinase, Aspfm
+2862	Q8AWE3_CHICK	Serine-threonine Protein Phosphatase 2A Regulatory Subunit, Chick
+2863	Q8BGP7_MOUSE	Neuronal Acetylcholine Receptor Protein Beta-2 Subunit, Mouse
+2864	Q8CFB8_MOUSE	ADP-ribosyltransferase, Mouse
+2865	Q8CFM9_RAT	Adenylate Cyclase Type VII, Rat
+2866	Q8DNV6_STRR6	UDP-N-acetylmuramoylalanine-D-glutamyl-lysine-D-alanyl-D-alanine Ligase, Strr6
+2867	Q8HY88_BOVIN	Potassium Channel Subfamily K Member 2, Bovin
+2868	Q8HZR1_CANFA	Cyclooxygenase-1, Canine
+2869	Q8II92_PLAF7	DUTP Pyrophosphatase, Plaf7
+2870	Q8IM16_PLAF7	Plasmepsin IV, Plaf7
+2871	Q8IXA3_HUMAN	Casein Kinase I Gamma 1 Isoform, Human
+2872	Q8JXU8_9HEPC	Hepatitis C Virus NS5B RNA-dependent RNA Polymerase, 9hepc
+2873	Q8MHZ5_SHEEP	Ghrelin Receptor, Sheep
+2874	Q8MMZ8_EIMTE	CGMP-dependent Protein Kinase, Eimte
+2875	Q8MTZ4_9TRYP	Vacuolar-type Proton Translocating Pyrophosphatase 1, 9tryp
+2876	Q8QGU2_CHICK	FK506 Binding Protein 12, Chick
+2877	Q8SPQ9_CANFA	Cyclooxygenase-2, Canine
+2878	Q8ST54_TRYCR	Hexokinase, Trycr
+2879	Q8T6J6_PLAFA	Orotidine Phosphate Decarboxylase, Plafa
+2880	Q8T6T2_CRYPV	Inosine-5'-monophosphate Dehydrogenase, Probable, Crypv
+2881	Q8T8E7_9TRYP	Metacaspase, 9tryp
+2882	Q8T8E9_9TRYP	UDP-galactose 4-epimerase, 9tryp
+2883	Q8T9Z7_PLAFA	Purine Nucleoside Phosphorylase, Plafa
+2884	Q8VBU5_MOUSE	Phosphodiesterase 4B, Mouse
+2885	Q8VIE4_RAT	Phosphodiesterase 7B, Rat
+2886	Q8WMX0_BOVIN	Muscarinic Acetylcholine Receptor M1, Bovin
+2887	Q8WS26_TRYCR	Farnesyl Diphosphate Synthase, Trycr
+2888	Q91WG0_MOUSE	Carboxylesterase 2, Mouse
+2889	Q91ZM7_RAT	GABA Receptor Theta Subunit, Rat
+2890	Q94F81_MAIZE	Histone Deacetylase HD2, Maize
+2891	Q95214_RABIT	Acyl-CoA:cholesterol Acyltransferase, Rabit
+2892	Q95J97_RABIT	CAMP-dependent Protein Kinase Alpha-catalytic Subunit, Rabit
+2893	Q95PM0_TRYBR	Rhodesain, Trybr
+2894	Q95WR6_LEIDO	Cysteine Protease, Leido
+2895	Q962Y6_SCHMA	Thioredoxin Glutathione Reductase, Schma
+2896	Q964Q8_TRYCR	Farnesyl Synthetase, Putative, Trycr
+2897	Q965D5_PLAFA	Enoyl-acyl-carrier Protein Reductase, Plafa
+2898	Q965D6_PLAFA	3-oxoacyl-acyl-carrier Protein Reductase, Plafa
+2899	Q965D7_PLAFA	Fatty Acid Synthase, Plafa
+2900	Q96W81_ASPFM	14-alpha Sterol Demethylase, Aspfm
+2901	Q97R43_STRPN	5'-methylthioadenosine/S-adenosylhomocysteine Nucleosidase, Strpn
+2902	Q993A8_9HIV1	Envelope Polyprotein GP120, 9hiv1
+2903	Q99MA2_RAT	Xaa-Pro Aminopeptidase 2, Rat
+2904	Q99MI5_RAT	Spermidine Synthase, Rat
+2905	Q99P97_RAT	Histone Deacetylase 6, Rat
+2906	Q9AQH7_STAAU	DnaC Helicase, Staau
+2907	Q9BDP5_BOVIN	Inducible Nitric Oxide Synthase, Bovin
+2908	Q9BEG3_BOVIN	Arachidonate 5-lipoxygenase, Bovin
+2909	Q9BJF5_TOXGO	Calmodulin-domain Protein Kinase 1, Toxgo
+2910	Q9BJJ9_PLAFA	Enoyl-ACP Reductase, Plafa
+2911	Q9EPR9_RAT	Phosphodiesterase 1A, Rat
+2912	Q9ERC0_RAT	Neuropeptide Y Receptor Type 2, Rat
+2913	Q9ERV0_RAT	Pkd1, Rat
+2914	Q9EXV5_ECOLX	Beta-lactamase, Ecolx
+2915	Q9FBC5_STRPN	Enoyl-(Acyl-carrier-protein) Reductase, Strpn
+2916	Q9GPG0_MANSE	Juvenile Hormone Esterase, Manse
+2917	Q9GPQ4_TRYVI	IAG-nucleoside Hydrolase, Tryvi
+2918	Q9GRG7_9TRYP	Glucose-6-phosphate 1-dehydrogenase, 9tryp
+2919	Q9GSW0_PLAFA	Deoxyhypusine Synthase, Plafa
+2920	Q9H3Q8_HUMAN	Calmodulin-dependent Phosphodiesterase, Human
+2921	Q9HUN3_PSEAE	Replicative DNA Helicase, Pseae
+2922	Q9I056_PSEAE	Carboxypeptidase G2, Pseae
+2923	Q9I8A2_CHICK	Adenosinetriphosphatase, Chick
+2924	Q9I8C9_CHICK	Vacuolar H(+)-transporting ATPase 116 KDa Subunit, A2 Isoform, Chick
+2925	Q9JKC1_RAT	Butyrylcholinesterase, Rat
+2926	Q9JLY8_RAT	C-C Chemokine Receptor Type 1, Rat
+2927	Q9JN24_ECOLX	Peptide Deformylase, Ecolx
+2928	Q9LGC6_ORYSJ	Alpha-glucosidase, Orysj
+2929	Q9MYX2_PIG	Carnitine Palmitoyltransferase 1A, Pig
+2930	Q9MZB0_SHEEP	Tubulin Alpha-1 Chain, Sheep
+2931	Q9N1N9_HORSE	Butyrylcholinesterase, Horse
+2932	Q9N6S8_PLAFA	Falcipain 2, Plafa
+2933	Q9NAW2_PLAFA	Falcipain 2, Plafa
+2934	Q9NAW4_PLAFA	Cysteine Protease Falcipain-3, Plafa
+2935	Q9NBA7_PLAFA	Cysteine Protease Falcipain-3, Plafa
+2936	Q9NBD4_PLAFA	Cysteine Protease Falcipain-2, Plafa
+2937	Q9NFS5_PLAFA	Spermidine Synthase, Plafa
+2938	Q9QXI6_MOUSE	SGLT1 Protein, Mouse
+2939	Q9R297_RAT	Thyrotropin-releasing Hormone Receptor 2, Rat
+2940	Q9RK76_STRCO	Putative Beta-hexosaminidase, Strco
+2941	Q9S446_STAAU	Sortase, Staau
+2942	Q9SEH8_SOYBN	Alpha-mannosidase, Soybn
+2943	Q9W6Q1_9SALA	Sodium/hydrogen Exchanger, 9sala
+2944	Q9WTR4_RAT	Norepinephrine Transporter, Rat
+2945	Q9XAY4_PSEAI	Beta-lactamase VIM-1, Pseai
+2946	Q9XSW7_PIG	Phosphodiesterase 3A, Pig
+2947	Q9XYC7_PLAFA	Histone Deacetylase, Plafa
+2948	Q9Y006_PLAFA	HAP Protein (Putative Aspartic Proteinase), Plafa
+2949	Q9Y0I0_9TRYP	Adenosine Transporter 1, 9tryp
+2950	Q9ZTP8_MAIZE	Histone Deacetylase HD1B, Maize
+2951	QPCT_HUMAN	Glutaminyl-peptide Cyclotransferase, Human
+2952	R1AB_CVHSA	Replicase Polyprotein 1ab, Cvhsa
+2953	R1A_CVHSA	SARS Coronavirus 3C-like Proteinase, Cvhsa
+2954	RABP1_CHICK	Cellular Retinoic Acid-binding Protein I, Chick
+2955	RABP1_MOUSE	Cellular Retinoic Acid-binding Protein I, Mouse
+2956	RABP2_MOUSE	Cellular Retinoic Acid-binding Protein II, Mouse
+2957	RAC1_HUMAN	Ras-related C3 Botulinum Toxin Substrate 1, Human
+2958	RAF1_HUMAN	Serine/threonine-protein Kinase RAF, Human
+2959	RAMP1_HUMAN	Receptor Activity-modifying Protein 1, Human
+2960	RAP1A_HUMAN	Ras-related Protein Rap-1A, Human
+2961	RARA_HUMAN	Retinoic Acid Receptor Alpha, Human
+2962	RARA_MOUSE	Retinoic Acid Receptor Alpha, Mouse
+2963	RARB_HUMAN	Retinoic Acid Receptor Beta, Human
+2964	RARB_MOUSE	Retinoic Acid Receptor Beta, Mouse
+2965	RARG_HUMAN	Retinoic Acid Receptor Gamma, Human
+2966	RARG_MOUSE	Retinoic Acid Receptor Gamma, Mouse
+2967	RASH_HUMAN	Transforming Protein P21/H-Ras-1, Human
+2968	RBBP9_HUMAN	Putative Hydrolase RBBP9, Human
+2969	RB_HUMAN	Retinoblastoma-associated Protein, Human
+2970	RENI1_MOUSE	Renin, Mouse
+2971	RENI_CALJA	Renin, Calja
+2972	RENI_HUMAN	Renin, Human
+2973	RENI_MACMU	Renin, Macmu
+2974	RENI_RAT	Renin, Rat
+2975	REST_BORBU	Telomere Resolvase ResT, Borbu
+2976	RET1_HUMAN	Cellular Retinol-binding Protein, Human
+2977	RET2_HUMAN	Cellular Retinol-binding Protein II, Human
+2978	RET3_HUMAN	Interstitial Retinol-binding Protein, Human
+2979	RET4_HUMAN	Plasma Retinol-binding Protein, Human
+2980	RET5_HUMAN	Cellular Retinol-binding Protein III, Human
+2981	RET7_HUMAN	Cellular Retinol-binding Protein IV, Human
+2982	RET_HUMAN	Tyrosine-protein Kinase Receptor RET, Human
+2983	RFA1_HUMAN	Replication Protein A 70 KDa DNA-binding Subunit, Human
+2984	RHOA_HUMAN	Transforming Protein RhoA, Human
+2985	RIOK1_HUMAN	Serine/threonine-protein Kinase RIO1, Human
+2986	RIOK2_HUMAN	Serine/threonine-protein Kinase RIO2, Human
+2987	RIOK3_HUMAN	Serine/threonine-protein Kinase RIO3, Human
+2988	RIPK1_HUMAN	Receptor-interacting Serine/threonine-protein Kinase 1, Human
+2989	RIPK2_HUMAN	Serine/threonine-protein Kinase RIPK2, Human
+2990	RIPK4_HUMAN	Receptor-interacting Serine/threonine-protein Kinase 4, Human
+2991	RIR1_HHV11	Ribonucleoside-diphosphate Reductase Large Chain, Hhv11
+2992	RIR1_HHV23	Ribonucleoside-diphosphate Reductase Large Chain, Hhv23
+2993	RIR1_HUMAN	Ribonucleoside-diphosphate Reductase M1 Chain, Human
+2994	RIR1_MOUSE	Ribonucleoside-diphosphate Reductase M1 Chain, Mouse
+2995	RIR2_HHV1K	Ribonucleoside-diphosphate Reductase Small Chain, Hhv1k
+2996	RIR2_HHV23	Ribonucleoside-diphosphate Reductase Small Chain, Hhv23
+2997	RIR2_HUMAN	Ribonucleoside-diphosphate Reductase M2 Chain, Human
+2998	RIR2_MOUSE	Ribonucleoside-diphosphate Reductase M2 Chain, Mouse
+2999	RISB_MYCTU	6,7-dimethyl-8-ribityllumazine Synthase, Myctu
+3000	RK_HUMAN	Rhodopsin Kinase, Human
+3001	RNAS1_BOVIN	Ribonuclease Pancreatic, Bovin
+3002	RNAS1_HUMAN	Ribonuclease Pancreatic, Human
+3003	RNAS2_HUMAN	Non-secretory Ribonuclease, Human
+3004	RNH1_HUMAN	Ribonuclease H1, Human
+3005	ROCK1_HUMAN	Rho-associated Protein Kinase 1, Human
+3006	ROCK1_RAT	Rho-associated Protein Kinase 1, Rat
+3007	ROCK2_HUMAN	Rho-associated Protein Kinase 2, Human
+3008	ROCK2_RAT	Rho-associated Protein Kinase 2, Rat
+3009	RON_HUMAN	Macrophage-stimulating Protein Receptor, Human
+3010	RON_MOUSE	Macrophage-stimulating Protein Receptor, Mouse
+3011	RORA_HUMAN	Nuclear Receptor ROR-alpha, Human
+3012	ROS1_HUMAN	Proto-oncogene Tyrosine-protein Kinase ROS, Human
+3013	RPC10_HUMAN	DNA-directed RNA Polymerases III 12.5 KDa Polypeptide, Human
+3014	RPC4_HUMAN	DNA-directed RNA Polymerase III 47 KDa Polypeptide, Human
+3015	RPC6_HUMAN	DNA-directed RNA Polymerase III 39 KDa Polypeptide, Human
+3016	RPOB_ECOLI	DNA-directed RNA Polymerase Beta Chain, Ecoli
+3017	RPOD_ECOLI	RNA Polymerase Sigma Factor, Ecoli
+3018	RXRA_HUMAN	Retinoid X Receptor Alpha, Human
+3019	RXRA_MOUSE	Retinoid X Receptor Alpha, Mouse
+3020	RXRA_RAT	Retinoid X Receptor Alpha, Rat
+3021	RXRB_HUMAN	Retinoid X Receptor Beta, Human
+3022	RXRB_MOUSE	Retinoid X Receptor Beta, Mouse
+3023	RXRB_RAT	Retinoid X Receptor Beta, Rat
+3024	RXRG_HUMAN	Retinoid X Receptor Gamma, Human
+3025	RXRG_MOUSE	Retinoid X Receptor Gamma, Mouse
+3026	RXRG_RAT	Retinoid X Receptor Gamma, Rat
+3027	RY44_DROME	Ryanodine Receptor 44F, Drome
+3028	RYR1_HUMAN	Ryanodine Receptor 1, Human
+3029	RYR1_PIG	Ryanodine Receptor 1, Pig
+3030	RYR1_RABIT	Ryanodine Receptor 1, Rabit
+3031	RYR3_HUMAN	Ryanodine Receptor 3, Human
+3032	S100B_HUMAN	S-100 Protein Beta Chain, Human
+3033	S10AA_HUMAN	Protein S100-A10, Human
+3034	S15A1_HUMAN	Oligopeptide Transporter Small Intestine Isoform, Human
+3035	S15A2_RAT	Oligopeptide Transporter, Kidney Isoform, Rat
+3036	S19A1_HUMAN	Folate Transporter 1, Human
+3037	S19A2_HUMAN	Thiamine Transporter 1, Human
+3038	S1PR1_HUMAN	Sphingosine 1-phosphate Receptor Edg-1, Human
+3039	S1PR2_HUMAN	Sphingosine 1-phosphate Receptor Edg-5, Human
+3040	S1PR3_HUMAN	Sphingosine 1-phosphate Receptor Edg-3, Human
+3041	S1PR4_HUMAN	Sphingosine 1-phosphate Receptor Edg-6, Human
+3042	S1PR5_HUMAN	Sphingosine 1-phosphate Receptor Edg-8, Human
+3043	S22A1_HUMAN	Solute Carrier Family 22 Member 1, Human
+3044	S22A6_HUMAN	Solute Carrier Family 22 Member 6, Human
+3045	S22A6_MOUSE	Solute Carrier Family 22 Member 6, Mouse
+3046	S22A6_RAT	Solute Carrier Family 22 Member 6, Rat
+3047	S22AC_HUMAN	Solute Carrier Family 22 Member 12, Human
+3048	S22AK_MOUSE	Solute Carrier Family 22 Member 20, Mouse
+3049	S27A4_HUMAN	Fatty Acid Transport Protein 4, Human
+3050	S28A3_HUMAN	Solute Carrier Family 28 Member 3, Human
+3051	S29A1_HUMAN	Equilibrative Nucleoside Transporter 1, Human
+3052	S29A1_RAT	Equilibrative Nucleoside Transporter 1, Rat
+3053	S5A1_HUMAN	Steroid 5-alpha-reductase 1, Human
+3054	S5A1_RAT	Steroid 5-alpha-reductase 1, Rat
+3055	S5A2_HUMAN	Steroid 5-alpha-reductase 2, Human
+3056	S5A2_RAT	Steroid 5-alpha-reductase 2, Rat
+3057	S6A11_HUMAN	GABA Transporter 3, Human
+3058	S6A11_MOUSE	GABA Transporter 4, Mouse
+3059	S6A11_RAT	GABA Transporter 3, Rat
+3060	S6A12_HUMAN	Betaine Transporter, Human
+3061	S6A12_RAT	Betaine Transporter, Rat
+3062	S6A13_MOUSE	GABA Transporter 3, Mouse
+3063	S6A13_RAT	GABA Transporter 2, Rat
+3064	SAHH_HUMAN	Adenosylhomocysteinase, Human
+3065	SAHH_MOUSE	Adenosylhomocysteinase, Mouse
+3066	SAHH_PLAF7	Adenosylhomocysteinase, Plaf7
+3067	SAHH_RAT	Adenosylhomocysteinase, Rat
+3068	SATT_HUMAN	Neutral Amino Acid Transporter A, Human
+3069	SC5A1_HUMAN	Sodium/glucose Cotransporter 1, Human
+3070	SC5A1_RAT	Sodium/glucose Cotransporter 1, Rat
+3071	SC5A2_HUMAN	Sodium/glucose Cotransporter 2, Human
+3072	SC5A2_MOUSE	Sodium/glucose Cotransporter 2, Mouse
+3073	SC5A2_RAT	Sodium/glucose Cotransporter 2, Rat
+3074	SC5A4_HUMAN	Low Affinity Sodium-glucose Cotransporter, Human
+3075	SC5A7_HUMAN	High-affinity Choline Transporter, Human
+3076	SC5A7_MOUSE	Choline Transporter, Mouse
+3077	SC5A7_RAT	High Affinity Choline Transporter 1, Rat
+3078	SC5AB_HUMAN	Sodium/myo-inositol Cotransporter 2, Human
+3079	SC6A1_HUMAN	GABA Transporter 1, Human
+3080	SC6A1_MOUSE	GABA Transporter 1, Mouse
+3081	SC6A1_RAT	GABA Transporter 1, Rat
+3082	SC6A2_HUMAN	Norepinephrine Transporter, Human
+3083	SC6A2_MOUSE	Norepinephrine Transporter, Mouse
+3084	SC6A3_BOVIN	Dopamine Transporter, Bovin
+3085	SC6A3_HUMAN	Dopamine Transporter, Human
+3086	SC6A3_MACFA	Dopamine Transporter, Macfa
+3087	SC6A3_MOUSE	Dopamine Transporter, Mouse
+3088	SC6A3_RAT	Dopamine Transporter, Rat
+3089	SC6A4_HUMAN	Serotonin Transporter, Human
+3090	SC6A4_MACMU	Serotonin Transporter, Macmu
+3091	SC6A4_MOUSE	Serotonin Transporter, Mouse
+3092	SC6A4_RAT	Serotonin Transporter, Rat
+3093	SC6A5_HUMAN	Glycine Transporter 2, Human
+3094	SC6A5_RAT	Glycine Transporter 2, Rat
+3095	SC6A8_RAT	Creatine Transporter, Rat
+3096	SC6A9_HUMAN	Glycine Transporter 1, Human
+3097	SC6A9_MOUSE	Sodium- And Chloride-dependent Glycine Transporter 1, Mouse
+3098	SC6A9_RAT	Glycine Transporter 1, Rat
+3099	SCN1A_HUMAN	Sodium Channel Protein Type I Alpha Subunit, Human
+3100	SCN1A_RAT	Sodium Channel Protein Type I Alpha Subunit, Rat
+3101	SCN2A_HUMAN	Sodium Channel Protein Type II Alpha Subunit, Human
+3102	SCN2A_RAT	Sodium Channel Protein Type II Alpha Subunit, Rat
+3103	SCN3A_HUMAN	Sodium Channel Protein Type III Alpha Subunit, Human
+3104	SCN3A_RAT	Sodium Channel Protein Type III Alpha Subunit, Rat
+3105	SCN4A_HUMAN	Sodium Channel Protein Type IV Alpha Subunit, Human
+3106	SCN4A_RAT	Sodium Channel Protein Type IV Alpha Subunit, Rat
+3107	SCN5A_HUMAN	Sodium Channel Protein Type V Alpha Subunit, Human
+3108	SCN5A_RAT	Sodium Channel Protein Type V Alpha Subunit, Rat
+3109	SCN7A_HUMAN	Sodium Channel Protein Type VII Alpha Subunit, Human
+3110	SCN8A_HUMAN	Sodium Channel Protein Type VIII Alpha Subunit, Human
+3111	SCN8A_RAT	Sodium Channel Protein Type VIII Alpha Subunit, Rat
+3112	SCN9A_HUMAN	Sodium Channel Protein Type IX Alpha Subunit, Human
+3113	SCN9A_RAT	Sodium Channel Protein Type IX Alpha Subunit, Rat
+3114	SCNAA_HUMAN	Sodium Channel Protein Type X Alpha Subunit, Human
+3115	SCNAA_MOUSE	Sodium Channel Protein Type 10 Subunit Alpha, Mouse
+3116	SCNAA_RAT	Sodium Channel Protein Type X Alpha Subunit, Rat
+3117	SCNBA_HUMAN	Sodium Channel Protein Type XI Alpha Subunit, Human
+3118	SCNBA_RAT	Sodium Channel Protein Type XI Alpha Subunit, Rat
+3119	SCNNA_HUMAN	Amiloride-sensitive Sodium Channel Alpha-subunit, Human
+3120	SCYD_MAGO7	Scytalone Dehydratase, Mago7
+3121	SEPR_HUMAN	Fibroblast Activation Protein Alpha, Human
+3122	SERPH_HUMAN	Collagen-binding Protein 1, Human
+3123	SETD7_HUMAN	Histone-lysine N-methyltransferase SETD7, Human
+3124	SF3B3_HUMAN	Splicing Factor 3B Subunit 3, Human
+3125	SFRP1_HUMAN	Secreted Frizzled-related Protein 1, Human
+3126	SG110_HUMAN	Putative Uncharacterized Serine/threonine-protein Kinase SgK110, Human
+3127	SGK1_HUMAN	Serine/threonine-protein Kinase Sgk1, Human
+3128	SGMR1_CAVPO	Sigma-1 Receptor, Guinea Pig
+3129	SGMR1_HUMAN	Sigma Opioid Receptor, Human
+3130	SGMR1_MOUSE	Sigma Opioid Receptor, Mouse
+3131	SGMR1_RAT	Sigma Opioid Receptor, Rat
+3132	SGPL1_MOUSE	Sphingosine-1-phosphate Lyase 1, Mouse
+3133	SHBG_HUMAN	Testis-specific Androgen-binding Protein, Human
+3134	SHBG_RAT	Testis-specific Androgen-binding Protein, Rat
+3135	SHC1_HUMAN	SHC-transforming Protein 1, Human
+3136	SHH_HUMAN	Sonic Hedgehog Protein, Human
+3137	SHH_MOUSE	Sonic Hedgehog Protein, Mouse
+3138	SIK1_HUMAN	Serine/threonine-protein Kinase SIK1, Human
+3139	SIK2_HUMAN	Serine/threonine-protein Kinase SIK2, Human
+3140	SIR2_YEAST	NAD-dependent Histone Deacetylase SIR2, Yeast
+3141	SIRT1_HUMAN	NAD-dependent Deacetylase Sirtuin 1, Human
+3142	SIRT2_HUMAN	NAD-dependent Deacetylase Sirtuin 2, Human
+3143	SIRT3_HUMAN	NAD-dependent Deacetylase Sirtuin 3, Human
+3144	SL9A1_HUMAN	Sodium/hydrogen Exchanger 1, Human
+3145	SL9A1_RABIT	Sodium/hydrogen Exchanger 1, Rabit
+3146	SL9A1_RAT	Sodium/hydrogen Exchanger 1, Rat
+3147	SL9A2_HUMAN	Sodium/hydrogen Exchanger 2, Human
+3148	SL9A2_RABIT	Sodium/hydrogen Exchanger 2, Rabit
+3149	SL9A3_RABIT	Sodium/hydrogen Exchanger 3, Rabit
+3150	SLK_HUMAN	Serine/threonine-protein Kinase 2, Human
+3151	SMO_HUMAN	Smoothened Homolog, Human
+3152	SMO_MOUSE	Smoothened Homolog, Mouse
+3153	SMT1_ARATH	24-sterol C-methyltransferase, Arath
+3154	SNAT_SHEEP	Serotonin N-acetyltransferase, Sheep
+3155	SOAT1_HUMAN	Acyl Coenzyme A:cholesterol Acyltransferase 1, Human
+3156	SOAT1_MOUSE	Acyl Coenzyme A:cholesterol Acyltransferase 1, Mouse
+3157	SOAT1_RAT	Acyl Coenzyme A:cholesterol Acyltransferase 1, Rat
+3158	SOAT2_HUMAN	Acyl Coenzyme A:cholesterol Acyltransferase 2, Human
+3159	SOAT2_MOUSE	Acyl Coenzyme A:cholesterol Acyltransferase 2, Mouse
+3160	SOAT2_RAT	Acyl Coenzyme A:cholesterol Acyltransferase 2, Rat
+3161	SP0F_BACSU	Sporulation Initiation Phosphotransferase F, Bacsu
+3162	SPEE_HUMAN	Spermidine Synthase, Human
+3163	SPHK1_HUMAN	Sphingosine Kinase 1, Human
+3164	SPHK2_HUMAN	Sphingosine Kinase 2, Human
+3165	SPHK2_MOUSE	Sphingosine Kinase 2, Mouse
+3166	SPSY_HUMAN	Spermine Synthase, Human
+3167	SPTC1_HUMAN	Serine Palmitoyltransferase 1, Human
+3168	SPTC2_HUMAN	Serine Palmitoyltransferase 2, Human
+3169	SQHC_ALIAD	Squalene-hopene Cyclase, Aliad
+3170	SRBP2_HUMAN	Sterol Regulatory Element-binding Protein 2, Human
+3171	SRC_CHICK	Tyrosine-protein Kinase SRC, Chick
+3172	SRC_HUMAN	Tyrosine-protein Kinase SRC, Human
+3173	SRC_MOUSE	Tyrosine-protein Kinase SRC, Mouse
+3174	SRC_RAT	Tyrosine-protein Kinase SRC, Rat
+3175	SRMS_HUMAN	Tyrosine-protein Kinase Srms, Human
+3176	SRPK1_HUMAN	Serine/threonine-protein Kinase SRPK1, Human
+3177	SRPK2_HUMAN	Serine/threonine-protein Kinase SRPK2, Human
+3178	SRPK3_HUMAN	Serine/threonine-protein Kinase SRPK3, Human
+3179	SSDH_HUMAN	Succinate Semialdehyde Dehydrogenase, Human
+3180	SSR1_HUMAN	Somatostatin Receptor 1, Human
+3181	SSR1_MOUSE	Somatostatin Receptor 1, Mouse
+3182	SSR1_RAT	Somatostatin Receptor 1, Rat
+3183	SSR2_HUMAN	Somatostatin Receptor 2, Human
+3184	SSR2_MOUSE	Somatostatin Receptor 2, Mouse
+3185	SSR2_RAT	Somatostatin Receptor 2, Rat
+3186	SSR3_HUMAN	Somatostatin Receptor 3, Human
+3187	SSR3_MOUSE	Somatostatin Receptor 3, Mouse
+3188	SSR4_HUMAN	Somatostatin Receptor 4, Human
+3189	SSR4_MOUSE	Somatostatin Receptor 4, Mouse
+3190	SSR4_RAT	Somatostatin Receptor 4, Rat
+3191	SSR5_HUMAN	Somatostatin Receptor 5, Human
+3192	SSR5_MOUSE	Somatostatin Receptor 5, Mouse
+3193	SSR5_RAT	Somatostatin Receptor 5, Rat
+3194	ST14_HUMAN	Matriptase, Human
+3195	ST17A_HUMAN	Serine/threonine-protein Kinase 17A, Human
+3196	ST17B_HUMAN	Serine/threonine-protein Kinase 17B, Human
+3197	ST1E1_BOVIN	Estrogen Sulfotransferase, Bovin
+3198	ST1E1_HUMAN	Estrogen Sulfotransferase, Human
+3199	ST1E1_MOUSE	Estrogen Sulfotransferase, Mouse
+3200	ST32B_HUMAN	Serine/threonine-protein Kinase 32B, Human
+3201	ST32C_HUMAN	Serine/threonine-protein Kinase 32C, Human
+3202	ST38L_HUMAN	Serine/threonine-protein Kinase 38-like, Human
+3203	STA5A_HUMAN	Signal Transducer And Activator Of Transcription 5A, Human
+3204	STA5B_HUMAN	Signal Transducer And Activator Of Transcription 5B, Human
+3205	STAT3_HUMAN	Signal Transducer And Activator Of Transcription 3, Human
+3206	STAT3_MOUSE	Signal Transducer And Activator Of Transcription 3, Mouse
+3207	STAT6_HUMAN	Signal Transducer And Activator Of Transcription 6, Human
+3208	STE14_YEAST	Isoprenylcysteine Carboxyl Methyltransferase, Yeast
+3209	STF1_HUMAN	Steroidogenic Factor 1, Human
+3210	STK10_HUMAN	Serine/threonine-protein Kinase 10, Human
+3211	STK11_HUMAN	Serine/threonine-protein Kinase 11, Human
+3212	STK16_HUMAN	Serine/threonine-protein Kinase 16, Human
+3213	STK24_HUMAN	Serine/threonine-protein Kinase 24, Human
+3214	STK25_HUMAN	Serine/threonine-protein Kinase 25, Human
+3215	STK33_HUMAN	Serine/threonine-protein Kinase 33, Human
+3216	STK35_HUMAN	Serine/threonine-protein Kinase 35, Human
+3217	STK36_HUMAN	Serine/threonine-protein Kinase 36, Human
+3218	STK38_HUMAN	Serine/threonine-protein Kinase 38, Human
+3219	STK39_HUMAN	STE20/SPS1-related Proline-alanine-rich Protein Kinase, Human
+3220	STK3_HUMAN	Serine/threonine-protein Kinase MST2, Human
+3221	STK3_MOUSE	Serine/threonine-protein Kinase MST2, Mouse
+3222	STK4_HUMAN	Serine/threonine-protein Kinase MST1, Human
+3223	STS_HUMAN	Steryl-sulfatase Precursor, Human
+3224	SUIS_HUMAN	Sucrase-isomaltase, Human
+3225	SUIS_RAT	Sucrase-isomaltase, Rat
+3226	SYEP_HUMAN	Aminoacyl-tRNA Synthetase, Human
+3227	SYFA_HAEIN	Phenylalanyl-tRNA Synthetase Alpha Chain, Haein
+3228	SYFA_STAAU	Phenylalanyl-tRNA Synthetase Alpha Chain, Staau
+3229	SYFA_STRP8	Phenylalanyl-tRNA Synthetase Alpha Chain, Strp8
+3230	SYFA_STRPN	Phenylalanyl-tRNA Synthetase Alpha Chain, Strpn
+3231	SYFM_HUMAN	Phenylalanyl-tRNA Synthetase Mitochondrial, Human
+3232	SYHC_HUMAN	Histidyl-tRNA Synthetase, Human
+3233	SYIC_HUMAN	Isoleucyl-tRNA Synthetase, Human
+3234	SYI_ECOLI	Isoleucyl-tRNA Synthetase, Ecoli
+3235	SYK_HUMAN	Lysyl-tRNA Synthetase, Human
+3236	SYLC_HUMAN	Leucyl-tRNA Synthetase, Human
+3237	SYMC_HUMAN	Methionyl-tRNA Synthetase, Human
+3238	SYM_ECOLI	Methionyl-tRNA Synthetase, Ecoli
+3239	SYM_HAEIN	Methionyl-tRNA Synthetase, Haein
+3240	SYM_STAAW	Methionyl-tRNA Synthetase, Staaw
+3241	SYPC_CANAX	Prolyl-tRNA Synthetase, Canax
+3242	SYQ_HUMAN	Glutaminyl-tRNA Synthetase, Human
+3243	SYRC_HUMAN	Arginyl-tRNA Synthetase, Human
+3244	SYTC_HUMAN	Threonyl-tRNA Synthetase, Human
+3245	SYVC_HUMAN	Valyl-tRNA Synthetase 2, Human
+3246	SYYC_HUMAN	Tyrosyl-tRNA Synthetase, Human
+3247	T23O_HUMAN	Tryptophan 2,3-dioxygenase, Human
+3248	T23O_MOUSE	Tryptophan 2,3-dioxygenase, Mouse
+3249	T23O_RAT	Tryptophan 2,3-dioxygenase, Rat
+3250	T2AG_HUMAN	Transcription Initiation Factor IIA Gamma Chain, Human
+3251	T2S1_STRCS	Type-2 Restriction Enzyme ScaI, Strcs
+3252	TA2R_HUMAN	Thromboxane A2 Receptor, Human
+3253	TA2R_MOUSE	Thromboxane A2 Receptor, Mouse
+3254	TA2R_RAT	Thromboxane A2 Receptor, Rat
+3255	TAAR1_HUMAN	Trace Amine-associated Receptor 1, Human
+3256	TAAR1_MOUSE	Trace Amine-associated Receptor1, Mouse
+3257	TAAR1_RAT	Trace Amine-associated Receptor1, Rat
+3258	TAB1_HUMAN	Mitogen-activated Protein Kinase Kinase Kinase 7-interacting Protein 1, Human
+3259	TAOK1_HUMAN	Serine/threonine-protein Kinase TAO1, Human
+3260	TAOK3_HUMAN	Serine/threonine-protein Kinase TAO3, Human
+3261	TARB1_HUMAN	TAR RNA Binding Protein 1, Human
+3262	TAT_HV112	Human Immunodeficiency Virus Type 1 Tat Protein, Hv112
+3263	TAT_HV1H2	Human Immunodeficiency Virus Type 1 Tat Protein, Hv1h2
+3264	TAU_RAT	Microtubule-associated Protein Tau, Rat
+3265	TBA1A_HUMAN	Tubulin Alpha-3 Chain, Human
+3266	TBA1A_PIG	Tubulin Alpha Chain, Pig
+3267	TBA1A_RAT	Tubulin Alpha-1 Chain, Rat
+3268	TBA4A_HUMAN	Tubulin Alpha-1 Chain, Human
+3269	TBB1_HUMAN	Tubulin Beta-1 Chain, Human
+3270	TBB2B_BOVIN	Tubulin Beta Chain, Bovin
+3271	TBB2B_RAT	Tubulin Beta Chain, Rat
+3272	TBB3_HUMAN	Tubulin Beta-3 Chain, Human
+3273	TBB3_RAT	Tubulin Beta-3 Chain, Rat
+3274	TBB4A_HUMAN	Tubulin Beta-4 Chain, Human
+3275	TBB4B_HUMAN	Tubulin Beta-2 Chain, Human
+3276	TBB5_HUMAN	Tubulin Beta-5 Chain, Human
+3277	TBB8_HUMAN	Tubulin Beta-8 Chain, Human
+3278	TBB_PIG	Tubulin Beta Chain, Pig
+3279	TBG1_RAT	Tubulin Gamma-1 Chain, Rat
+3280	TBK1_HUMAN	Serine/threonine-protein Kinase TBK1, Human
+3281	TCF7_HUMAN	Transcription Factor 7, Human
+3282	TDT_HUMAN	Terminal Deoxynucleotidyltransferase, Human
+3283	TEC_HUMAN	Tyrosine-protein Kinase TEC, Human
+3284	TERA_HUMAN	Transitional Endoplasmic Reticulum ATPase, Human
+3285	TERT_HUMAN	Telomerase Reverse Transcriptase, Human
+3286	TESK1_HUMAN	Dual Specificity Testis-specific Protein Kinase 1, Human
+3287	TETX_CLOTE	Tetanus Toxin, Clote
+3288	TF65_HUMAN	Nuclear Factor NF-kappa-B P65 Subunit, Human
+3289	TF_HUMAN	Coagulation Factor III, Human
+3290	TGFB1_HUMAN	Transforming Growth Factor Beta-1, Human
+3291	TGFR1_HUMAN	TGF-beta Receptor Type I, Human
+3292	TGFR2_HUMAN	TGF-beta Receptor Type II, Human
+3293	TGM1_HUMAN	Protein-glutamine Gamma-glutamyltransferase K, Human
+3294	TGM2_HUMAN	Protein-glutamine Gamma-glutamyltransferase, Human
+3295	TGT_HUMAN	Queuine TRNA-ribosyltransferase, Human
+3296	TGT_ZYMMO	TRNA-guanine Transglycosylase, Zymmo
+3297	THAS_HUMAN	Thromboxane-A Synthase, Human
+3298	THAS_RAT	Thromboxane-A Synthase, Rat
+3299	THA_HUMAN	Thyroid Hormone Receptor Alpha, Human
+3300	THA_RAT	Thyroid Hormone Receptor Alpha, Rat
+3301	THB_HUMAN	Thyroid Hormone Receptor Beta-1, Human
+3302	THB_RAT	Thyroid Hormone Receptor Beta-1, Rat
+3303	THER_BACTH	Thermolysin, Bacth
+3304	THIL_HUMAN	Acetyl-CoA Acetyltransferase, Mitochondrial, Human
+3305	THIL_MOUSE	Acetyl-CoA Acetyltransferase, Mitochondrial, Mouse
+3306	THIL_RAT	Acetyl-CoA Acetyltransferase, Mitochondrial, Rat
+3307	THRB_BOVIN	Thrombin, Bovin
+3308	THRB_HUMAN	Thrombin, Human
+3309	THRB_MOUSE	Prothrombin, Mouse
+3310	THRB_RAT	Thrombin, Rat
+3311	THYX_MYCTU	Thymidylate Synthase ThyX, Myctu
+3312	THYX_PBCV1	Probable Thymidylate Synthase, Pbcv1
+3313	TIE1_HUMAN	Tyrosine-protein Kinase Receptor Tie-1, Human
+3314	TIE2_HUMAN	Tyrosine-protein Kinase TIE-2, Human
+3315	TIE2_MOUSE	Tyrosine-protein Kinase TIE-2, Mouse
+3316	TIMP3_RAT	Tissue Inhibitor Of Metalloproteinases-3, Rat
+3317	TKT_HUMAN	Transketolase, Human
+3318	TLK1_HUMAN	Serine/threonine-protein Kinase Tousled-like 1, Human
+3319	TLK2_HUMAN	Serine/threonine-protein Kinase Tousled-like 2, Human
+3320	TLR2_HUMAN	Toll-like Receptor 2, Human
+3321	TLR4_HUMAN	Toll-like Receptor 4, Human
+3322	TM11D_HUMAN	Transmembrane Protease Serine 11D, Human
+3323	TMPS2_HUMAN	Transmembrane Protease Serine 2, Human
+3324	TMPS6_HUMAN	Transmembrane Protease Serine 6, Human
+3325	TNFA_HUMAN	TNF-alpha, Human
+3326	TNFB_HUMAN	TNF-beta, Human
+3327	TNI3K_HUMAN	Serine/threonine-protein Kinase TNNI3K, Human
+3328	TNIK_HUMAN	TRAF2- And NCK-interacting Kinase, Human
+3329	TNK1_HUMAN	Non-receptor Tyrosine-protein Kinase TNK1, Human
+3330	TNKS1_HUMAN	Tankyrase-1, Human
+3331	TNKS2_HUMAN	Tankyrase-2, Human
+3332	TNR16_HUMAN	Low Affinity Neurotrophin Receptor P75NTR, Human
+3333	TNR1A_HUMAN	Tumor Necrosis Factor Receptor R1, Human
+3334	TOP1_HUMAN	DNA Topoisomerase I, Human
+3335	TOP1_MOUSE	DNA Topoisomerase I, Mouse
+3336	TOP1_RAT	DNA Topoisomerase 1, Rat
+3337	TOP2A_HUMAN	DNA Topoisomerase II Alpha, Human
+3338	TOP2B_HUMAN	DNA Topoisomerase II Beta, Human
+3339	TOP2_DROME	DNA Topoisomerase II, Drome
+3340	TOP3_BACSU	DNA Topoisomerase III, Bacsu
+3341	TOPK_HUMAN	PDZ-binding Kinase, Human
+3342	TP4A1_HUMAN	Protein Tyrosine Phosphatase Type IVA 1, Human
+3343	TP4A2_HUMAN	Protein Tyrosine Phosphatase Type IVA 2, Human
+3344	TP4A3_HUMAN	Protein-tyrosine Phosphatase 4A3, Human
+3345	TPA_HUMAN	Tissue-type Plasminogen Activator, Human
+3346	TPH1_HUMAN	Tryptophan 5-hydroxylase 1, Human
+3347	TPH1_RAT	Tryptophan 5-monooxygenase 1, Rat
+3348	TPH2_HUMAN	Tryptophan 5-hydroxylase 2, Human
+3349	TPIS_HUMAN	Triosephosphate Isomerase, Human
+3350	TPIS_RABIT	Triosephosphate Isomerase, Rabit
+3351	TPIS_TRYCR	Triosephosphate Isomerase, Glycosomal, Trycr
+3352	TPOR_HUMAN	Thrombopoietin Receptor, Human
+3353	TPP2_HUMAN	Tripeptidyl-peptidase 2, Human
+3354	TPP2_RAT	Tripeptidyl Aminopeptidase, Rat
+3355	TPX2_HUMAN	Targeting Protein For Xklp2, Human
+3356	TR10A_HUMAN	TRAIL Receptor-1, Human
+3357	TRAP1_HUMAN	Heat Shock Protein 75 KDa, Mitochondrial, Human
+3358	TRAR_RHIRD	Transcriptional Activator Protein TraR, Rhird
+3359	TRBP2_HUMAN	TAR RNA Binding Protein 2, Human
+3360	TREA_HUMAN	Trehalase, Human
+3361	TRFR_HUMAN	Thyrotropin-releasing Hormone Receptor, Human
+3362	TRFR_MOUSE	Thyrotropin-releasing Hormone Receptor, Mouse
+3363	TRFR_RAT	Thyrotropin-releasing Hormone Receptor, Rat
+3364	TRPA1_HUMAN	Transient Receptor Potential Cation Channel Subfamily A Member 1, Human
+3365	TRPA1_MOUSE	Transient Receptor Potential Cation Channel Subfamily A Member 1, Mouse
+3366	TRPM8_HUMAN	Transient Receptor Potential Cation Channel Subfamily M Member 8, Human
+3367	TRPV1_HUMAN	Vanilloid Receptor, Human
+3368	TRPV1_RAT	Vanilloid Receptor, Rat
+3369	TRPV4_MOUSE	Transient Receptor Potential Cation Channel Subfamily V Member 4, Mouse
+3370	TRXR1_HUMAN	Thioredoxin Reductase 1, Human
+3371	TRXR1_RAT	Thioredoxin Reductase 1, Cytoplasmic, Rat
+3372	TRXR2_HUMAN	Thioredoxin Reductase 2, Human
+3373	TRXR2_PLAF7	Thioredoxin Reductase, Plaf7
+3374	TRXR2_RAT	Thioredoxin Reductase 2, Mitochondrial, Rat
+3375	TRXR3_HUMAN	Thioredoxin Reductase 3, Human
+3376	TRY1_BOVIN	Trypsin I, Bovin
+3377	TRY1_HUMAN	Trypsin I, Human
+3378	TRY2_BOVIN	Trypsin II, Bovin
+3379	TRY2_HUMAN	Trypsin II, Human
+3380	TRY2_RAT	Trypsin II, Rat
+3381	TRY3_HUMAN	Trypsin III, Human
+3382	TRYB1_HUMAN	Tryptase Beta-1, Human
+3383	TRYB1_MOUSE	Tryptase Alpha/beta-1, Mouse
+3384	TRYB1_RAT	Tryptase Alpha/beta-1, Rat
+3385	TRYD_HUMAN	Tryptase Delta, Human
+3386	TRYG1_HUMAN	Tryptase Gamma, Human
+3387	TRYP_PIG	Trypsin, Pig
+3388	TRYT_CANFA	Tryptase, Canine
+3389	TSPOA_HUMAN	Translocator Protein, Human
+3390	TSPOB_HUMAN	Peripheral-type Benzodiazepine Receptor, Human
+3391	TSPO_BOVIN	Peripheral-type Benzodiazepine Receptor, Bovin
+3392	TSPO_MOUSE	Peripheral-type Benzodiazepine Receptor, Mouse
+3393	TSPO_RAT	Peripheral-type Benzodiazepine Receptor, Rat
+3394	TSSK1_HUMAN	Testis-specific Serine/threonine-protein Kinase 1, Human
+3395	TTHY_HUMAN	Transthyretin, Human
+3396	TTK_HUMAN	Dual Specificity Protein Kinase TTK, Human
+3397	TTL_HUMAN	Tubulin--tyrosine Ligase, Human
+3398	TXK_HUMAN	Tyrosine-protein Kinase TXK, Human
+3399	TY3H_HUMAN	Tyrosine 3-hydroxylase, Human
+3400	TY3H_RAT	Tyrosine 3-hydroxylase, Rat
+3401	TYDP1_HUMAN	Tyrosyl-DNA Phosphodiesterase 1, Human
+3402	TYK2_HUMAN	Tyrosine-protein Kinase TYK2, Human
+3403	TYPH_ECOLI	Thymidine Phosphorylase, Ecoli
+3404	TYPH_HUMAN	Thymidine Phosphorylase, Human
+3405	TYPH_RAT	Thymidine Phosphorylase, Rat
+3406	TYRO3_HUMAN	Tyrosine-protein Kinase Receptor TYRO3, Human
+3407	TYRO_AGABI	Tyrosinase, Agabi
+3408	TYRO_HUMAN	Tyrosinase, Human
+3409	TYRO_MOUSE	Tyrosinase, Mouse
+3410	TYSY_CRYNB	Thymidylate Synthase, Crynb
+3411	TYSY_ECOLI	Thymidylate Synthase, Ecoli
+3412	TYSY_ENTFA	Thymidylate Synthase, Entfa
+3413	TYSY_HUMAN	Thymidylate Synthase, Human
+3414	TYSY_LACCA	Thymidylate Synthase, Lacca
+3415	TYSY_MOUSE	Thymidylate Synthase, Mouse
+3416	TYSY_MYCTU	Thymidylate Synthase, Myctu
+3417	TYSY_RAT	Thymidylate Synthase, Rat
+3418	TYTR_CRIFA	Trypanothione Reductase, Crifa
+3419	TYTR_TRYBB	Trypanothione Reductase, Trybb
+3420	TYTR_TRYCR	Trypanothione Reductase, Trycr
+3421	UCHL1_HUMAN	Ubiquitin Carboxyl-terminal Hydrolase Isozyme L1, Human
+3422	UCHL3_HUMAN	Ubiquitin Carboxyl-terminal Hydrolase Isozyme L3, Human
+3423	UD2B7_HUMAN	UDP-glucuronosyltransferase 2B7, Human
+3424	UFO_HUMAN	Tyrosine-protein Kinase Receptor UFO, Human
+3425	ULK1_HUMAN	Serine/threonine-protein Kinase ULK1, Human
+3426	ULK2_HUMAN	Serine/threonine-protein Kinase ULK2, Human
+3427	ULK3_HUMAN	Serine/threonine-protein Kinase ULK3, Human
+3428	ULK3_MOUSE	ULK3 Kinase, Mouse
+3429	UMPS_HUMAN	Uridine 5'-monophosphate Synthase, Human
+3430	UNG_HUMAN	Uracil-DNA Glycosylase, Human
+3431	UNG_VACCW	Uracil-DNA Glycosylase, Vaccw
+3432	UPAR_HUMAN	Urokinase Plasminogen Activator Surface Receptor, Human
+3433	UPP1_HUMAN	Uridine Phosphorylase 1, Human
+3434	UPP1_MOUSE	Uridine Phosphorylase 1, Mouse
+3435	UPP2_HUMAN	Uridine Phosphorylase 2, Human
+3436	UPP2_MOUSE	Uridine Phosphorylase 2, Mouse
+3437	UPPS_STRPN	Undecaprenyl Pyrophosphate Synthase, Strpn
+3438	UR2R_HUMAN	Urotensin II Receptor, Human
+3439	UR2R_RAT	Urotensin II Receptor, Rat
+3440	UREA_CANEN	Urease, Canen
+3441	UROK_HUMAN	Urokinase-type Plasminogen Activator, Human
+3442	UROK_MOUSE	Urokinase-type Plasminogen Activator, Mouse
+3443	UROK_PIG	Urokinase-type Plasminogen Activator, Pig
+3444	UROK_RAT	Urokinase-type Plasminogen Activator, Rat
+3445	US28_HCMVA	Human Herpesvirus 5 Chemokine Receptor, Hcmva
+3446	UTS2_HUMAN	Urotensin-2, Human
+3447	UTS2_MACMU	Urotensin-2, Macmu
+3448	UTS2_RAT	Urotensin-2, Rat
+3449	V1AR_HUMAN	Vasopressin V1a Receptor, Human
+3450	V1AR_RAT	Vasopressin V1a Receptor, Rat
+3451	V1BR_HUMAN	Vasopressin V1b Receptor, Human
+3452	V1BR_RAT	Vasopressin V1b Receptor, Rat
+3453	V2R_HUMAN	Vasopressin V2 Receptor, Human
+3454	V2R_RAT	Vasopressin V2 Receptor, Rat
+3455	VACHT_HUMAN	Vesicular Acetylcholine Transporter, Human
+3456	VACHT_RAT	Vesicular Acetylcholine Transporter, Rat
+3457	VACHT_TORCA	Vesicular Acetylcholine Transporter, Torca
+3458	VAS1_HUMAN	Vacuolar ATP Synthase Subunit S1 Precursor, Human
+3459	VATB1_HUMAN	Vacuolar ATP Synthase Subunit B, Kidney Isoform, Human
+3460	VATB2_HUMAN	V-type Proton ATPase Subunit B, Brain Isoform, Human
+3461	VCAM1_HUMAN	Vascular Cell Adhesion Protein 1, Human
+3462	VDAC2_HUMAN	Voltage-dependent Anion-selective Channel Protein 2, Human
+3463	VDR_BOVIN	Vitamin D Receptor, Bovin
+3464	VDR_CHICK	Vitamin D Receptor, Chick
+3465	VDR_HUMAN	Vitamin D Receptor, Human
+3466	VDR_MOUSE	Vitamin D Receptor, Mouse
+3467	VDR_RAT	Vitamin D Receptor, Rat
+3468	VE1_HPV11	Replication Protein E1, Hpv11
+3469	VE2_HPV16	Human Papillomavirus Regulatory Protein E2, Hpv16
+3470	VE2_HPV1A	Regulatory Protein E2, Hpv1a
+3471	VGFR1_HUMAN	Vascular Endothelial Growth Factor Receptor 1, Human
+3472	VGFR1_MOUSE	Vascular Endothelial Growth Factor Receptor 1, Mouse
+3473	VGFR2_HUMAN	Vascular Endothelial Growth Factor Receptor 2, Human
+3474	VGFR2_MOUSE	Vascular Endothelial Growth Factor Receptor 2, Mouse
+3475	VGFR3_HUMAN	Vascular Endothelial Growth Factor Receptor 3, Human
+3476	VGFR3_MOUSE	Vascular Endothelial Growth Factor Receptor 3, Mouse
+3477	VKOR1_BOVIN	Vitamin K Epoxide Reductase Complex Subunit 1 Isoform 1, Bovin
+3478	VMAT1_RAT	Vesicular Amine Transporter 1, Rat
+3479	VMAT2_BOVIN	Synaptic Vesicular Amine Transporter, Bovin
+3480	VMAT2_HUMAN	Synaptic Vesicular Amine Transporter, Human
+3481	VMAT2_RAT	Synaptic Vesicular Amine Transporter, Rat
+3482	VPP1_CHICK	Vacuolar H(+)-transporting ATPase 116 KDa Subunit, A1 Isoform, Chick
+3483	WDR5_HUMAN	WD Repeat-containing Protein 5, Human
+3484	WEE1_HUMAN	Serine/threonine-protein Kinase WEE1, Human
+3485	WNT2_HUMAN	Protein Wnt-2, Human
+3486	WNT3_HUMAN	Proto-oncogene Protein Wnt-3, Human
+3487	XCT_HUMAN	Cystine/glutamate Transporter, Human
+3488	XDH_BOVIN	Xanthine Dehydrogenase, Bovin
+3489	XDH_HUMAN	Xanthine Dehydrogenase, Human
+3490	XDH_RAT	Xanthine Dehydrogenase/oxidase, Rat
+3491	XIAP_HUMAN	Inhibitor Of Apoptosis Protein 3, Human
+3492	XPO1_HUMAN	Exportin-1, Human
+3493	XPP1_HUMAN	Xaa-Pro Aminopeptidase 1, Human
+3494	XPP2_HUMAN	Xaa-Pro Aminopeptidase 2, Human
+3495	XYNB_THESA	Beta-xylosidase, Thesa
+3496	Y1284_MYCTU	Uncharacterized Protein Rv1284/MT1322, Myctu
+3497	YES_HUMAN	Tyrosine-protein Kinase YES, Human
+3498	YOPH_YEREN	Tyrosine-protein Phosphatase YopH, Yeren
+3499	YSK4_HUMAN	SPS1/STE20-related Protein Kinase YSK4, Human
+3500	ZAP70_HUMAN	Tyrosine-protein Kinase ZAP-70, Human
