@@ -1,21 +1,21 @@
-function REMAP_opt_p6p7
+function REMAP_opt_p6p7(input_dir,chem_chem_mat,prot_prot_mat)
 %[1] Hansaim Lim, Aleksandar Poleksic, Hanghang Tong, Yuan Yao, Di He, Luke Zhuang, Patrick Meng, and Lei Xie, "Large-scale Off-target Identification Using Fast and Accurate Dual Regularized One-Class Collaborative Filtering and Its Application to Drug Repurposing" , under review
 %10fold cross validation for ZINC dataset
-input_dir='../benchmark/cv10/';
+%input_dir='../benchmark/cv10/';
 %chem_chem_zinc and protein_protein_zinc_blast matrices from chem-chem and prot-prot files
-load ../benchmark/sim/chem_chem_zinc;
-load ../benchmark/sim/protein_protein_zinc_blast;
+%load ../benchmark/sim/chem_chem_zinc;
+%load ../benchmark/sim/protein_protein_zinc_blast;
 %get number of chemical and protein
-m=size(chem_chem_zinc, 1);
-n=size(protein_protein_zinc_blast, 1);
+m=size(chem_chem_mat, 1);
+n=size(prot_prot_mat, 1);
 
-summ = sum(chem_chem_zinc,2); %sum by rows
+summ = sum(chem_chem_mat,2); %sum by rows
 Dm = spdiags(summ,0,m,m);
-Lu = Dm - chem_chem_zinc;
+Lu = Dm - chem_chem_mat;
 
-sumn = sum(protein_protein_zinc_blast,2); %sum by rows
+sumn = sum(prot_prot_mat,2); %sum by rows
 Dn = spdiags(sumn,0,n,n);
-Lv = Dn - protein_protein_zinc_blast;
+Lv = Dn - prot_prot_mat;
 
 p6s = [0, 0.25, 0.5, 0.75, 1.0];
 p7s = [0, 0.25, 0.5, 0.75, 1.0];
