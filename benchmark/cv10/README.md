@@ -1,7 +1,7 @@
 # 10-fold Cross Validation data
 
 ## A train and a test file are a pair</br>
-### For example, train5_10cv.csv pairs with test5_10cv.csv.</br>
+ * For example, train5_10cv.csv pairs with test5_10cv.csv.</br>
 
 --------
 
