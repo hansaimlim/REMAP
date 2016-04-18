@@ -27,7 +27,7 @@ Lv = Dn - protein_protein_zinc_blast;
 
 
 test_result = TPRbyRowRank(FindTrues(U*V', testmat), 100);   %max cutoff rank 100
-disp(['Rank=' num2str(rank) 'Iter=' num2str(Ite) 'TPR at top 35th=' num2str(test_result(35,2)) ])
+disp(['Rank=' num2str(para(4)) 'Iter=' num2str(para(5)) 'TPR at top 35th=' num2str(test_result(35,2)) ])
 clear train;
 clear test;
 clear test_result;
