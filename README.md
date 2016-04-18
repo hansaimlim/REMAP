@@ -1,4 +1,4 @@
-# REMAP: a One Class Collaborative Filtering algorithm for drug off-target prediction
+# REMAP: a dual-regularized one class collaborative filtering algorithm for biological relation prediction
 
 
 ## Please read the README files in each directory </br>
