@@ -12,7 +12,7 @@ chem_chem_mat: chemical-chemical similarity matrix as explained in the reference
 prot_prot_mat: protein-protein similarity matrix as explained in the reference paper</br>
 and run Y=REMAP(R, chem_chem_mat, prot_prot_mat)</br>
 For example:</br>
->> Y=REMAP('matrix_R','chemical_similarity_matrix','protein_similarity_matrix');</br></br>
+>> Y=REMAP('matrix_R','chemical_similarity_matrix','protein_similarity_matrix');</br>
 
 Matrix Y has the same dimension as matrix_R. Each row represents a chemical, and each column represents a protein.</br>
 
