@@ -1,6 +1,6 @@
 #BENCHMARK CODES WRITTEN in MATLAB</br>
 
-## To test on our benchmark datasets, open matlab and run REMAP_csv(train_csv, test_csv)</br>
+## To test on our benchmark datasets, run REMAP_csv(train_csv, test_csv)</br>
 For example:</br>
 ```
 >> REMAP_csv('/REMAP/benchmark/NTNL/train_N2L6to10.csv', '/REMAP/benchmark/NTNL/test_N2L6to10.csv')
@@ -12,7 +12,7 @@ For example:</br>
  * chem_chem_mat: chemical-chemical similarity matrix as explained in the reference paper</br>
  * prot_prot_mat: protein-protein similarity matrix as explained in the reference paper</br>
  * and run Y=REMAP(R, chem_chem_mat, prot_prot_mat)</br>
- For example:</br>
+For example:</br>
 ```
 >> Y=REMAP('matrix_R','chemical_similarity_matrix','protein_similarity_matrix');
 ```
