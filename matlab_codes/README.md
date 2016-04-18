@@ -3,7 +3,7 @@
 ## To test on our benchmark datasets, open matlab and run REMAP_csv(train_csv, test_csv)</br>
 For example:</br>
 ```
->> REMAP_csv('/REMAP/benchmark/NTNL/train_N2L6to10.csv', '/REMAP/benchmark/NTNL/test_N2L6to10.csv')</br>
+>> REMAP_csv('/REMAP/benchmark/NTNL/train_N2L6to10.csv', '/REMAP/benchmark/NTNL/test_N2L6to10.csv')
 ```
 --------
 
@@ -14,7 +14,7 @@ For example:</br>
  * and run Y=REMAP(R, chem_chem_mat, prot_prot_mat)</br>
  For example:</br>
 ```
->> Y=REMAP('matrix_R','chemical_similarity_matrix','protein_similarity_matrix');</br>
+>> Y=REMAP('matrix_R','chemical_similarity_matrix','protein_similarity_matrix');
 ```
  * Matrix Y has the same dimension as matrix_R. Each row represents a chemical, and each column represents a protein.</br>
 
