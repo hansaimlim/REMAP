@@ -1,6 +1,6 @@
 # REMAP - a One Class Collaborative Filtering algorithm for drug off-target prediction
 
-benchmark - datasets used for benchmark tests
+benchmark - datasets used for benchmark tests </br>
 matlab_codes - matlab library for REMAP based on wiZAN-dual (ref. 2)
 
 Please read the README files in each directory
