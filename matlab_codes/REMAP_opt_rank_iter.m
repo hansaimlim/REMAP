@@ -1,4 +1,5 @@
 function REMAP_opt_rank_iter
+%[1] Hansaim Lim, Aleksandar Poleksic, Hanghang Tong, Yuan Yao, Di He, Luke Zhuang, Patrick Meng, and Lei Xie, "Large-scale Off-target Identification Using Fast and Accurate Dual Regularized One-Class Collaborative Filtering and Its Application to Drug Repurposing" , under review
 %10fold cross validation for ZINC dataset
 input_dir='../benchmark/cv10/';
 %chem_chem_zinc and protein_protein_zinc_blast matrices from chem-chem and prot-prot files
