@@ -5,10 +5,10 @@ para = [0.1, 0.1, 0.01, 200, 300, 0.75, 0.1];	% para: p_reg, squared p_weight, p
 
 %chem_chem_zinc and protein_protein_zinc_blast matrices from chem-chem and prot-prot files
 load ../benchmark/sim/chem_chem_zinc;
-load ../benchmark/sim/protein_protein_zinc_blast;
+load ../benchmark/sim/prot_prot_zinc;
 %get number of chemical and protein
 m=size(chem_chem_zinc, 1);
-n=size(protein_protein_zinc_blast, 1);
+n=size(prot_prot_zinc, 1);
 %convert csv to matrix
 train_line = csvread(train_csv);
 train = sparse(train_line(:,1), train_line(:,2), 1, m, n);      %12384 chemicals and 3500 proteins in ZINC
@@ -19,9 +19,9 @@ summ = sum(chem_chem_zinc,2); %sum by rows
 Dm = spdiags(summ,0,m,m);
 Lu = Dm - chem_chem_zinc;
 
-sumn = sum(protein_protein_zinc_blast,2); %sum by rows
+sumn = sum(prot_prot_zinc,2); %sum by rows
 Dn = spdiags(sumn,0,n,n);
-Lv = Dn - protein_protein_zinc_blast;
+Lv = Dn - prot_prot_zinc;
 
 [U, V] = updateUV(train, Lu, Lv, para);
 
