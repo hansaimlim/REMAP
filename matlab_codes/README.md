@@ -5,6 +5,7 @@ For example:</br>
 ```
 >> REMAP_csv('/REMAP/benchmark/NTNL/train_N2L6to10.csv', '/REMAP/benchmark/NTNL/test_N2L6to10.csv')
 ```
+
  * The two inputs are file paths as string. REMAP_csv will load the matrices once paths are given.
 --------
 
