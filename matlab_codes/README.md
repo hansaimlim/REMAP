@@ -17,6 +17,7 @@ For example:</br>
 >> Y=REMAP('matrix_R','chemical_similarity_matrix','protein_similarity_matrix');
 ```
  * Matrix Y has the same dimension as matrix_R. Each row represents a chemical, and each column represents a protein.</br>
+ * Please note that you need to load matrices first, using >>load /path/to/matrix/matrix command.
 
 --------
 
