@@ -29,9 +29,9 @@ For example:</br>
  * REMAP_opt_p6p7.m and REMAP_opt_rank_iter.m are written for parameter optimization</br>
  * REMAP_opt_p6p7.m optimizes p_chem (p6) and p_prot (p7)</br>
  * REMAP_opt_rank_iter.m optimizes rank (r) and p_iter (iteration)</br>
- * 10-fold cross validation is used for parameter optimization.
- * Prepare 10-folded data, chemical-chemical and protein-protein similarity matrices.</br>
- * The input directory must contain 10-folded data, the same format as in '/REMAP/benchmark/cv10/'.</br>
+ * 10-fold cross validation is used for parameter optimization</br>
+ * Prepare 10-folded data, chemical-chemical and protein-protein similarity matrices</br>
+ * The input directory must contain 10-folded data, the same format as in '/REMAP/benchmark/cv10/'</br>
 
 --------
 
