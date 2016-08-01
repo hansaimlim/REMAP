@@ -1,5 +1,11 @@
 #BENCHMARK CODES WRITTEN in MATLAB</br>
 
+## Brief usage of each matlab code</br>
+* REMAP_csv.m : Calculate True Positive Rate (TPR) at top 1% prediction for a train and test file pair.</br>
+* REMAP.m : Get the raw prediction score matrix (matrix Y) for the given dataset using the default parameters.</br>
+* REMAP_opt_p6p7.m : Get the optimal parameters (p6 and p7) based on the given 10-fold cross-validation dataset.</br>
+* REMAP_opt_rank_iter.m : Get the optimal parameters (rank and iteration) based on the given 10-fold cross-validation datsaet.</br>
+
 ## To test on our benchmark datasets, run REMAP_csv(train_csv, test_csv)</br>
 * The two inputs are file paths as string. The .csv files contain one chemical-protein pair per line "chemical_index, protein_index".</br>
 * REMAP_csv will load the matrices from .csv file, once paths are given</br>
@@ -7,7 +13,7 @@ For example:</br>
 ```
 >> REMAP_csv('/REMAP/benchmark/NTNL/train_N2L6to10.csv', '/REMAP/benchmark/NTNL/test_N2L6to10.csv')
 ```
-* This will print out the true positive rate by top 1% prediction (35th rank) for the given test and training files.</br>
+* This will print out the TPR by top 1% prediction (35th rank) for the given test and training files.</br>
 --------
 
 ## To get the matrix Y (raw prediction score matrix), </br>
