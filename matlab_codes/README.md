@@ -1,14 +1,16 @@
 #BENCHMARK CODES WRITTEN in MATLAB</br>
 
 ## To test on our benchmark datasets, run REMAP_csv(train_csv, test_csv)</br>
-* The two inputs are file paths as string. REMAP_csv will load the matrices once paths are given</br>
+* The two inputs are file paths as string. The .csv files contain one chemical-protein pair per line "chemical_index, protein_index".</br>
+* REMAP_csv will load the matrices from .csv file, once paths are given</br>
 For example:</br>
 ```
 >> REMAP_csv('/REMAP/benchmark/NTNL/train_N2L6to10.csv', '/REMAP/benchmark/NTNL/test_N2L6to10.csv')
 ```
+* This will print out the true positive rate by top 1% prediction (35th rank) for the given test and training files.</br>
 --------
 
-## To get the matrix Y (raw prediction scores), </br>
+## To get the matrix Y (raw prediction score matrix), </br>
  * prepare R: known chemical-protein associations (1 if known, 0 otherwise)</br>
  * chem_chem_mat: chemical-chemical similarity matrix as explained in the reference paper</br>
  * prot_prot_mat: protein-protein similarity matrix as explained in the reference paper</br>
@@ -21,6 +23,7 @@ For example:</br>
 >> Y=REMAP(matrix_R, chemical_similarity_matrix, protein_similarity_matrix);
 ```
  * Matrix Y has the same dimension as matrix_R. Each row represents a chemical, and each column represents a protein</br>
+ * For instance, >>Y(1,10) will print the prediction score for the association between the 1st chemical and the 10th protein.
  * Please note that you need to load matrices first, using >>load /path/to/matrix/matrix command</br>
 
 --------
@@ -32,9 +35,16 @@ For example:</br>
  * 10-fold cross validation is used for parameter optimization</br>
  * Prepare 10-folded data, chemical-chemical and protein-protein similarity matrices</br>
  * The input directory must contain 10-folded data, the same format as in '/REMAP/benchmark/cv10/'</br>
+ * The train and test file names must meet the format, "trainX_10cv.csv" and "testX_10cv.csv", where X is from 1 to 10.</br>
+ * The optimization codes will print the optimal parameters based on the 10-fold cross validation.</br>
 
 --------
 
+## Functions for calculating True Positive Rate.</br>
+ * FindTrues.m and TPRbyRowRank.m are required to calculate True Positive Rate.</br>
+ * These functions are called within other REMAP codes above.</br>
+
+--------
 
 
 ```
