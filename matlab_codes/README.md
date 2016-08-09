@@ -14,6 +14,7 @@ For example:</br>
 >> REMAP_csv('/REMAP/benchmark/NTNL/train_N2L6to10.csv', '/REMAP/benchmark/NTNL/test_N2L6to10.csv')
 ```
 * This will print out the TPR by top 1% prediction (35th rank) for the given test and training files.</br>
+* Please note that this code (REMAP_csv) will load and use our benchmark similarity matrices.
 --------
 
 ## To get the matrix Y (raw prediction score matrix), </br>
