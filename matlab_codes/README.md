@@ -11,6 +11,8 @@
 * REMAP_csv will load the matrices from .csv file, once paths are given</br>
 For example:</br>
 ```
+% Example code below
+% matlab interactive window. under REMAP/matlab_codes/ directory
 >> REMAP_csv('/REMAP/benchmark/NTNL/train_N2L6to10.csv', '/REMAP/benchmark/NTNL/test_N2L6to10.csv')
 ```
 * This will print out the TPR by top 1% prediction (35th rank) for the given test and training files.</br>
@@ -25,6 +27,8 @@ For example:</br>
  * and run Y=REMAP(R, chem_chem_mat, prot_prot_mat)</br>
 For example:</br>
 ```
+% Example code below
+% matlab interactive window. under REMAP/matlab_codes/ directory
 >> load /path/to/matrices/R;
 >> load /path/to/matrices/chem_chem_mat;
 >> load /path/to/matrices/prot_prot_mat;
