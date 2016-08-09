@@ -26,7 +26,7 @@ For example:</br>
 >> load /path/to/matrices/R;
 >> load /path/to/matrices/chem_chem_mat;
 >> load /path/to/matrices/prot_prot_mat;
->> Y=REMAP(matrix_R, chemical_similarity_matrix, protein_similarity_matrix);
+>> Y=REMAP(matrix_R, chemical_similarity_matrix_name, protein_similarity_matrix_name);
 ```
  * Matrix Y has the same dimension as matrix_R. Each row represents a chemical, and each column represents a protein</br>
  * For instance, >>Y(1,10) will print the prediction score for the association between the 1st chemical and the 10th protein.
@@ -43,7 +43,18 @@ For example:</br>
  * The input directory must contain 10-folded data, the same format as in '/REMAP/benchmark/cv10/'</br>
  * The train and test file names must meet the format, "trainX_10cv.csv" and "testX_10cv.csv", where X is from 1 to 10.</br>
  * The optimization codes will print the optimal parameters based on the 10-fold cross validation.</br>
+```
+% Example code below
+% matlab interactive window. under REMAP/matlab_codes/ directory
+>> load ../benchmark/sim/chem_chem_zinc;
+>> load ../benchmark/sim/prot_prot_zinc;
 
+% optimize rank and max_iteration
+>> REMAP_opt_rank_iter('../benchmark/cv10/',chem_chem_zinc,prot_prot_zinc)
+
+% optimize p_chem (p6) and p_prot (p7)
+>> REMAP_opt_p6p7('../benchmark/cv10/',chem_chem_zinc,prot_prot_zinc)
+```
 --------
 
 ## Functions for calculating True Positive Rate.</br>
