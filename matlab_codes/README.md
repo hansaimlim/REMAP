@@ -5,6 +5,7 @@
 * REMAP.m : Get the raw prediction score matrix (matrix Y) for the given dataset using the default parameters.</br>
 * REMAP_opt_p6p7.m : Get the optimal parameters (p6 and p7) based on the given 10-fold cross-validation dataset.</br>
 * REMAP_opt_rank_iter.m : Get the optimal parameters (rank and iteration) based on the given 10-fold cross-validation datsaet.</br>
+* FindTrues.m and TPRbyRowRank.m are used to calculate True Positive Rate (TPR).
 
 ## To test on our benchmark datasets, run REMAP_csv(train_csv, test_csv)</br>
 * The two inputs are file paths as string. The .csv files contain one chemical-protein pair per line "chemical_index, protein_index".</br>
