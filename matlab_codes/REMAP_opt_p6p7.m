@@ -44,8 +44,15 @@ end
 [v,ind] = max(TPR35_p6p7(:));
 [r,c] = ind2sub(size(TPR35_p6p7),ind);
 disp(['Based on ZINC 10CV, TPR35 reached maximum of ' num2str(v) ' at p6=' num2str(p6s(r)) ', p7=' num2str(p7s(c)) ])
+fileid=fopen('./REMAP_p6p7_optimization.tsv','a+');
+fprintf(fileid,'\t%6s\t%6s\t%6s\t%6s\t%6s\n',num2str(p7s(1)),num2str(p7s(2)),num2str(p7s(3)),num2str(p7s(4)),num2str(p7s(5)))
+formatspec='%6s\t%6.3f\t%6.3f\t%6.3f\t%6.3f\t%6.3f\n';
+for i=1:size(TPR35_p6p7,1)
+	row=TPR35_p6p7(i,:);
+	fprintf(fileid,formatspec,num2str(p6s(i)),row);
+end
 TPR35_p6p7
-
+fclose(fileid);
 clear train;
 clear test;
 clear test_result;
