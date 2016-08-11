@@ -45,6 +45,13 @@ end
 [v,ind] = max(TPR35_rank_iter(:));
 [r,c] = ind2sub(size(TPR35_rank_iter),ind);
 disp(['Based on ZINC 10CV, TPR35 reached maximum of ' num2str(v) ' at rank=' num2str(ranks(r)) ', iter=' num2str(iters(c)) ])
+fileid=fopen('./REMAP_rank_iter_optimization.tsv','a+');
+fprintf(fileid,'\t%6s\t%6s\t%6s\t%6s\t%6s\n',num2str(iters(1)),num2str(iters(2)),num2str(iters(3)),num2str(iters(4)),num2str(iters(5)))
+formatspec='%6s\t%6.3f\t%6.3f\t%6.3f\t%6.3f\t%6.3f\n';
+for i=1:size(TPR35_rank_iter,1)
+	row=TPR35_rank_iter(i,:);
+	fprintf(fileid,formatspec,num2str(ranks(i)),row);
+end
 TPR35_rank_iter
 
 clear train;
