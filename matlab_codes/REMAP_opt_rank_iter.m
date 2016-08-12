@@ -18,6 +18,10 @@ sumn = sum(prot_prot_mat,2); %sum by rows
 Dn = spdiags(sumn,0,n,n);
 Lv = Dn - prot_prot_mat;
 
+disp(['Parameter optimization Start\n'])
+disp(['rank from 100 to 500 and iteration from 100 to 500 with increment of 100\n'])
+disp(['Output file with rank on each row and iteration on each column\n'])
+
 ranks = [100, 200, 300, 400, 500];
 iters = [100, 200, 300, 400, 500];
 TPR35_rank_iter=zeros(numel(ranks),numel(iters));	%matrix containing TPR35 values for each (rank, iter) pair
@@ -57,6 +61,8 @@ TPR35_rank_iter
 clear train;
 clear test;
 clear test_result;
+disp(['Parameter optimization complete\n'])
+disp(['Output file=REMAP_rank_iter_optimization.tsv\n'])
 
 end
 
