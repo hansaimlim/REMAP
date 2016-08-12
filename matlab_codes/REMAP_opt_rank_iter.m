@@ -43,7 +43,7 @@ for i = 1:numel(ranks)
 		end
 		tpr35=(TPR35_sum/10);
 		TPR35_rank_iter(i,j)=tpr35; %average TPR35 for the given rank,iter pair
-		disp(['TPR at top 1%: ' num2str(tpr35) ' at rank=' num2str(ranks(i)) ', iter=' num2str(iters(j))'])
+		disp(['TPR at top 1%: ' num2str(tpr35) ' at rank=' num2str(ranks(i)) ', iter=' num2str(iters(j))])
 	end
 end
 [v,ind] = max(TPR35_rank_iter(:));
