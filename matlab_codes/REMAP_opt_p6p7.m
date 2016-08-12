@@ -17,6 +17,10 @@ sumn = sum(prot_prot_mat,2); %sum by rows
 Dn = spdiags(sumn,0,n,n);
 Lv = Dn - prot_prot_mat;
 
+disp(['Parameter optimization Start\n'])
+disp(['p6 from 0 to 1.0 and p7 from 0 to 1.0 with increment of 0.25\n'])
+disp(['Output file with p6 on each row and p7 on each column\n'])
+
 p6s = [0, 0.25, 0.5, 0.75, 1.0];
 p7s = [0, 0.25, 0.5, 0.75, 1.0];
 TPR35_p6p7=zeros(numel(p6s),numel(p7s));	%matrix containing TPR35 values for each (p6, p7) pair
@@ -35,7 +39,7 @@ for i = 1:numel(p6s)
 		 test_result = TPRbyRowRank(FindTrues(U*V', TS), 35);   %max cutoff rank 35
 		 TPR35_sum = TPR35_sum + test_result(35,2);
 		 clear U V TR TS trline tsline test_result;
-		end
+		enddisp(['Output file=REMAP_p6p7_optimization.tsv\n'])
 		tpr35=(TPR35_sum/10);
 		TPR35_p6p7(i,j)=tpr35; %average TPR35 for the given p6,p7 pair
 		disp(['TPR at top 1%: ' num2str(tpr35) ' at p6=' num2str(p6s(i)) ', p7=' num2str(p7s(j))])
@@ -56,6 +60,8 @@ fclose(fileid);
 clear train;
 clear test;
 clear test_result;
+disp(['Parameter optimization complete\n'])
+disp(['Output file=REMAP_p6p7_optimization.tsv\n'])
 
 end
 
