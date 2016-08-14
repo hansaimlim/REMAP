@@ -39,10 +39,11 @@ for i = 1:numel(p6s)
 		 test_result = TPRbyRowRank(FindTrues(U*V', TS), 35);   %max cutoff rank 35
 		 TPR35_sum = TPR35_sum + test_result(35,2);
 		 clear U V TR TS trline tsline test_result;
-		enddisp(['Output file=REMAP_p6p7_optimization.tsv\n'])
+		end
 		tpr35=(TPR35_sum/10);
 		TPR35_p6p7(i,j)=tpr35; %average TPR35 for the given p6,p7 pair
 		disp(['TPR at top 1%: ' num2str(tpr35) ' at p6=' num2str(p6s(i)) ', p7=' num2str(p7s(j))])
+	
 	end
 end
 [v,ind] = max(TPR35_p6p7(:));
