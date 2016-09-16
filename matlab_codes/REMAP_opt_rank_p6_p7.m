@@ -7,11 +7,12 @@ function REMAP_opt_rank_p6_p7(input_dir,chem_chem_mat,prot_prot_mat, iter)
 %load ../benchmark/sim/chem_chem_zinc;
 %load ../benchmark/sim/protein_protein_zinc_blast;
 output_file='./REMAP_rank_p6_p7_optimization.txt';
+ranks = [100, 200, 300, 400, 500]; %rank parameters to be optimized. Should NOT exceed the smallest matrix dimension
 %get number of chemical and protein
 m=size(chem_chem_mat, 1);
 n=size(prot_prot_mat, 1);
 
-if min(m,n) < 500
+if min(m,n) < max(ranks)
    msg=['Rank parameter cannot exceed the smallest matrix dimension(' num2str(min(m,n)) '). Please correct the rank parameter range to optimize.'];
    error(msg);
 end
@@ -28,7 +29,7 @@ disp(['rank, p_chem(p6), and p_prot(p7) are being optimized using cross validati
 disp(['iteration=' num2str(iter)])
 disp(['output=' output_file])
 
-ranks = [100, 200, 300, 400, 500]; %rank parameters to be optimized. Should NOT exceed the smallest matrix dimension
+
 p6s = 0:0.1:1;
 p7s = 0:0.1:1;
 
