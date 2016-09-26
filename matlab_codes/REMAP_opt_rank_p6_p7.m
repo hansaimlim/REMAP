@@ -57,7 +57,7 @@ for i = 1:numel(ranks)
             if tpr35 > best_paras(1,1)
                best_paras(1,:)=[tpr35 rank(i) p6s(j) p7s(l)]; %update best parameters               
             end
-            fwrite(fileid,['TPR at top 35: ' num2str(tpr35) ' iter=' num2str(iter) ' rank=' num2str(ranks(i)) ', p6=' num2str(p6(j)) ', p7=' num2str(p7(l))]);
+            fwrite(fileid,['TPR at top 35: ' num2str(tpr35) ' iter=' num2str(iter) ' rank=' num2str(ranks(i)) ', p6=' num2str(p6s(j)) ', p7=' num2str(p7s(l))]);
         end
 	end
 end
