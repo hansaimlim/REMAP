@@ -36,7 +36,7 @@ p7s = 0:0.1:1;
 
 best_paras=zeros(1,4); %[TPR rank p6 p7] at best TPR
 tpr_best=0;
-fileid=fopen(output_file,'a+');
+fileid=fopen(output_file,'a+t');
 for i = 1:numel(ranks)
 	for j = 1:numel(p6s)
         for l = 1:numel(p7s)
@@ -58,15 +58,17 @@ for i = 1:numel(ranks)
             if tpr35 > best_paras(1,1)
                best_paras(1,:)=[tpr35, ranks(i), p6s(j), p7s(l)]; %update best parameters               
             end
-            fwrite(fileid,['Top' num2str(cutoff_rank) ' TPR: ' num2str(tpr35) ' iter=' num2str(iter) ' rank=' num2str(ranks(i)) ', p6=' num2str(p6s(j)) ', p7=' num2str(p7s(l)) '\n']);
+            text=['Top' num2str(cutoff_rank) ' TPR: ' num2str(tpr35) ' iter=' num2str(iter) ' rank=' num2str(ranks(i)) ', p6=' num2str(p6s(j)) ', p7=' num2str(p7s(l)) '\n']);
+            fprintf(fileid, text, 'char');
         end
 	end
 end
-fwrite(fileid,['best TPR=' num2str(best_paras(1,1)) ' at rank=' num2str(best_paras(1,2)) ' p6=' num2str(best_paras(1,3)) ' p7=' num2str(best_paras(1,4)) ]);
+fprintf(fileid,['best TPR=' num2str(best_paras(1,1)) ' at rank=' num2str(best_paras(1,2)) ' p6=' num2str(best_paras(1,3)) ' p7=' num2str(best_paras(1,4)) ],'char');
 clear train;
 clear test;
 clear test_result;
 disp(['Parameter optimization complete\n'])
+fclose(fileid);
 
 end
 
