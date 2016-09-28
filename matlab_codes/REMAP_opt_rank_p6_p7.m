@@ -8,6 +8,7 @@ function REMAP_opt_rank_p6_p7(input_dir,chem_chem_mat,prot_prot_mat, iter)
 %load ../benchmark/sim/protein_protein_zinc_blast;
 output_file='./REMAP_rank_p6_p7_optimization.txt';
 ranks = [100, 200, 300, 400, 500]; %rank parameters to be optimized. Should NOT exceed the smallest matrix dimension
+cutoff_rank=35;
 %get number of chemical and protein
 m=size(chem_chem_mat, 1);
 n=size(prot_prot_mat, 1);
@@ -49,15 +50,15 @@ for i = 1:numel(ranks)
              TR=sparse(trline(:,1), trline(:,2), 1, m, n);
              TS=sparse(tsline(:,1), tsline(:,2), 1, m, n);
              [U, V] = updateUV(TR, Lu, Lv, para);
-             test_result = TPRbyRowRank(FindTrues(U*V', TS), 35);   %max cutoff rank 35
-             TPR35_sum = TPR35_sum + test_result(35,2);
+             test_result = TPRbyRowRank(FindTrues(U*V', TS), cutoff_rank);   %max cutoff rank 35
+             TPR35_sum = TPR35_sum + test_result(cutoff_rank,2);
              clear U V TR TS trline tsline test_result;
             end
             tpr35=(TPR35_sum/10);
             if tpr35 > best_paras(1,1)
-               best_paras(1,:)=[tpr35 rank(i) p6s(j) p7s(l)]; %update best parameters               
+               best_paras(1,:)=[tpr35, ranks(i), p6s(j), p7s(l)]; %update best parameters               
             end
-            fwrite(fileid,['TPR at top 35: ' num2str(tpr35) ' iter=' num2str(iter) ' rank=' num2str(ranks(i)) ', p6=' num2str(p6s(j)) ', p7=' num2str(p7s(l))]);
+            fwrite(fileid,['Top' num2str(cutoff_rank) ' TPR: ' num2str(tpr35) ' iter=' num2str(iter) ' rank=' num2str(ranks(i)) ', p6=' num2str(p6s(j)) ', p7=' num2str(p7s(l)) '\n']);
         end
 	end
 end
