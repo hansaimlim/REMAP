@@ -4,6 +4,7 @@ function Y=REMAP(R, chem_chem_mat, prot_prot_mat)
 %number of rows and number of columns of R must match the number of chemicals and proteins, respectively
 %Please refer to the paper for detail
 
+maxNumCompThreads(2) %determine the maximum number of cores to use
 para = [0.1, 0.1, 0.01, 200, 300, 0.75, 0.1];	% para: p_reg, squared p_weight, p_imp, rank, p_iter, p_chem, p_prot
 
 %get number of chemical and protein
