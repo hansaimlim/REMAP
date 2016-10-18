@@ -7,6 +7,7 @@ function REMAP_opt_rank_iter(input_dir,chem_chem_mat,prot_prot_mat)
 %load ../benchmark/sim/chem_chem_zinc;
 %load ../benchmark/sim/protein_protein_zinc_blast;
 %get number of chemical and protein
+maxNumCompThreads(2) %determine the maximum number of cores to use
 m=size(chem_chem_mat, 1);
 n=size(prot_prot_mat, 1);
 
