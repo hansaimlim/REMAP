@@ -20,7 +20,7 @@ Dn = spdiags(sumn,0,n,n);
 Lv = Dn - prot_prot_mat;
 
 [U, V] = updateUV(R, Lu, Lv, para);
-Y=U*V';
+Y=WeightNormalize(U*V',R); %normalize scores based on the reference
 end
 
 function [U, V] = updateUV(R, Lu, Lv, para)
