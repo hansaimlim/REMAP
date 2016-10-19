@@ -2,6 +2,7 @@ function Y=REMAP(R, chem_chem_mat, prot_prot_mat)
 %[1] Hansaim Lim, Aleksandar Poleksic, Hanghang Tong, Yuan Yao, Di He, Luke Zhuang, Patrick Meng, and Lei Xie, "Large-scale Off-target Identification Using Fast and Accurate Dual Regularized One-Class Collaborative Filtering and Its Application to Drug Repurposing" , under review
 %chem_chem_mat and prot_prot_mat must be square matrices
 %number of rows and number of columns of R must match the number of chemicals and proteins, respectively
+% Y is final prediction score matrix. The scores are normalized based on higher weight on negative samples
 %Please refer to the paper for detail
 
 maxNumCompThreads(2) %determine the maximum number of cores to use
