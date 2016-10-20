@@ -1,11 +1,19 @@
 #BENCHMARK CODES (in MATLAB)</br>
 
 ## Brief usage of each matlab code</br>
+* REMAP_auto.m : Automatically optimize parameters and get normalized prediction scores based on the optimal parameters.</br>
 * REMAP_csv.m : Calculate True Positive Rate (TPR) at top 1% prediction for a train and test file pair.</br>
 * REMAP.m : Get the normalized prediction score matrix (matrix Y) for the given dataset using the default parameters.</br>
 * REMAP_opt_p6p7.m : Get the optimal parameters (p6 and p7) based on the given 10-fold cross-validation dataset.</br>
 * REMAP_opt_rank_iter.m : Get the optimal parameters (rank and iteration) based on the given 10-fold cross-validation datsaet.</br>
 * FindTrues.m and TPRbyRowRank.m are used to calculate True Positive Rate (TPR).</br>
+
+## To optimize parameters and get normalized prediction scores, run Y_norm=REMAP_auto(chem_prot_mat,chem_chem_mat,prot_prot_mat)</br>
+* The three inputs are chemical-protein association matrix (chem_prot_mat), chemical-chemical similarity matrix (chem_chem_mat), and protein-protein similarity matrix (prot_prot_mat).</br>
+* No need to prepare cross-validation datasets. chem_prot_mat should contain ALL known associations.</br>
+* It will do grid search to find optimal rank, p6, p7 based on AUC values from 10-fold cross validation.</br>
+* Using the optimized parameters, prediction scores are calculated and normalized.</br>
+* Please note that the three inputs are in matlab matrix format (.mat files).</br>
 
 ## To test on our benchmark datasets, run REMAP_csv(train_csv, test_csv)</br>
 * The two inputs are file paths as string. The .csv files contain one chemical-protein pair per line "chemical_index, protein_index".</br>
