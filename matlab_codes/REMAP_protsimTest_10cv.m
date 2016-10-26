@@ -1,4 +1,4 @@
-function [mean_auc_diff,pval]=REMAP_protsimTest_10cv(R,chem_chem,prot_prot,ProtSimType)
+function [mean_auc_diff,pval]=REMAP_protsimTest_10cv(R,chem_chem,prot_prot,ProtSimType,ProtMatType)
 %[1] Hansaim Lim, Aleksandar Poleksic, Hanghang Tong, Yuan Yao, Di He, Luke Zhuang, Patrick Meng, and Lei Xie, "Large-scale Off-target Identification Using Fast and Accurate Dual Regularized One-Class Collaborative Filtering and Its Application to Drug Repurposing" , under review
 %This script is to test different protein-protein similarity metrics
 %First using the given training matrix, get the low-rank matrix of
@@ -8,6 +8,13 @@ function [mean_auc_diff,pval]=REMAP_protsimTest_10cv(R,chem_chem,prot_prot,ProtS
 
 maxNumCompThreads(3); %determine the maximum number of cores to use
 tic;
+MatTypeList={'blank','lin','lin_cut05','path','path_cut05','resnik','resnik_cut05','vector','vector_cut05'};
+if ismember(ProtMatType,MatTypeList)
+    disp(['prot-prot-sim: ' ProtMatType]);
+else
+    msg='Please check the similarity matrix type (e.g. renik, lin or blank)';
+    error(msg);
+end
 if strcmp(ProtSimType,'euc')
     ProtSimType='euclidean';
 elseif strcmp(ProtSimType,'minkow')
@@ -31,9 +38,10 @@ else
     error(msg);
 end
 
+
 %calculate AUC based on 10 fold cross validation
 %defalut parameters below. adjust low-rank based on the size
-para = [0.1, 0.1, 0.01, 200, 300, 0.1, 0.75];	% para: p_reg, squared p_weight, p_imp, rank, p_iter, p_chem, p_prot
+para = [0.1, 0.1, 0.01, 200, 300, 0.75, 0.1];	% para: p_reg, squared p_weight, p_imp, rank, p_iter, p_chem, p_prot
 kFold=10;
 
 %get number of chemical and protein
@@ -97,9 +105,12 @@ mean_auc_diff=mean_AUC_new-mean_AUC;
 % std_auc_diff=std_AUC_new-std_AUC;
 [~,pval,~,~]=ttest2(AUC,AUC_simtype);
 
-disp(['mean AUC(default)=' num2str(mean_AUC) ', std. AUC(default)=' num2str(std_AUC) ' at r=' num2str(para(4)) ' kFold=' num2str(kFold)]);
-disp(['mean AUC(' ProtSimType ')=' num2str(mean_AUC_new) ', std. AUC(' ProtSimType ')=' num2str(std_AUC_new) ' two-sample t-test p-value=' num2str(pval)]);
-
+% disp(['mean AUC(default)=' num2str(mean_AUC) ', std. AUC(default)=' num2str(std_AUC) ' at r=' num2str(para(4)) ' kFold=' num2str(kFold)]);
+% disp(['mean AUC(' ProtSimType ')=' num2str(mean_AUC_new) ', std. AUC(' ProtSimType ')=' num2str(std_AUC_new) ' two-sample t-test p-value=' num2str(pval)]);
+% disp(['mean AUC improvement=' num2str(mean_auc_diff) ', p-value=' num2str(pval)]);
+% disp(ProtSimType);
+output=[mean_AUC, std_AUC, mean_AUC_new, std_AUC_new, mean_auc_diff, pval];
+disp(output);
 toc
 clear P U V AUC Train Test;
 
