@@ -6,7 +6,7 @@ function REMAP_opt_rank_p6_p7(input_dir,chem_chem_mat,prot_prot_mat, iter)
 %chem_chem_zinc and protein_protein_zinc_blast matrices from chem-chem and prot-prot files
 %load ../benchmark/sim/chem_chem_zinc;
 %load ../benchmark/sim/protein_protein_zinc_blast;
-maxNumCompThreads(2) %determine the maximum number of cores to use
+maxNumCompThreads(3) %determine the maximum number of cores to use
 output_file='./REMAP_rank_p6_p7_optimization.txt';
 ranks = [100, 200, 300, 400, 500]; %rank parameters to be optimized. Should NOT exceed the smallest matrix dimension
 cutoff_rank=35;
