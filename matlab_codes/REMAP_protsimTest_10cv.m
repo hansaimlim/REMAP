@@ -79,8 +79,8 @@ for k=1:kFold
 	P=U*V';
 	P=P(sum(Test,2)>0,:); %same rows as test compressed matrix
 %    [auc,aupr]=AUROC(TestCompressed,P);
-	 [~,~,~,auc]=perfcurve(TestCompressed(:),P(:),1,'UseParallel');%auc for default test
-%	 [~,~,~,aupr]=perfcurve(TestCompressed(:), P(:), 1, 'UseParallel', 'xCrit', 'reca', 'yCrit', 'prec');
+	 [~,~,~,auc]=perfcurve(TestCompressed(:),P(:),1,'Options',statset('UseParallel',true));%auc for default test
+%	 [~,~,~,aupr]=perfcurve(TestCompressed(:), P(:), 1, 'Options',statset('UseParallel',true), 'xCrit', 'reca', 'yCrit', 'prec');
 	AUC(1,k)=auc; %update auc for default test
     
     %start protsime test
@@ -92,7 +92,7 @@ for k=1:kFold
     [U_new,V_new]=updateUV(Train,Lu,Lv_new,para);
     P_new=U_new*V_new';
     P_new=P_new(sum(Test,2)>0,:);
-    [~,~,~,auc_new]=perfcurve(TestCompressed(:),P_new(:),1,'UseParallel'); %auc for new prot-sim
+    [~,~,~,auc_new]=perfcurve(TestCompressed(:),P_new(:),1,'Options',statset('UseParallel',true)); %auc for new prot-sim
     AUC_simtype(1,k)=auc_new;
 %	AUPR(1,k)=aupr;
 end
