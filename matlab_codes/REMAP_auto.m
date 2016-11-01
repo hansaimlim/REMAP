@@ -86,8 +86,8 @@ for i = 1:numel(ranks)
                 P=U*V';
                 P=P(sum(Test,2)>0,:); %same rows as test compressed matrix
             %    [auc,aupr]=AUROC(TestCompressed,P);
-                 [~,~,~,auc]=perfcurve(TestCompressed(:),P(:),1,'UseParallel');
-                 [~,~,~,aupr]=perfcurve(TestCompressed(:), P(:), 1, 'UseParallel', 'xCrit', 'reca', 'yCrit', 'prec');
+                 [~,~,~,auc]=perfcurve(TestCompressed(:),P(:),1,'Options',statset('UseParallel',true));
+                 [~,~,~,aupr]=perfcurve(TestCompressed(:), P(:), 1, 'Options',statset('UseParallel',true), 'xCrit', 'reca', 'yCrit', 'prec');
                 AUC(1,k)=auc;
                 AUPR(1,k)=aupr;
             end
