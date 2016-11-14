@@ -1,12 +1,11 @@
-function Y=REMAP(R, chem_chem_mat, prot_prot_mat)
-%[1] Lim, H., Poleksic, A., Yao, Y., Tong, H., He, D., Zhuang, L., Meng, P. and Xie, L., 2016. Large-Scale Off-Target Identification Using Fast and Accurate Dual Regularized One-Class Collaborative Filtering and Its Application to Drug Repurposing. PLOS Comput Biol, 12(10), p.e1005135.
-
+function Y=REMAP(R, chem_chem_mat, prot_prot_mat,cutoff)
+%[1] Hansaim Lim, Aleksandar Poleksic, Hanghang Tong, Yuan Yao, Di He, Luke Zhuang, Patrick Meng, and Lei Xie, "Large-scale Off-target Identification Using Fast and Accurate Dual Regularized One-Class Collaborative Filtering and Its Application to Drug Repurposing" , under review
 %chem_chem_mat and prot_prot_mat must be square matrices
 %number of rows and number of columns of R must match the number of chemicals and proteins, respectively
-% Y is final prediction score matrix. The scores are normalized based on higher weight on negative samples
+%prediction matrix Y does NOT show scores for known associations
+%in other words, scores for known association pairs are set to 0
 %Please refer to the paper for detail
-
-maxNumCompThreads(2) %determine the maximum number of cores to use
+maxNumCompThreads(3); %determine the maximum number of cores to use
 para = [0.1, 0.1, 0.01, 200, 300, 0.75, 0.1];	% para: p_reg, squared p_weight, p_imp, rank, p_iter, p_chem, p_prot
 
 %get number of chemical and protein
@@ -21,8 +20,12 @@ sumn = sum(prot_prot_mat,2); %sum by rows
 Dn = spdiags(sumn,0,n,n);
 Lv = Dn - prot_prot_mat;
 
+clear Dm Dn m n
 [U, V] = updateUV(R, Lu, Lv, para);
-Y=WeightNormalize(U*V',R); %normalize scores based on the reference
+Y=WeightNormalize(U*V',R,cutoff);
+clear U V;
+
+Y=Y-Y.*R; %remove known associations
 end
 
 function [U, V] = updateUV(R, Lu, Lv, para)
