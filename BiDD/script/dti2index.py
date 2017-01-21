@@ -23,7 +23,6 @@ with open(prots,"r") as protline:
     for line in protline:
         line=line.strip().split("\t")
         idx=str(line[0])
-        print idx
         prot=str(line[1])
         idx2prot[idx]=prot
         prot2idx[prot]=idx
