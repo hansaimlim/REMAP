@@ -1,8 +1,8 @@
 #!/usr/bin/python
 
 dti='../ZINC_DTI.tsv' #drug-target interaction in text identifiers
-chems='../ZINC_chemicals.tsv' #list of unique chemicals with chemical index
-prots='../ZINC_protein_index.tsv' #list of unique proteins with protein index
+chems='../list/ZINC_chemicals.tsv' #list of unique chemicals with chemical index
+prots='../list/ZINC_protein_index.tsv' #list of unique proteins with protein index
 
 idx2zinc={}
 zinc2idx={}
