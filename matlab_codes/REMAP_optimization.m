@@ -1,11 +1,10 @@
 function REMAP_optimization(R,chem_chem,prot_prot)
 %[1] Lim, H., Poleksic, A., Yao, Y., Tong, H., He, D., Zhuang, L., Meng, P. and Xie, L., 2016. Large-Scale Off-Target Identification Using Fast and Accurate Dual Regularized One-Class Collaborative Filtering and Its Application to Drug Repurposing. PLOS Comput Biol, 12(10), p.e1005135.
 maxNumCompThreads(3); %determine the maximum number of cores to use
-tic;
 %calculate AUC based on 10 fold cross validation
 %defalut parameters below. adjust low-rank based on the size
 kFold=10; %10-fold cross validation for optimization
-fid=fopen('../REMAP_optimization_ZINC.txt','at+');
+fid=fopen('../REMAP_optimization_ZINC_quick.txt','at+');
 %get number of chemical and protein
 m=size(chem_chem, 1);
 n=size(prot_prot, 1);
@@ -22,10 +21,11 @@ sumn = sum(prot_prot,2); %sum by rows
 Dn = spdiags(sumn,0,n,n);
 Lv = Dn - prot_prot;
 
-ranks=100:100:400;
-iters=100:100:200;
-p6s=0:0.2:1.0;
-p7s=0:0.2:1.0;
+ranks=100:100:300;
+% iters=100:100:200;
+iter=100;
+p6s=0:0.33:1.0;
+p7s=0:0.33:1.0;
 
 %prepare CV object
 positive_idx=find(R>0);
@@ -34,11 +34,12 @@ best_paras=zeros(1,4);
 best_auc=0;
 fprintf(fid,'%s\t%s\t%s\t%s\t%s\t%s\n','LowRank','MaxIter','p6','p7','avgAUC','stdAUC');
 for ir=1:numel(ranks)
-    for ii=1:numel(iters)
+%     for ii=1:numel(iters)
         for i6=1:numel(p6s)
             for i7=1:numel(p7s)
-                para = [0.1, 0.1, 0.01, ranks(ir), iters(ii), p6s(i6), p7s(i7)];
+                para = [0.1, 0.1, 0.01, ranks(ir), iter, p6s(i6), p7s(i7)];
                 AUC=zeros(1,kFold);
+                tic;
                 for k=1:kFold
                     %Cross validation, K-fold
                     testidx=positive_idx(test(cv,k)); %k-th test set
@@ -53,19 +54,22 @@ for ir=1:numel(ranks)
                     AUC(1,k)=auc;
                 end
                 avgauc=mean(AUC);
-                fprintf(fid,'%5d\t%5d\t%.3g\t%.3g\t%.5g\t%.5g\n',ranks(ir),iters(ii),p6s(i6),p7s(i7),avgauc,std(AUC));
+                fprintf(fid,'%5d\t%5d\t%.3g\t%.3g\t%.5g\t%.5g\n',ranks(ir),iter,p6s(i6),p7s(i7),avgauc,std(AUC));
                 if avgauc>best_auc
                     best_auc=avgauc;
-                    best_paras=[ranks(ir),iters(ii),p6s(i6),p7s(i7)];        
+                    best_paras=[ranks(ir),iter,p6s(i6),p7s(i7)];        
                 end
+                toc
             end
         end
-    end
+%     end
 end
+
+msg=['Best avg. AUC=' num2str(best_auc) ' at rank=' num2str(best_paras(1)) ', iter=' ...
+    num2str(best_paras(2)) ', p6=' num2str(best_paras(3)) ', p7=' num2str(best_paras(4)) ];
+disp(msg);
+fprintf(fid,'%s\n',msg);
 fclose(fid);
-disp(['Best avg. AUC=' num2str(best_auc) ' at rank=' num2str(best_paras(1)) ', iter=' ...
-    num2str(best_paras(2)) ', p6=' num2str(best_paras(3)) ', p7=' num2str(best_paras(4)) ]);
-toc
 clear P U V AUC Train Test;
 
 end
