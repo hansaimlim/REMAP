@@ -1,4 +1,4 @@
-function Y=REMAP(R, chem_chem_mat, prot_prot_mat,cutoff)
+function REMAP(R, chem_chem_mat, prot_prot_mat,cutoff,outfile,para)
 %[1] Hansaim Lim, Aleksandar Poleksic, Hanghang Tong, Yuan Yao, Di He, Luke Zhuang, Patrick Meng, and Lei Xie, "Large-scale Off-target Identification Using Fast and Accurate Dual Regularized One-Class Collaborative Filtering and Its Application to Drug Repurposing" , under review
 %chem_chem_mat and prot_prot_mat must be square matrices
 %number of rows and number of columns of R must match the number of chemicals and proteins, respectively
@@ -6,8 +6,14 @@ function Y=REMAP(R, chem_chem_mat, prot_prot_mat,cutoff)
 %in other words, scores for known association pairs are set to 0
 %Please refer to the paper for detail
 maxNumCompThreads(3); %determine the maximum number of cores to use
-para = [0.1, 0.1, 0.01, 200, 300, 0.75, 0.1];	% para: p_reg, squared p_weight, p_imp, rank, p_iter, p_chem, p_prot
-
+if nargin < 6
+    para = [0.1, 0.1, 0.01, 200, 300, 0.75, 0.1];	% para: p_reg, squared p_weight, p_imp, rank, p_iter, p_chem, p_prot
+end
+if length(para) < 7
+    msg=['The parameter must contain 7 values.\n' ...
+        'e.g.)para=[0.1, 0.1, 0.01, 200, 300, 0.75, 0.1]'];
+    error(msg)
+end
 %get number of chemical and protein
 m=size(chem_chem_mat, 1);
 n=size(prot_prot_mat, 1);
@@ -26,6 +32,9 @@ Y=WeightNormalize(U*V',R,cutoff);
 clear U V;
 
 Y=Y-Y.*R; %remove known associations
+[i,j,k]=find(Y);
+idxs=horzcat(i,j,k);
+dlmwrite(outfile,idxs,'delimiter','\t','precision',10);
 end
 
 function [U, V] = updateUV(R, Lu, Lv, para)
