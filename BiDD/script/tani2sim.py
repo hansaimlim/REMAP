@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import sys
 tani='../list/ZINC_tanimoto.dat'
+cutoff=0.5 # similarity lower than cutoff will be ignored
 
 with open(tani,"r") as inf:
     next(inf)
@@ -12,6 +13,6 @@ with open(tani,"r") as inf:
         for dis in rest:
             if tIdx > qIdx:
                 sim=float(1.0-float(dis))
-                if sim >= 0.5:
+                if sim >= cutoff:
                     print "%s, %s, %s"%(str(qIdx),str(tIdx),str(sim))
             tIdx+=1
