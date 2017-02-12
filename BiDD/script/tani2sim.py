@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import sys
 tani='../list/ZINC_tanimoto.dat'
-cutoff=0.5 # similarity lower than cutoff will be ignored
+cutoff=float(0.5) # similarity lower than cutoff will be ignored
 
 with open(tani,"r") as inf:
     next(inf)
