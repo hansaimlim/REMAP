@@ -1,18 +1,56 @@
-function REMAP(R, chem_chem_mat, prot_prot_mat,cutoff,outfile,para)
+function REMAP(R, chem_chem_mat, prot_prot_mat,outfile, Normalization,cutoff,para)
 %[1] Hansaim Lim, Aleksandar Poleksic, Hanghang Tong, Yuan Yao, Di He, Luke Zhuang, Patrick Meng, and Lei Xie, "Large-scale Off-target Identification Using Fast and Accurate Dual Regularized One-Class Collaborative Filtering and Its Application to Drug Repurposing" , under review
 %chem_chem_mat and prot_prot_mat must be square matrices
 %number of rows and number of columns of R must match the number of chemicals and proteins, respectively
 %prediction matrix Y does NOT show scores for known associations
 %in other words, scores for known association pairs are set to 0
 %Please refer to the paper for detail
+
+% R : Known association matrix (m by n)  *Required
+% chem_chem_mat : row-side similarity score matrix (m by m) (e.g. chemical-chemical similarity)  *Required
+% prot_prot_mat : column-side similarity score matrix (n by n) (e.g. protein-protein similarity) *Required
+% outfile : output file  *Required
+
+% Normalization : Use score normalization according to the reference paper. Default option is FALSE.
+%                  
+% cutoff : cutoff score. (between 0 and 1; default 0.5) Raw score or Normalized score depending on the normalization option.
+% para : user-defined parameters. (e.g. [0.1, 0.1, 0.01, 200, 300, 0.75, 0.1])
+
+
+
 maxNumCompThreads(3); %determine the maximum number of cores to use
-if nargin < 6
+if nargin < 4
+    msg='Too few arguments are given. At least four arguments required.';
+    error(msg)
+elseif nargin < 5
+    %four arguments given
+    para = [0.1, 0.1, 0.01, 200, 300, 0.75, 0.1]; %default parameters
+    cutoff=0.5;
+    Normalization='no';
+elseif nargin < 6
+    %five arguments given
+    para = [0.1, 0.1, 0.01, 200, 300, 0.75, 0.1]; %default parameters
+    cutoff=0.5;
+elseif nargin < 7
     para = [0.1, 0.1, 0.01, 200, 300, 0.75, 0.1];	% para: p_reg, squared p_weight, p_imp, rank, p_iter, p_chem, p_prot
 end
 if length(para) < 7
     msg=['The parameter must contain 7 values.\n' ...
         'e.g.)para=[0.1, 0.1, 0.01, 200, 300, 0.75, 0.1]'];
     error(msg)
+end
+if strcmpi(Normalization,'true')||strcmpi(Normalization,'normalization')||strcmpi(Normalization,'yes')
+    msg=['Normalization True, cutoff Normalized score ' num2str(cutoff)];
+    disp(msg);
+    Normalize=1
+elseif strcmpi(Normalization,'false')||strcmpi(Normalization,'raw')||strcmpi(Normalization,'no')
+    msg=['Normalization False, cutoff Raw score ' num2str(cutoff)];
+    disp(msg);
+    Normalize=0
+else
+    msg=['Normalization False, cutoff Raw score ' num2str(cutoff)];
+    disp(msg);
+    Normalize=0
 end
 %get number of chemical and protein
 m=size(chem_chem_mat, 1);
@@ -28,7 +66,11 @@ Lv = Dn - prot_prot_mat;
 
 clear Dm Dn m n
 [U, V] = updateUV(R, Lu, Lv, para);
-Y=WeightNormalize(U*V',R,cutoff);
+if Normalize
+    Y=WeightNormalize(U*V',R,cutoff);
+else
+    Y=U*V';
+end
 clear U V;
 
 Y=Y-Y.*R; %remove known associations
