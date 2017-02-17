@@ -3,6 +3,7 @@ function P=COSINE_Optimization(chem_prot,chem_chem,prot_prot)
 % Improved genome-scale multi-target virtual screening via a novel collaborative filtering approach to cold-start problem. 
 % Scientific Reports, 6, 38860. http://doi.org/10.1038/srep38860
 maxNumCompThreads(3); %determine the maximum number of cores to use
+outfile_pred='../COSINE_predicted.txt'; %output file for predicted pairs
 
 R = chem_prot;
 M = chem_chem;
@@ -75,8 +76,12 @@ disp(['Best avg. AUC=' num2str(best_auc) ' at rank=' num2str(best_paras(1)) ...
 %get prediction matrix P using the best parameters
 W = max(1, 6 * Train);
 Q = zeros(m,n);  
-P=COSINE(R,DMM,DNN,nM,nN,W,Q,best_paras(2),best_paras(3),best_paras(4),best_paras(1));
-    
+Y=COSINE(R,DMM,DNN,nM,nN,W,Q,best_paras(2),best_paras(3),best_paras(4),best_paras(1));
+   
+Y=Y-Y.*R; %remove known associations
+[i,j,k]=find(Y);
+idxs=horzcat(i,j,k);
+dlmwrite(outfile_pred,idxs,'delimiter','\t','precision',10);   
 end
 
 function [avgauc,stdauc]=COSINE_10CV(ColdStartRowIdx,cv,kFold,R,paras,DMM,DNN,nM,nN)
