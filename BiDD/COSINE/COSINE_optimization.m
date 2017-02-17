@@ -1,4 +1,4 @@
-function COSINE_Optimization(chem_prot,chem_chem,prot_prot)
+function COSINE_optimization(chem_prot,chem_chem,prot_prot)
 % Lim, H., Gray, P., Xie, L., & Poleksic, A. (2016). 
 % Improved genome-scale multi-target virtual screening via a novel collaborative filtering approach to cold-start problem. 
 % Scientific Reports, 6, 38860. http://doi.org/10.1038/srep38860
