@@ -16,23 +16,15 @@ def get_tani_sim_large(large_smi_file, lines, threshold, outfile):
     outfile=str(outfile)
     split_smi_files=split_file(large_smi_file,lines)
     filecount=len(split_smi_files)
-#    query_index_padding=int(0)
-#    file_done=0
     inputs=[]
     for finfo in split_smi_files:
         inp=(finfo[0],large_smi_file,finfo[1],outfile)
         inputs.append(inp)
     with Pool() as pool: #use multicore
         R=pool.starmap(smile_to_sim,inputs)
-#        tani=run_screenmd('/home/hlim/ChemAxon/JChem/bin/',smi,large_smi_file)
-#        calc_sim(tani, query_index_padding, threshold, outfile)
-#        delete_file(smi)
-#        delete_file(tani)
-#        query_index_padding+=int(lines)
-#        file_done+=1
-#        print("%s out of %s files complete..." % (str(file_done),str(filecount)))
     print("Process Done. Tanimoto similarity file= %s"%outfile)
     print("Similarity threshold: %s (minimum similarity)."%str(threshold))
+    
 def smile_to_sim(query,target,index_padding,outfile,threshold=float(0.5)):
     print("Screening %s to %s..."%(str(query),str(target)))
     tani=run_screenmd(query,target)
@@ -65,9 +57,11 @@ def split_file(infile, lines):
         suffix+=1
         linepadding+=int(lines)
     return files
+
 def delete_file(filename):
     delcommand="rm %s"%str(filename)
     output=subprocess.check_output(['bash','-c',delcommand])
+    
 def run_screenmd(query_file,target_file):
     screenmd_path='/home/hlim/ChemAxon/JChem/bin/'    #path to screenmd binary file
     tanimoto_filename=query_file+".dat"
@@ -92,6 +86,7 @@ def calc_sim(datfile, query_idx_pad, threshold, outfile):
                 if score>=threshold:
                     fout.write("%s, %s, %8.5f\n"%(str(qidx),str(tidx),score))
     fout.close()
+    
 if __name__ == '__main__':
     Args=sys.argv[1:]
     if len(Args)<4:
@@ -100,4 +95,3 @@ if __name__ == '__main__':
         sys.exit()
     freeze_support()
     get_tani_sim_large(Args[0],int(Args[1]),float(Args[2]),Args[3])
-
