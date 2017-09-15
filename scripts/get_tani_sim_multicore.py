@@ -18,19 +18,23 @@ def get_tani_sim_large(large_smi_file, lines, threshold, outfile):
     filecount=len(split_smi_files)
     inputs=[]
     for finfo in split_smi_files:
-        inp=(finfo[0],large_smi_file,finfo[1],outfile)
+        inp=(finfo[0],large_smi_file,finfo[1],outfile,threshold,screenmd_path_global)
         inputs.append(inp)
     with Pool() as pool: #use multicore
-        R=pool.starmap(smile_to_sim,inputs)
-    print("Process Done. Tanimoto similarity file= %s"%outfile)
-    print("Similarity threshold: %s (minimum similarity)."%str(threshold))
+        try:
+            R=pool.starmap(smile_to_sim,inputs)
+            print("Process Done. Tanimoto similarity file= %s"%outfile)
+            print("Similarity threshold: %s (minimum similarity)."%str(threshold))
+        except BaseException as e:
+            print("Error occurred:\n"+str(e)+"\n")
+            for finfo in split_smi_files:
+                delete_file(finfo[0])
+            print("Splitted smi files deleted.\n")
     
-def smile_to_sim(query,target,index_padding,outfile,threshold=float(0.5)):
+def smile_to_sim(query,target,index_padding,outfile,threshold,screenmd_path):
     print("Screening %s to %s..."%(str(query),str(target)))
-    tani=run_screenmd(query,target)
-    print("Screening %s to %s is Done. Calculating similarity... Threshold %s."%(str(query),str(target),str(threshold)))
+    tani=run_screenmd(screenmd_path,query,target)
     calc_sim(tani,int(index_padding),float(threshold),outfile)
-    print("%s to %s Complete. output to %s."%(str(query),str(target),str(outfile)))
     delete_file(query)
     delete_file(tani)
 
@@ -62,12 +66,16 @@ def delete_file(filename):
     delcommand="rm %s"%str(filename)
     output=subprocess.check_output(['bash','-c',delcommand])
     
-def run_screenmd(query_file,target_file):
-    screenmd_path='/home/hlim/ChemAxon/JChem/bin/'    #path to screenmd binary file
+def run_screenmd(screenmd_path,query_file,target_file):
     tanimoto_filename=query_file+".dat"
-    screenmd_command=os.path.join(screenmd_path,'screenmd')+" %s %s -k ECFP -g -c -M Tanimoto > %s"%(query_file,target_file,tanimoto_filename)
-    output=subprocess.check_output(['bash','-c',screenmd_command])
-    return tanimoto_filename
+    try:
+        screenmd_command=os.path.join(screenmd_path,'screenmd')+" %s %s -k ECFP -g -c -M Tanimoto > %s"%(query_file,target_file,tanimoto_filename)
+        output=subprocess.check_output(['bash','-c',screenmd_command])
+        return tanimoto_filename
+    except BaseException as e:
+        print('Error occurred during screenmd: '+str(e)+"\n")
+        print("Suggestion: Where is your JChem software installed?")
+        print("Suggestion: Maybe you need to change screenmd_path_global variable at the bottom of the code.\n")
 
 def calc_sim(datfile, query_idx_pad, threshold, outfile):
     #calculate tanimoto similarity
@@ -88,10 +96,12 @@ def calc_sim(datfile, query_idx_pad, threshold, outfile):
     fout.close()
     
 if __name__ == '__main__':
+    global screenmd_path_global
+    screenmd_path_global='/home/hlim/ChemAxon/JChem/bin/'  #Change this to your JChem bin directory (where screenmd binary file is found)
     Args=sys.argv[1:]
     if len(Args)<4:
         print("Insufficient arguments.\nSMILES file, split line num, similarity threshold, outfile are required arguments.")
-        print("(e.g.) python3 get_tani_sim.py chemicals.smi 5000 0.5 tanimoto_sim.csv")
+        print("(e.g.) python3 get_tani_sim_multicore.py chemicals.smi 5000 0.5 tanimoto_sim.csv")
         sys.exit()
     freeze_support()
     get_tani_sim_large(Args[0],int(Args[1]),float(Args[2]),Args[3])
