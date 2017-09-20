@@ -5,7 +5,9 @@ import sys
 import math
 import subprocess
 from multiprocessing import Pool
-from multiprocessing import freeze_support
+from multiprocessing import freeze_support, cpu_count
+global screenmd_path_global
+screenmd_path_global='/home/hlim/ChemAxon/JChem/bin/'  #Change this to your JChem bin directory (where screenmd binary file is found)
 
 def get_tani_sim_large(large_smi_file, lines, threshold, outfile):
     #split smi file into pieces of equal lines
@@ -20,7 +22,7 @@ def get_tani_sim_large(large_smi_file, lines, threshold, outfile):
     for finfo in split_smi_files:
         inp=(finfo[0],large_smi_file,finfo[1],outfile,threshold,screenmd_path_global)
         inputs.append(inp)
-    with Pool() as pool: #use multicore
+    with Pool(cpu_count()-1) as pool: #use multicore
         try:
             R=pool.starmap(smile_to_sim,inputs)
             print("Process Done. Tanimoto similarity file= %s"%outfile)
@@ -96,8 +98,6 @@ def calc_sim(datfile, query_idx_pad, threshold, outfile):
     fout.close()
     
 if __name__ == '__main__':
-    global screenmd_path_global
-    screenmd_path_global='/home/hlim/ChemAxon/JChem/bin/'  #Change this to your JChem bin directory (where screenmd binary file is found)
     Args=sys.argv[1:]
     if len(Args)<4:
         print("Insufficient arguments.\nSMILES file, split line num, similarity threshold, outfile are required arguments.")
