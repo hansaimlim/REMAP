@@ -1,23 +1,11 @@
 function TriFacREMAP_timecomplexity()
-%[1] Hansaim Lim, Aleksandar Poleksic, Hanghang Tong, Yuan Yao, Di He, Luke Zhuang, Patrick Meng, and Lei Xie, "Large-scale Off-target Identification Using Fast and Accurate Dual Regularized One-Class Collaborative Filtering and Its Application to Drug Repurposing" , under review
-%chem_chem_mat and prot_prot_mat must be square matrices
-%number of rows and number of columns of R must match the number of chemicals and proteins, respectively
-%prediction matrix Y does NOT show scores for known associations
-%in other words, scores for known association pairs are set to 0
-%Please refer to the paper for detail
+%test time complexity of tREMAP on ZINC dataset
 maxNumCompThreads(2); %determine the maximum number of cores to use
-%load('C:\Users\hansaimlim\OneDrive - Cuny GradCenter\thesis work\TriFacREMAP\script\testpack\datamat\ChEMBLCYP450\chem_chem.mat')
-%load('C:\Users\hansaimlim\OneDrive - Cuny GradCenter\thesis work\TriFacREMAP\script\testpack\datamat\ChEMBLCYP450\chem_prot.mat')
-%load('C:\Users\hansaimlim\OneDrive - Cuny GradCenter\thesis work\TriFacREMAP\script\testpack\datamat\ChEMBLCYP450\prot_prot.mat')
-% load('.\testpack\datamat\kinase\chem_prot.mat')
-% load('.\testpack\datamat\kinase\chem_chem.mat')
-% load('.\testpack\datamat\kinase\prot_prot.mat')
-
 
 %for ZINC dataset
-load('..\..\external data\ZINC\chem_prot_zinc.mat')
-load('..\..\external data\ZINC\chem_chem_zinc.mat')
-load('..\..\external data\ZINC\prot_prot_zinc.mat')
+load('../../BiDD/matrix/chem_prot_zinc.mat')
+load('../../BiDD/matrix/chem_chem_zinc.mat')
+load('../../BiDD/matrix/prot_prot_zinc.mat')
 chem_prot=sparse(chem_prot_zinc);
 chem_chem=sparse(chem_chem_zinc);
 prot_prot=sparse(prot_prot_zinc);
@@ -32,7 +20,7 @@ nchem=size(chem_prot,1);
 nprot=size(chem_prot,2);
 
 K=4; %repeat each condition n times to get stdev
-outfile='./TREMAP_Timecomplexity_stdev_1090I_large_new.txt';
+outfile='./TREMAP_Timecomplexity.txt';
 fid=fopen(outfile,'at+');
 fprintf(fid,'%s\t%3d\n','N=',K);
 fprintf(fid,'%s\t%s\t%s\t%s\t%s\t%s\t%s\n',...
@@ -42,8 +30,8 @@ fprintf(fid,'%s\t%s\t%s\t%s\t%s\t%s\t%s\n',...
 
 % % range1=2:1:5; %column range
 % % range2=2:1:5; %row range
-range2=200000:200000:1000000;
-range1=100000:20000:200000;
+range2=2000:2000:10000;
+range1=10000:10000:50000;
 rank_u=400;
 rank_v=200;
 for i1=1:numel(range1)
