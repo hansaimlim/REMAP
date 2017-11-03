@@ -1,0 +1,12 @@
+chem-CYP450 binding assay data from PubChem
+Chem-chem matrix was generated using PaDeL, Extended Fingerprint.
+Cosine similarity using the FP vectors as similarity. sim<0.5 were filtered out.
+prot-prot matrix generated using blastp (sequence), bitscore ratio. sim<0.5 were filtered out.
+
+Test and Validation indices are for deep learning combined with matlab works.
+The files contain (chemIdx, protIdx, Association). 
+The indices are 0-based (python index). +1 should be applied for matlab works.
+
+#chem: 17143
+#prot: 5
+#chem-prot: 24069 (density: 28.08%)
