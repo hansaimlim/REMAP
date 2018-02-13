@@ -5,9 +5,9 @@ import sys
 import math
 import subprocess
 global blast_path
-blast_path='/home/hlim/blast/ncbi-blast-2.2.31+/bin/'
+blast_path='/home/hlim/blast/ncbi-blast-2.7.0+/bin/'
 
-def get_blast_sim(protinfo_file, fasta_file, threshold, outfile):
+def get_blast_sim(protinfo_file, fasta_file, threshold, outfile, num_cores=1):
     fasta_file=str(fasta_file)
     threshold=float(threshold)
     outfile=str(outfile)
@@ -18,7 +18,7 @@ def get_blast_sim(protinfo_file, fasta_file, threshold, outfile):
     blast_result_file="blastresult.dat"
     blastdbcommand=blast_path+"makeblastdb -in %s -dbtype prot -out %s"%(fasta_file,blastdbname)
     output=subprocess.check_output(['bash','-c',blastdbcommand])
-    blastpcommand=blast_path+"blastp -query %s -db %s -evalue 1e-5 -outfmt 6 > %s"%(fasta_file, blastdbname, blast_result_file)
+    blastpcommand=blast_path+"blastp -query %s -db %s -evalue 1e-5 -outfmt 6 -num_threads %s > %s"%(fasta_file, blastdbname, str(num_cores), blast_result_file)
     output=subprocess.check_output(['bash','-c',blastpcommand])
     calc_sim(protinfo_file,blast_result_file, threshold, outfile)
 
@@ -91,6 +91,10 @@ if __name__ == '__main__':
     Args=sys.argv[1:]
     if len(Args)<4:
         print("Insufficient arguments.\nProtein_info_file, FASTA file, similarity threshold, outfile are required arguments.")
-        print("(e.g.) python get_blast_sim.py protInfo.tsv proteins.fas 0.5 blast_sim.csv")
+        print("(e.g. 1-core) python get_blast_sim.py protInfo.tsv proteins.fas 0.5 blast_sim.csv  (OR)")
+        print("(e.g. 4-core) python get_blast_sim.py protInfo.tsv proteins.fas 0.5 blast_sim.csv 4")
         sys.exit()
-    get_blast_sim(Args[0],Args[1],float(Args[2]),Args[3])
+    if len(Args)==5:
+        get_blast_sim(Args[0],Args[1],float(Args[2]),Args[3],Args[4])
+    elif len(Args)==4:
+        get_blast_sim(Args[0],Args[1],float(Args[2]),Args[3])
