@@ -50,7 +50,7 @@ def split_file(infile, lines):
     total_lines=output.strip().split(' ')[0]
     print(total_lines)
     filecount=int(math.ceil(float(total_lines)/float(lines)))
-    splitcommand="split %s -ed -a 3 -l %d" %(str(infile),int(lines)) #file name will be x000, x001, x002...
+    splitcommand="split %s -d -a 3 -l %d" %(str(infile),int(lines)) #file name will be x000, x001, x002...
     output = subprocess.check_output(['bash','-c',splitcommand])
     print("File splitted into %s pieces."%str(filecount))
     suffix=int(0)
