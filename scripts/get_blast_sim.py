@@ -41,8 +41,7 @@ def get_protinfo(filename):
         for line in inf:
             line=line.strip().split("\t")
             idx=str(line[0]).strip()
-            tid=str(line[1])
-            acc=str(line[2]).strip()
+            acc=str(line[1]).strip()
             idx2acc[idx]=acc
             acc2idx[acc]=idx
     return idx2acc, acc2idx
@@ -82,10 +81,12 @@ def calc_sim(protinfo_file, datfile, threshold, outfile):
             taccession=str(tids[1])
             qidx=acc2idx[qaccession]
             tidx=acc2idx[taccession]
-
-            simscore=float(score / idx2selfscore[qidx])
-            if simscore>=threshold:
-                fout.write("%s, %s, %s\n"%(str(qidx),str(tidx),str(simscore)))
+            try:
+              simscore=float(score / idx2selfscore[qidx])
+              if simscore>=threshold:
+                  fout.write("%s, %s, %s\n"%(str(qidx),str(tidx),str(simscore)))
+            except:
+              print("{}, {}, may be too short for similarity search.".format(qidx, qaccession))
     fout.close()
 if __name__ == '__main__':
     Args=sys.argv[1:]
