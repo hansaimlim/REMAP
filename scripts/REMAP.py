@@ -1,9 +1,7 @@
-#import mxnet as mx
 import numpy as np
 from scipy import sparse
 import sys
 import argparse
-from Dataprep import cvpartition, matrix_to_sample
 
 def parse_args():
     parser=argparse.ArgumentParser(description="REMAP")
