@@ -9,7 +9,6 @@ def parse_args():
     parser.add_argument('--R',nargs='?', default='chem_prot.csv')
     parser.add_argument('--chemsim',nargs='?', default='chem_chem.csv')
     parser.add_argument('--protsim',nargs='?', default='prot_prot.csv')
-    parser.add_argument('--kFold', type=int, default=5, help='kFold Cross validation')
     parser.add_argument('--low_rank', type=int, default=100,
                         help='Low rank parameter.')
     parser.add_argument('--max_iter', type=int, default=100,
@@ -94,7 +93,6 @@ if __name__== '__main__':
     weight=args.weight
     imp=args.imp
     reg=args.reg
-    kFold=args.kFold
 
     chemprot=args.path+args.R #chem-prot matrix
     chemchem=args.path+args.chemsim 
