@@ -23,6 +23,8 @@ def parse_args():
                         help='Importance weight for chem-chem.')
     parser.add_argument('--weight_prot', type=float, default=0.25,
                         help='Importance weight for prot-prot.')
+    parser.add_argument('--seed', type=int, default=1987,
+                        help='Random seed.')
     return parser.parse_args()
 
 def REMAP(R,chem_chem,prot_prot,args):
@@ -38,7 +40,7 @@ def REMAP(R,chem_chem,prot_prot,args):
     return (U,V)
 
 def updateUV(R, Lu, Lv, args):
-
+    np.random.seed=args.seed
     lowrank=args.low_rank
     maxite=args.max_iter
     weight=args.weight
