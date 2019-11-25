@@ -102,6 +102,7 @@ if __name__ == '__main__':
     parser.add_argument('--output', type=str, default='output.csv',help='Input FASTA file')
     parser.add_argument('--log', type=str, default='info',help='logging level')
     opt = parser.parse_args()
+    FORMAT = '%(asctime)-15s %(message)s'
     logging.basicConfig(format=FORMAT, level=getattr(logging, opt.log.upper()))
     logging.info(opt)
     get_blast_sim(opt.protinfo,opt.input,opt.threshold,opt.output,num_cores=opt.num_threads)
