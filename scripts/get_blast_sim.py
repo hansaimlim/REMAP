@@ -4,21 +4,26 @@ import os
 import sys
 import math
 import subprocess
+import logging
+import argparse
 global blast_path
-blast_path='/home/hlim/blast/ncbi-blast-2.7.0+/bin/'
+blast_path='/work/ncbi-blast-2.8.1+/bin/'
 
-def get_blast_sim(protinfo_file, fasta_file, threshold, outfile, num_cores=1):
+def get_blast_sim(protinfo_file, fasta_file, threshold, outfile, num_cores=4):
     fasta_file=str(fasta_file)
     threshold=float(threshold)
     outfile=str(outfile)
 
-    print("Process starts. protinfo file: %s"%protinfo_file)
-    print("Similarity threshold: %s (minimum similarity)."%str(threshold))
+    logging.info("Process starts. protinfo file: {}".format(protinfo_file))
+    logging.info("Similarity threshold: {} (minimum similarity).".format(threshold))
     blastdbname=fasta_file+"_blastdb"
     blast_result_file="blastresult.dat"
-    blastdbcommand=blast_path+"makeblastdb -in %s -dbtype prot -out %s"%(fasta_file,blastdbname)
+    blastdbcommand=blast_path+"makeblastdb -in {} -dbtype prot -out {}".format(fasta_file,blastdbname)
     output=subprocess.check_output(['bash','-c',blastdbcommand])
-    blastpcommand=blast_path+"blastp -query %s -db %s -evalue 1e-5 -outfmt 6 -num_threads %s > %s"%(fasta_file, blastdbname, str(num_cores), blast_result_file)
+    blastpcommand=blast_path+"blastp -query {} -db {} -evalue 1e-5 -outfmt 6 -num_threads {} > {}".format(fasta_file,
+         blastdbname, 
+         num_cores, 
+         blast_result_file)
     output=subprocess.check_output(['bash','-c',blastpcommand])
     calc_sim(protinfo_file,blast_result_file, threshold, outfile)
 
@@ -26,11 +31,11 @@ def get_blast_sim(protinfo_file, fasta_file, threshold, outfile, num_cores=1):
     delete_file(blastdbname+".pin")
     delete_file(blastdbname+".psq")
     delete_file(blast_result_file)
-    print("Process Done. BLAST similarity file= %s"%outfile)
-    print("Similarity threshold: %s (minimum similarity)."%str(threshold))
+    logging.info("Process Done. BLAST similarity file= {}".format(outfile))
+    logging.info("Similarity threshold: {} (minimum similarity).".format(threshold))
     
 def delete_file(filename):
-    delcommand="rm %s"%str(filename)
+    delcommand="rm {}".format(filename)
     output=subprocess.check_output(['bash','-c',delcommand])
 
 def get_protinfo(filename):
@@ -84,18 +89,19 @@ def calc_sim(protinfo_file, datfile, threshold, outfile):
             try:
               simscore=float(score / idx2selfscore[qidx])
               if simscore>=threshold:
-                  fout.write("%s, %s, %s\n"%(str(qidx),str(tidx),str(simscore)))
+                  fout.write("{}, {}, {}\n".format(qidx,tidx,simscore))
             except:
               print("{}, {}, may be too short for similarity search.".format(qidx, qaccession))
     fout.close()
 if __name__ == '__main__':
-    Args=sys.argv[1:]
-    if len(Args)<4:
-        print("Insufficient arguments.\nProtein_info_file, FASTA file, similarity threshold, outfile are required arguments.")
-        print("(e.g. 1-core) python get_blast_sim.py protInfo.tsv proteins.fas 0.5 blast_sim.csv  (OR)")
-        print("(e.g. 4-core) python get_blast_sim.py protInfo.tsv proteins.fas 0.5 blast_sim.csv 4")
-        sys.exit()
-    if len(Args)==5:
-        get_blast_sim(Args[0],Args[1],float(Args[2]),Args[3],Args[4])
-    elif len(Args)==4:
-        get_blast_sim(Args[0],Args[1],float(Args[2]),Args[3])
+    parser = argparse.ArgumentParser("Run BLAST similarity calculation")
+    parser.add_argument('--protinfo', type=str, default='', help="protein information tsv file")
+    parser.add_argument('--input', type=str, default='',help='Input FASTA file')
+    parser.add_argument('--threshold', type=float, default=0.5,help='Minimum similarity to be included')
+    parser.add_argument('--num_threads', type=int, default=8,help='n_cpu per job')
+    parser.add_argument('--output', type=str, default='output.csv',help='Input FASTA file')
+    parser.add_argument('--log', type=str, default='info',help='logging level')
+    opt = parser.parse_args()
+    logging.basicConfig(format=FORMAT, level=getattr(logging, opt.log.upper()))
+    logging.info(opt)
+    get_blast_sim(opt.protinfo,opt.input,opt.threshold,opt.output,num_cores=opt.num_threads)
