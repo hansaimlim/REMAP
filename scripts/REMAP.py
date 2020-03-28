@@ -52,8 +52,8 @@ def updateUV(R, Lu, Lv, args):
     pprot=args.weight_prot
     m,n=R.shape
 
-    U0=np.asmatrix(np.random.rand(m,lowrank),dtype=np.float32)
-    V0=np.asmatrix(np.random.rand(n,lowrank),dtype=np.float32)
+    U0=np.asmatrix(np.random.rand(m,lowrank),dtype=np.float64)
+    V0=np.asmatrix(np.random.rand(n,lowrank),dtype=np.float64)
     Lu_plus=0.5*(np.abs(Lu)+Lu)
     Lu_minus=0.5*(np.abs(Lu)-Lu)
 
@@ -67,6 +67,8 @@ def updateUV(R, Lu, Lv, args):
         Nzs[row[i],col[i]]=1
     logging.debug("updateUV started...")
 
+    if R.dtype != np.float64:
+        R=R.astype(np.float64)
     if R.__class__ in [sparse.coo_matrix,
                        sparse.csr_matrix,
                        sparse.csc_matrix,
@@ -104,7 +106,7 @@ def fill_na(A,val=0):
     A[np.isnan(A)]=val
     return A
 
-@jit(nopython=True, parallel=True)
+@jit(nopython=True)
 def jit_dot(A,B):
     return np.dot(A,B)
 
