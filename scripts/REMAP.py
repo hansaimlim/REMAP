@@ -1,5 +1,7 @@
 import numpy as np
 from scipy import sparse
+from numba import jit
+
 import sys
 import argparse
 
@@ -50,43 +52,80 @@ def updateUV(R, Lu, Lv, args):
     pprot=args.weight_prot
     m,n=R.shape
 
-    U0=np.random.rand(m,lowrank)
-    V0=np.random.rand(n,lowrank)
+    U0=np.asmatrix(np.random.rand(m,lowrank),dtype=np.float32)
+    V0=np.asmatrix(np.random.rand(n,lowrank),dtype=np.float32)
     Lu_plus=0.5*(np.abs(Lu)+Lu)
     Lu_minus=0.5*(np.abs(Lu)-Lu)
 
     Lv_plus=0.5*(np.abs(Lv)+Lv)
     Lv_minus=0.5*(np.abs(Lv)-Lv)
 
-    for ite in range(0,maxite):
-        UVT=get_UVT(R,U0,V0)
-        U0=updateU(R,UVT,weight,imp,Lu_plus,Lu_minus,U0,V0,reg,pchem)
-        V0=updateU(R.transpose(),UVT.transpose(),weight,imp,Lv_plus,Lv_minus,V0,U0,reg,pprot)
+    logging.debug("Preparing indicator matrix...")
+    Nzs=np.zeros((m,n))
+    row,col=np.nonzero(inputMatrix)
+    for i in range(len(row)):
+        Nzs[row[i],col[i]]=1
+    logging.debug("updateUV started...")
 
+    if R.__class__ in [sparse.coo_matrix,
+                       sparse.csr_matrix,
+                       sparse.csc_matrix,
+                       sparse.bsr_matrix
+                      ]:
+        R=R.todense()
+    since=time.time()
+    countEvery=10
+    for ite in range(0,maxite):
+        UVT=get_UVT(Nzs,U0,V0)
+        U0=fill_na(updateU(R,UVT,weight,imp,Lu_plus,Lu_minus,U0,V0,reg,pchem),val=0)
+        V0=fill_na(updateU(R.transpose(),UVT.transpose(),weight,imp,Lv_plus,Lv_minus,V0,U0,reg,pprot),val=0)
+        if (ite+1)%countEvery==0:
+            elapsed=time.time()-since
+            logging.debug("{:.4f} minutes elapsed for {} iterations: iter {}".format(elapsed/60.0,countEvery,ite+1))
+            since=time.time()
     return (U0,V0)
 
-def get_UVT(R, U, V):
-    m,n=R.shape
-    
-    rows,cols=R.nonzero()
-    UVT=np.zeros((m,n),dtype=float)
-    for i in range(len(rows)):
-        row=rows[i]
-        col=cols[i]
-        UVT[row,col]=np.dot(U[row],V[col].T)
-    return UVT
+def get_UVT(Nzs, U, V):
+    return jit_mult(Nzs, jit_dot(U,V.T) )
 
 def updateU(R,UVT,weight,imp,Lu_plus,Lu_minus,U0,V0,reg,importance):
-
     m,n=R.shape
-
-    ua=(1-weight*imp)*np.dot(R,V0)+np.dot( (weight*imp*np.ones((m,n))), V0)+importance*np.dot(Lu_minus,U0)
-    ub=(1-weight)*np.dot(UVT,V0)+ (weight* (np.dot(U0, np.dot(V0.T,V0) ))) + importance*np.dot(Lu_plus,U0) + reg*U0
-    u=np.sqrt(np.divide(ua,ub))
-    U1=np.multiply(U0,u)
-    U1[np.isinf(U0)]=0
-    U1[np.isnan(U0)]=0
+    if imp>0:
+        ua=(1-weight*imp)*jit_dot(R,V0)+jit_dot( (weight*imp*np.ones((m,n))), V0)+importance*jit_dot(Lu_minus,U0)
+    else:
+        ua=jit_dot(R,V0)+importance*jit_dot(Lu_minus,U0)
+    ub=(1-weight)*jit_dot(UVT,V0)+ (weight* (jit_dot(U0, jit_dot(V0.T,V0) ))) + importance*jit_dot(Lu_plus,U0) + reg*U0
+    u=jit_sqrt(jit_divide(ua,ub))
+    U1=jit_mult(U0,u)
     return U1
+
+def fill_na(A,val=0):
+    A[np.isinf(A)]=val
+    A[np.isnan(A)]=val
+    return A
+
+@jit(nopython=True, parallel=True)
+def jit_dot(A,B):
+    return np.dot(A,B)
+
+@jit(nopython=True, parallel=True)
+def jit_mult(A,B):
+    return np.multiply(A,B)
+
+@jit(nopython=True, parallel=True)
+def jit_divide(A,B):
+    return np.divide(A,B)
+
+@jit(nopython=True, parallel=True)
+def jit_sqrt(A):
+    return np.sqrt(A)
+
+@jit(nopython=True, parallel=True)
+def jit_rownorm(A,ord=2):
+    norm=[]
+    for i in range(A.shape[0]):
+        norm.append(np.linalg.norm(A[i,:],ord=ord))
+    return np.array(norm,dtype=np.float32)
 
 if __name__== '__main__':
     args=parse_args()
@@ -100,5 +139,5 @@ if __name__== '__main__':
     chemchem=args.path+args.chemsim 
     protprot=args.path+args.protsim
     U,V=REMAP(chemprot,chemchem,protprot,args) #run remap
-    P=np.dot(U,V.T) #prediction matrix
+    P=jit_dot(U,V.T) #prediction matrix
     np.savetxt('REMAP_pred.csv',P,delimiter=',') #save prediction matrix
