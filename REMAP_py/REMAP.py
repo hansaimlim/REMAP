@@ -4,6 +4,7 @@ from numba import jit
 
 import sys
 import argparse
+import logging
 
 def parse_args():
     parser=argparse.ArgumentParser(description="REMAP")
@@ -30,19 +31,10 @@ def parse_args():
     return parser.parse_args()
 
 def REMAP(R,chem_chem,prot_prot,args):
-    
-    m,n=R.shape
-    Dm=sparse.diags(np.sum(chem_chem,1),0,shape=(m,m))
-    Dn=sparse.diags(np.sum(prot_prot,1),0,shape=(n,n))
-    Lu=Dm-chem_chem
-    Lv=Dn-prot_prot
-
-    U,V=updateUV(R,Lu,Lv,args)
-
+    U,V=updateUV(R,chem_chem,prot_prot,args)
     return (U,V)
 
-def updateUV(R, Lu, Lv, args):
-    np.random.seed=args.seed
+def updateUV(inputMatrix, chem_chem, prot_prot, args):
     lowrank=args.low_rank
     maxite=args.max_iter
     weight=args.weight
@@ -50,15 +42,34 @@ def updateUV(R, Lu, Lv, args):
     reg=args.reg
     pchem=args.weight_chem
     pprot=args.weight_prot
-    m,n=R.shape
-
+    m,n=inputMatrix.shape
+    
     U0=np.asmatrix(np.random.rand(m,lowrank),dtype=np.float64)
     V0=np.asmatrix(np.random.rand(n,lowrank),dtype=np.float64)
-    Lu_plus=0.5*(np.abs(Lu)+Lu)
-    Lu_minus=0.5*(np.abs(Lu)-Lu)
-
-    Lv_plus=0.5*(np.abs(Lv)+Lv)
-    Lv_minus=0.5*(np.abs(Lv)-Lv)
+    
+    if (pchem==0) or (chem_chem is None):
+        #gene sim not used
+        updateU_=updateU_nosim
+        Lu_plus=None
+        Lu_minus=None
+    else:
+        Dm=sparse.diags(np.asarray(np.sum(chem_chem,1)).squeeze(),0,shape=(m,m))
+        Lu=Dm-chem_chem
+        Lu_plus=(0.5*(np.abs(Lu)+Lu)).todense()
+        Lu_minus=(0.5*(np.abs(Lu)-Lu)).todense()
+        updateU_=updateU
+        
+    if (pprot==0) or (prot_prot is None):
+        #cell sim not used
+        updateV_=updateU_nosim
+        Lv_plus=None
+        Lv_minus=None
+    else:
+        Dn=sparse.diags(np.asarray(np.sum(prot_prot,1)).squeeze(),0,shape=(n,n))
+        Lv=Dn-prot_prot
+        Lv_plus=(0.5*(np.abs(Lv)+Lv)).todense()
+        Lv_minus=(0.5*(np.abs(Lv)-Lv)).todense()
+        updateV_=updateU
 
     logging.debug("Preparing indicator matrix...")
     Nzs=np.zeros((m,n))
@@ -66,26 +77,20 @@ def updateUV(R, Lu, Lv, args):
     for i in range(len(row)):
         Nzs[row[i],col[i]]=1
     logging.debug("updateUV started...")
-
-    if R.dtype != np.float64:
-        R=R.astype(np.float64)
-    if R.__class__ in [sparse.coo_matrix,
+    if inputMatrix.dtype != np.float64:
+        inputMatrix=inputMatrix.astype(np.float64)
+    if inputMatrix.__class__ in [sparse.coo_matrix,
                        sparse.csr_matrix,
                        sparse.csc_matrix,
                        sparse.bsr_matrix
                       ]:
-        R=R.todense()
-    since=time.time()
-    countEvery=10
+        inputMatrix=inputMatrix.todense()
     for ite in range(0,maxite):
         UVT=get_UVT(Nzs,U0,V0)
-        U0=fill_na(updateU(R,UVT,weight,imp,Lu_plus,Lu_minus,U0,V0,reg,pchem),val=0)
-        V0=fill_na(updateU(R.transpose(),UVT.transpose(),weight,imp,Lv_plus,Lv_minus,V0,U0,reg,pprot),val=0)
-        if (ite+1)%countEvery==0:
-            elapsed=time.time()-since
-            logging.debug("{:.4f} minutes elapsed for {} iterations: iter {}".format(elapsed/60.0,countEvery,ite+1))
-            since=time.time()
-    return (U0,V0)
+        U0=fill_na(updateU_(inputMatrix,UVT,weight,imp,Lu_plus,Lu_minus,U0,V0,reg,pchem),val=0)
+        V0=fill_na(updateV_(inputMatrix.T,UVT.T,weight,imp,Lv_plus,Lv_minus,V0,U0,reg,pprot),val=0)
+        
+    return U0, V0
 
 def get_UVT(Nzs, U, V):
     return jit_mult(Nzs, jit_dot(U,V.T) )
@@ -97,6 +102,20 @@ def updateU(R,UVT,weight,imp,Lu_plus,Lu_minus,U0,V0,reg,importance):
     else:
         ua=jit_dot(R,V0)+importance*jit_dot(Lu_minus,U0)
     ub=(1-weight)*jit_dot(UVT,V0)+ (weight* (jit_dot(U0, jit_dot(V0.T,V0) ))) + importance*jit_dot(Lu_plus,U0) + reg*U0
+    u=jit_sqrt(jit_divide(ua,ub))
+    U1=jit_mult(U0,u)
+    return U1
+
+def updateU_nosim(R,UVT,weight,imp,Lu_plus,Lu_minus,U0,V0,reg,importance):
+    #high-efficiency version of updateU
+    #in scRNA processing, cell-cell similarity may often be just identity matrix
+    # and imputation score may not be used
+    m,n=R.shape
+    if imp>0:
+        ua=(1-weight*imp)*jit_dot(R,V0)+jit_dot( (weight*imp*np.ones((m,n))), V0)
+    else:
+        ua=jit_dot(R,V0)
+    ub=(1-weight)*jit_dot(UVT,V0)+ (weight* (jit_dot(U0, jit_dot(V0.T,V0) ))) + reg*U0
     u=jit_sqrt(jit_divide(ua,ub))
     U1=jit_mult(U0,u)
     return U1
